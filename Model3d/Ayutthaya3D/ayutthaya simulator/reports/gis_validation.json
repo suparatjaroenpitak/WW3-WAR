@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "coordinate_roundtrip_max_m": 2.0954757928848267e-09,
+  "tile_dimensions_m": [
+    500,
+    500
+  ],
+  "valid_geometries": true,
+  "counts": {
+    "terrain": 1,
+    "roads": 91,
+    "water": 5,
+    "buildings": 513
+  },
+  "skipped_features": [
+    {
+      "id": "relation/229599",
+      "reason": "unsupported or incomplete geometry"
+    }
+  ],
+  "water_area_m2": 58114.10394351188,
+  "source_accuracy_verified_by_survey": false,
+  "building_heights": {
+    "estimated default 6m": 513
+  }
+}

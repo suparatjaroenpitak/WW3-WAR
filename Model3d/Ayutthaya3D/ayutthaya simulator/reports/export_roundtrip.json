@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "method": "fresh Blender reopen + glTF import",
+  "results": {
+    "blend": {
+      "checks": {
+        "object_count": true,
+        "metre_bounds_preserved": true,
+        "all_uvs_present": true,
+        "all_materials_present": true,
+        "source_metadata_present": true
+      },
+      "mesh_count": 610,
+      "bounds_error_m": 5.714111317445258e-07,
+      "bounds_min": [
+        0.0,
+        0.0,
+        -3.0999999046325684
+      ],
+      "bounds_max": [
+        500.0,
+        500.0,
+        17.236692428588867
+      ]
+    },
+    "glb": {
+      "checks": {
+        "object_count": true,
+        "metre_bounds_preserved": true,
+        "all_uvs_present": true,
+        "all_materials_present": true,
+        "source_metadata_present": true
+      },
+      "mesh_count": 610,
+      "bounds_error_m": 5.714111317445258e-07,
+      "bounds_min": [
+        0.0,
+        0.0,
+        -3.0999999046325684
+      ],
+      "bounds_max": [
+        500.0,
+        500.0,
+        17.236692428588867
+      ]
+    }
+  },
+  "engine_import_tested": false
+}

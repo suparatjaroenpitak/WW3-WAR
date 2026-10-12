@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "file": "tiles\\AYU_DEMO_E0_N0\\demo.glb",
+  "bytes": 2235332,
+  "sha256": "3b2d9890e53895ba396c80106bf105798b662b9eb4ff84a49a98a63cc479f913",
+  "mesh_nodes": 610,
+  "primitives": 1123,
+  "triangles": 13824,
+  "external_textures": 0,
+  "materials": 5,
+  "source_hashes_verified": [
+    {
+      "file": "data\\raw\\copernicus_metadata.xml",
+      "sha256": "cf1e0d6fd26e1c6e07fde27844977c7c5b077525932e4f781a7fb392c2bf97ee"
+    },
+    {
+      "file": "data\\raw\\copernicus_n14_e100.tif",
+      "sha256": "857b4baa9df883dc4060248b5781a2909fead085200186e3feb0b6a6c4e0053a"
+    },
+    {
+      "file": "data\\raw\\osm_survey.json",
+      "sha256": "5ffbd63158aba861b81deaca7cdedb2c09c958e735935f06b4e3f96f39b4eef7"
+    },
+    {
+      "file": "data\\metadata\\licenses\\copernicus_eula.pdf",
+      "sha256": "32049914c37f14e7d53b48d13d74a49e77c030236e2acc7a0df426f9344feba2"
+    },
+    {
+      "file": "data\\metadata\\licenses\\odbl.html",
+      "sha256": "b8d8aebb21bf405f93f6e21bbf0d8f0a749844f9812ec58692f189add6402b47"
+    },
+    {
+      "file": "data\\metadata\\licenses\\osm_copyright.html",
+      "sha256": "e4abfebc8243d48884914dcf826983271cf48c446cba8f8e0bbc8fd9b30d1a17"
+    }
+  ],
+  "checks": [
+    "GLB header/chunks",
+    "accessor buffer bounds",
+    "finite vertices and UVs",
+    "triangle areas",
+    "index ranges",
+    "material references",
+    "source metadata",
+    "source file hashes",
+    "triangle count after export"
+  ]
+}

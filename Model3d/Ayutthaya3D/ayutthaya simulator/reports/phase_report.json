@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-10-13T02:08:06.577551+07:00",
+  "scope": "Phase 1-4; ONE 500x500m demo tile only",
+  "overall": "demo_tile_verified_with_documented_dependency_workaround_and_codex_scope",
+  "phases": [
+    {
+      "phase": 1,
+      "status": "passed_with_scope_note",
+      "evidence": "Blender MCP get_addon_status / get_scene_info / execute_blender_code",
+      "blender": "5.2.2 LTS",
+      "mcp_addon": "1.8",
+      "mcp_protocol": 13,
+      "telemetry": false,
+      "controller_tested": "OpenCode CLI 2.0.27 / Desktop 2.0.22",
+      "codex_desktop_tested": false,
+      "codex_mcp_config_present": true,
+      "codex_server_command_compatibility_tested": true,
+      "note": "OpenCode MCP tool calls verified. Codex config already has enabled blender server (uvx blender-mcp compatibility command); direct Codex Desktop tool invocation was not tested. Live original scene preserved."
+    },
+    {
+      "phase": 2,
+      "status": "completed_with_rasterio_workaround",
+      "python": "3.12.10",
+      "dependencies": {
+        "geopandas": {
+          "status": "usable",
+          "version": "1.2.0"
+        },
+        "pyproj": {
+          "status": "usable",
+          "version": "3.8.0"
+        },
+        "shapely": {
+          "status": "usable",
+          "version": "2.2.0"
+        },
+        "rasterio": {
+          "status": "installed_but_import_blocked",
+          "error": "DLL load failed while importing _base: An Application Control policy has blocked this file."
+        },
+        "requests": {
+          "status": "usable",
+          "version": "2.34.2"
+        },
+        "numpy": {
+          "status": "usable",
+          "version": "2.5.4"
+        },
+        "PIL": {
+          "status": "usable",
+          "version": "12.3.0"
+        },
+        "pyogrio": {
+          "status": "usable",
+          "version": "0.13.0",
+          "gdal_version": "3.12.4",
+          "verification": "list_drivers returned 64 drivers"
+        }
+      },
+      "workaround": "Pillow/libtiff reads checked WGS84 GeoTIFF tags because Rasterio import is blocked by Windows Application Control. pyogrio/GDAL vector drivers are currently usable. Windows security policy unchanged."
+    },
+    {
+      "phase": 3,
+      "status": "passed",
+      "evidence": "reports/gis_validation.json",
+      "sources": "OpenStreetMap ODbL-1.0 and Copernicus GLO-30 public licence",
+      "crs": "WGS84 -> EPSG:32647 -> local metre origin",
+      "raw_sources_retained": true
+    },
+    {
+      "phase": 4,
+      "status": "passed",
+      "evidence": [
+        "reports/blender_validation.json",
+        "reports/glb_validation.json",
+        "reports/export_roundtrip.json"
+      ],
+      "counts": {
+        "terrain": 1,
+        "roads": 91,
+        "water": 5,
+        "buildings": 513
+      },
+      "mesh_nodes": 610,
+      "triangles": 13824,
+      "tile_size_m": 500
+    }
+  ],
+  "reverification": {
+    "date": "2026-10-13",
+    "existing_outputs_reused": true,
+    "tile_regenerated": false,
+    "gis_unit_tests": "5/5 passed",
+    "source_receipts": "6 SHA-256 receipts verified",
+    "fresh_blender_roundtrip": {
+      "blend_reopened": true,
+      "glb_imported": true,
+      "mesh_objects_each": 610,
+      "all_uvs_materials_and_category_metadata": true,
+      "maximum_bounds_error_m": 0.0000005714111317445258
+    },
+    "glb": {
+      "bytes": 2235332,
+      "triangles": 13824,
+      "materials": 5,
+      "external_textures": 0,
+      "sha256": "3b2d9890e53895ba396c80106bf105798b662b9eb4ff84a49a98a63cc479f913"
+    },
+    "note": "Validation was read-only; the active Blender scene and untracked Unity project were left unchanged."
+  },
+  "limitations": [
+    "OSM coverage may be incomplete; mapping accuracy is not survey verified.",
+    "DSM contains trees/buildings; no bare-earth correction, road grading or bathymetry.",
+    "Unspecified building heights and road widths are explicitly estimated.",
+    "Codex Desktop integration was not tested; the live MCP connection was verified through OpenCode.",
+    "No historical reconstruction, photogrammetry, vehicle physics, LOD or engine streaming in Phase 1-4.",
+    "Basic roads only: junction cleanup, markings, kerbs and bridge engineering are later phases."
+  ],
+  "future_phases": "5-12 are not claimed complete; Unity and Unreal have not been tested."
+}

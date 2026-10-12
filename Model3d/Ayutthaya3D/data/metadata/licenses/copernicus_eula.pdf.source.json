@@ -1,9 +1,0 @@
-{
-  "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N14_00_E100_00_DEM/INFO/eula_F.pdf",
-  "downloaded_at": "2026-10-12T19:00:16.832646+00:00",
-  "downloaded_local_date": "2026-10-13",
-  "sha256": "32049914c37f14e7d53b48d13d74a49e77c030236e2acc7a0df426f9344feba2",
-  "bytes": 117522,
-  "etag": "\"cbe4c15f0b316b4ba78addc2eee88022\"",
-  "last_modified": "Mon, 09 May 2022 14:05:21 GMT"
-}
