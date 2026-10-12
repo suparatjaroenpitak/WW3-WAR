@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\HubForceResolve.cs" />
+    <Compile Include="Assets\TutorialInfo 1\Editor\ReadmeEditor.cs" />
     <Compile Include="Assets\TutorialInfo\Editor\ReadmeEditor.cs" />
   </ItemGroup>
   <ItemGroup>
