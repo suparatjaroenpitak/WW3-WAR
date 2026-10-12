@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 27
+  productGUID: 07c2253ec92a4c8a82cdac1bfc45fb19
+  companyName: WW3 War Studio
+  productName: ww3 war
+  defaultScreenWidth: 1600
+  defaultScreenHeight: 900
+  defaultIsNativeResolution: 1
+  runInBackground: 1
+  resizableWindow: 1
+  fullscreenMode: 3
+  colorSpace: 0
+  activeInputHandler: 0
+  scriptingBackend:
+    Standalone: 0
+  apiCompatibilityLevelPerPlatform:
+    Standalone: 6
+  bundleVersion: 0.1.0
