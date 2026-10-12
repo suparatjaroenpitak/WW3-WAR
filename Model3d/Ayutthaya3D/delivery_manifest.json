@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-13T02:08:06.577551+07:00",
+  "files": {
+    "tiles/AYU_DEMO_E0_N0/demo.blend": {
+      "bytes": 770423,
+      "sha256": "bd8f52d57837a4a1859401ba2257d0180e6f724fa4001a091ab84597b8613360"
+    },
+    "tiles/AYU_DEMO_E0_N0/demo.glb": {
+      "bytes": 2235332,
+      "sha256": "3b2d9890e53895ba396c80106bf105798b662b9eb4ff84a49a98a63cc479f913"
+    },
+    "tiles/AYU_DEMO_E0_N0/tile.json": {
+      "bytes": 3647,
+      "sha256": "5b767546a90ead4f2f8fbb26935af540cbfc8ec706442abde20e3357309dcb9d"
+    },
+    "data/processed/mesh_recipe.json": {
+      "bytes": 2161073,
+      "sha256": "da0c775f14cd7b1a2a3af1005de2710a248def2b929cc42f577fdde0c915e5cb"
+    },
+    "data/processed/tile_wgs84.geojson": {
+      "bytes": 252059,
+      "sha256": "024639316d81f6f8bcb94ec5305d4c61d72a1811176af58562c3df749a9fd895"
+    }
+  },
+  "sources": "data/metadata/sources.json",
+  "attribution": "ATTRIBUTION.md",
+  "validation": "reports/phase_report.json",
+  "tested": "Blender 5.2.2 reopen and glTF import; GLB binary inspection",
+  "engine_tested": false
+}

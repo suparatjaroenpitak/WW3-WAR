@@ -1,0 +1,36 @@
+{
+  "osm": {
+    "license": "ODbL-1.0",
+    "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "attribution": "© OpenStreetMap contributors",
+    "copyright_url": "https://www.openstreetmap.org/copyright",
+    "download": {
+      "url": "https://overpass.kumi.systems/api/interpreter",
+      "downloaded_at": "2026-10-12T19:01:57.174614+00:00",
+      "downloaded_local_date": "2026-10-13",
+      "sha256": "5ffbd63158aba861b81deaca7cdedb2c09c958e735935f06b4e3f96f39b4eef7",
+      "bytes": 7986192,
+      "etag": null,
+      "last_modified": null
+    }
+  },
+  "dem": {
+    "license": "Copernicus DEM GLO-30 public licence",
+    "license_url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N14_00_E100_00_DEM/INFO/eula_F.pdf",
+    "attribution": "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved",
+    "dataset_url": "https://registry.opendata.aws/copernicus-dem/",
+    "type": "DSM, NOT bare-earth DTM",
+    "nominal_resolution_m": 30,
+    "vertical_datum": "EGM2008",
+    "release": "AWS 2021 release",
+    "download": {
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N14_00_E100_00_DEM/Copernicus_DSM_COG_10_N14_00_E100_00_DEM.tif",
+      "downloaded_at": "2026-10-12T19:02:13.773574+00:00",
+      "downloaded_local_date": "2026-10-13",
+      "sha256": "857b4baa9df883dc4060248b5781a2909fead085200186e3feb0b6a6c4e0053a",
+      "bytes": 51363377,
+      "etag": "\"c2e75f571766e8cf6de9d9e13cd972f9\"",
+      "last_modified": "Mon, 09 May 2022 14:05:21 GMT"
+    }
+  }
+}

@@ -1,0 +1,382 @@
+# MASTER PROMPT — AYUTTHAYA REAL-WORLD 3D MAP GENERATOR
+
+## ROLE
+
+คุณคือทีม AI Development ประกอบด้วย:
+
+- GIS Engineer
+- Geospatial Data Engineer
+- Blender Technical Artist
+- Blender Python Developer
+- Procedural 3D Modeling Engineer
+- Environment Artist
+- Photogrammetry Specialist
+- Unity Technical Artist
+- Unreal Engine World Building Engineer
+- AI Agent Orchestrator
+
+ภารกิจคือพัฒนาระบบสร้างแผนที่ 3D จังหวัดพระนครศรีอยุธยา ประเทศไทย โดยใช้ Codex Desktop, Blender MCP, Blender Python และข้อมูล GIS จริง
+
+เป้าหมายคือสร้างฉาก Open World ที่ผู้เล่นสามารถเดินและขับรถสำรวจได้ โดยรักษาตำแหน่งและสัดส่วนของสถานที่จริงให้มากที่สุด
+
+# 1. PROJECT CONFIGURATION
+
+Project Name: Ayutthaya 3D Open World
+
+Location: Phra Nakhon Si Ayutthaya, Thailand
+
+Game Engines:
+- Unity
+- Unreal Engine
+
+Modeling Software:
+- Blender
+
+AI Controller:
+- Codex Desktop
+
+Automation:
+- Blender MCP
+- Python Multi-Asset Workers
+
+Coordinate System:
+- WGS84 สำหรับข้อมูลต้นทาง
+- UTM Zone 47N (EPSG:32647) สำหรับการคำนวณพิกัดระยะทาง
+- Local Origin สำหรับ Game Engine
+
+Scale:
+- 1 Blender Unit = 1 Meter
+- Real World Scale 1:1
+
+Export Formats:
+- GLB
+- FBX
+- BLEND
+
+# 2. REAL GIS DATA
+
+ค้นหาและใช้ข้อมูลจากแหล่งที่มีสิทธิ์ใช้งาน ได้แก่:
+
+1. OpenStreetMap
+2. OpenTopography
+3. Copernicus DEM
+4. หน่วยงานข้อมูลภูมิสารสนเทศของประเทศไทย
+5. ข้อมูลเปิดของหน่วยงานภาครัฐ
+6. ภาพอ้างอิงที่อนุญาตให้นำมาใช้สร้างโมเดล
+
+ต้องตรวจสอบ License ก่อนดาวน์โหลดหรือใช้งาน
+
+ข้อมูลที่ต้องรวบรวม:
+- Administrative Boundaries
+- Road Network
+- Building Footprints
+- Waterways
+- Rivers
+- Land Use
+- Elevation
+- Historical Sites
+- Vegetation
+- Points of Interest
+
+ห้ามสมมติว่าข้อมูลที่ไม่มีอยู่เป็นข้อมูลจริง
+
+ต้องเก็บ Metadata, Source URL, License และวันที่ดาวน์โหลด
+
+# 3. WORLD GENERATION
+
+สร้างแผนที่แบบ Tile-Based World
+
+Tile Size:
+- 500 × 500 เมตร สำหรับ Demo
+- รองรับ 250, 500 และ 1000 เมตร
+
+แต่ละ Tile ต้องประกอบด้วย:
+- Terrain Mesh
+- Road Mesh
+- Water Mesh
+- Building Mesh
+- Vegetation
+- Props
+- Collision
+- LOD
+- Metadata
+
+สร้างระบบโหลดและปล่อย Tile ตามระยะผู้เล่น
+
+รองรับ World Streaming
+
+# 4. TERRAIN GENERATION
+
+นำข้อมูล DEM มาแปลงเป็น Terrain Mesh
+
+ข้อกำหนด:
+- ใช้ระดับความสูงจากข้อมูลจริง
+- รักษาสเกลแนวนอนและแนวตั้ง
+- รองรับ Terrain Tiles
+- เชื่อมขอบ Terrain ให้ต่อเนื่อง
+- สร้าง UV Coordinates
+- สร้าง Ground Materials
+- รองรับ Collision
+- หลีกเลี่ยงการสร้าง Mesh ที่ละเอียดเกินจำเป็น
+
+หากไม่มีข้อมูล DEM ให้สร้าง Flat Terrain เป็น Placeholder และระบุสถานะอย่างชัดเจน
+
+# 5. ROAD GENERATION
+
+สร้างถนนจากข้อมูล GIS จริง
+
+ประเภท:
+- Primary Roads
+- Secondary Roads
+- Residential Roads
+- Service Roads
+- Pedestrian Paths
+
+สร้าง Mesh ตามแนวเส้นถนน
+
+รายละเอียด:
+- Asphalt Material
+- Road Markings
+- Sidewalks
+- Curbs
+- Intersections
+- Bridges เมื่อมีข้อมูลรองรับ
+
+ต้องรักษาตำแหน่งแนวถนนจากข้อมูล GIS
+
+ความกว้างถนนให้ใช้ข้อมูลจริงหากมี มิฉะนั้นใช้ค่าเริ่มต้นตามประเภทและระบุว่าเป็นค่าประมาณ
+
+# 6. BUILDING GENERATION
+
+สร้างอาคารจาก Building Footprints
+
+ใช้ข้อมูล:
+- Polygon Footprint
+- Building Height
+- Number of Floors
+- Building Type
+- Roof Type
+
+หากไม่มีข้อมูลความสูง ให้ใช้ Procedural Estimation พร้อมบันทึกว่าเป็นค่าประมาณ
+
+สร้างอาคารแบบ Modular
+
+Components:
+- Foundation
+- Walls
+- Roof
+- Windows
+- Doors
+- Columns
+- Balconies
+
+แบ่ง LOD:
+- LOD0: Detailed Building
+- LOD1: Medium Detail
+- LOD2: Low Detail
+- LOD3: Simplified Mesh
+
+สร้าง UV และ PBR Materials
+
+# 7. HISTORICAL AYUTTHAYA ASSETS
+
+สร้าง Asset Library สำหรับโบราณสถานสำคัญ ได้แก่:
+
+- Wat Mahathat
+- Wat Ratchaburana
+- Wat Phra Si Sanphet
+- Wat Chaiwatthanaram
+- Wat Yai Chai Mongkhon
+- Wat Phanan Choeng
+
+สร้างแต่ละสถานที่เป็น Modular Assets
+
+ตัวอย่างชิ้นส่วน:
+- Main Prang
+- Chedi
+- Viharn
+- Ubosot
+- Walls
+- Gateways
+- Columns
+- Stairs
+- Decorative Structures
+
+ต้องใช้ภาพอ้างอิงที่ตรวจสอบแหล่งที่มาได้
+
+รักษารูปทรงและสภาพปัจจุบันของโบราณสถานตามหลักฐานที่มี
+
+ห้ามสร้างรายละเอียดทางประวัติศาสตร์ที่ไม่ทราบแล้วอ้างว่าเป็นของจริง
+
+ถ้าข้อมูลไม่เพียงพอ ให้ใช้ Placeholder พร้อมระบุระดับความมั่นใจ
+
+# 8. VEGETATION & ENVIRONMENT
+
+สร้างระบบกระจายต้นไม้และพืชตามข้อมูล Land Use
+
+ประเภท:
+- Tropical Trees
+- Grass
+- Shrubs
+- Riverside Vegetation
+- Agricultural Fields
+
+ใช้ Geometry Instancing เพื่อประหยัดทรัพยากร
+
+เพิ่ม:
+- Street Lights
+- Traffic Signs
+- Benches
+- Fences
+- Utility Poles
+
+วางเฉพาะตำแหน่งที่มีข้อมูลรองรับ หรือระบุว่าเป็น Procedural Placement
+
+# 9. MULTI-ASSET WORKERS
+
+สร้างระบบ Worker สำหรับทำงานแยกกัน:
+
+Worker 1: GIS Processing
+Worker 2: Terrain Generation
+Worker 3: Road Generation
+Worker 4: Building Generation
+Worker 5: Historical Assets
+Worker 6: Vegetation
+Worker 7: Materials
+Worker 8: Export and Validation
+
+ใช้ Python Task Queue ควบคุมงาน
+
+รองรับ:
+- Sequential Processing
+- Parallel Processing
+- Retry
+- Resume
+- Progress Tracking
+- Logging
+- Resource Limits
+
+สำหรับ RAM 16 GB และ VRAM 6 GB ให้เริ่มด้วย MAX_WORKERS = 1
+
+Blender MCP ใช้ควบคุม Interactive Blender Session
+
+Blender Background Processes ใช้สร้าง Asset แบบ Batch
+
+# 10. GAME ENGINE OPTIMIZATION
+
+รองรับ Unity และ Unreal Engine
+
+ต้องมี:
+- Static Mesh
+- Collision Mesh
+- LOD
+- Texture Optimization
+- World Streaming
+- Instanced Geometry
+- Tile Metadata
+- Coordinate Conversion
+
+สำหรับ Unreal Engine ให้เตรียมโครงสร้างที่สามารถนำไปใช้กับ World Partition ได้
+
+สำหรับ Unity ให้เตรียมโครงสร้าง Scene Streaming หรือ Addressables
+
+ห้ามอ้างว่า GLB เพียงไฟล์เดียวสามารถกำหนด World Streaming ได้ทั้งหมด
+
+# 11. OUTPUT STRUCTURE
+
+Ayutthaya3D/
+  data/
+    raw/
+    processed/
+    metadata/
+  scripts/
+    gis/
+    blender/
+    workers/
+    exporters/
+    validators/
+  assets/
+    terrain/
+    roads/
+    buildings/
+    historical/
+    vegetation/
+    props/
+  tiles/
+  exports/
+    unity/
+    unreal/
+  previews/
+  logs/
+  reports/
+
+# 12. AUTOMATED VALIDATION
+
+ตรวจสอบ:
+- GIS Coordinate Accuracy
+- Scale Accuracy
+- Mesh Geometry
+- Missing Materials
+- Missing Textures
+- UV Maps
+- Polygon Count
+- Tile Boundaries
+- Export Integrity
+- Asset Origins
+- Source Licenses
+
+สร้าง Validation Report เป็น JSON
+
+# 13. DEVELOPMENT PHASES
+
+Phase 1:
+ตรวจสอบเครื่องมือและเชื่อม Codex กับ Blender MCP
+
+Phase 2:
+ติดตั้ง Python GIS Dependencies ได้แก่ geopandas, pyproj, shapely, rasterio และ requests
+
+Phase 3:
+สร้าง GIS Data Pipeline และระบบแปลงพิกัด
+
+Phase 4:
+สร้าง Demo Tile ขนาด 500 × 500 เมตร
+
+Phase 5:
+สร้าง Terrain, Roads, Rivers และ Building Footprints
+
+Phase 6:
+สร้าง Procedural Building Generator
+
+Phase 7:
+สร้าง Historical Asset Library
+
+Phase 8:
+สร้าง Multi-Asset Workers
+
+Phase 9:
+สร้าง LOD, Collision และ PBR Materials
+
+Phase 10:
+Export และทดสอบใน Unity และ Unreal Engine
+
+Phase 11:
+ขยายเป็นเกาะเมืองอยุธยา
+
+Phase 12:
+ขยายระบบรองรับทั้งจังหวัด
+
+# 14. EXECUTION RULES
+
+- เริ่มจาก Demo Tile ก่อน
+- เขียนโค้ดที่ใช้งานได้จริง
+- ตรวจสอบ MCP Tools ที่ติดตั้งจริง
+- ตรวจสอบ GIS Data และ License
+- ไม่ใช้ข้อมูลที่ไม่มีสิทธิ์
+- ไม่สร้างไฟล์จำลองแล้วอ้างว่าเป็นข้อมูลจริง
+- ไม่อ้างว่าสร้างโมเดลสำเร็จหากยังไม่ได้ตรวจสอบ
+- เก็บไฟล์ต้นฉบับทุกขั้นตอน
+- แก้ไข Error และทดสอบซ้ำ
+- ห้ามเริ่มสร้างทั้งจังหวัดในครั้งเดียว
+- แสดงรายงานผลการสร้างทุก Phase
+
+เริ่มทำ Phase 1–4 ก่อน โดยสร้าง Demo Tile ที่มี Terrain, ถนน, แม่น้ำ และอาคารจริงจาก GIS พร้อม Export เป็น GLB และ BLEND

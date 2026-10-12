@@ -1,0 +1,9 @@
+{
+  "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N14_00_E100_00_DEM/Copernicus_DSM_COG_10_N14_00_E100_00_DEM.tif",
+  "downloaded_at": "2026-10-12T19:02:13.773574+00:00",
+  "downloaded_local_date": "2026-10-13",
+  "sha256": "857b4baa9df883dc4060248b5781a2909fead085200186e3feb0b6a6c4e0053a",
+  "bytes": 51363377,
+  "etag": "\"c2e75f571766e8cf6de9d9e13cd972f9\"",
+  "last_modified": "Mon, 09 May 2022 14:05:21 GMT"
+}
