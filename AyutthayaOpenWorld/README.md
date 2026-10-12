@@ -53,6 +53,8 @@ Default outputs:
 - `output/AYU_UTM47N_E000_N000/demo.blend`
 - `output/AYU_UTM47N_E000_N000/demo.glb`
 - `output/AYU_UTM47N_E000_N000/demo.fbx`
+- `output/AYU_UTM47N_E000_N000/collision_terrain.fbx` (separate collision mesh)
+- `output/AYU_UTM47N_E000_N000/sources.json` (copied provenance/license manifest)
 
 Generated source data and deliverables are excluded from version control; retain the per-tile provenance manifest when packaging them.
 

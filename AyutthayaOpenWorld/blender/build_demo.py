@@ -184,6 +184,7 @@ def main(config_path: Path, data_root: Path, output_root: Path):
     blend=out/"demo.blend"
     glb=out/"demo.glb"
     fbx=out/"demo.fbx"
+    collision_fbx=out/"collision_terrain.fbx"
     bpy.ops.wm.save_as_mainfile(filepath=str(blend))
     export_objects=[o for c in (terrain_coll,roads_coll,water_coll,buildings_coll) for o in c.objects]
     bpy.ops.object.select_all(action="DESELECT")
@@ -208,7 +209,16 @@ def main(config_path: Path, data_root: Path, output_root: Path):
     fbx_result=bpy.ops.export_scene.fbx(filepath=str(fbx),use_selection=True,apply_unit_scale=True,apply_scale_options="FBX_SCALE_UNITS",bake_space_transform=False,object_types={"MESH"})
     if "FINISHED" not in fbx_result or not fbx.exists() or fbx.stat().st_size == 0:
         raise RuntimeError(f"FBX export failed: {fbx_result}")
-    summary={"tile":tile_id,"blend":str(blend),"glb":str(glb),"fbx":str(fbx),"artifact_bytes":{"blend":blend.stat().st_size,"glb":glb.stat().st_size,"fbx":fbx.stat().st_size},"terrain_vertices":len(verts),"terrain_faces":len(faces),"osm_road_objects":road_count,"osm_waterway_objects":water_count,"osm_building_footprints":building_count,"collision_mesh":"Collision_Terrain_"+tile_id,"collision_exported":False,"notes":"Road/river display widths are estimated; building footprints are not extruded. Collision is separate in Blender but is not included in GLB/FBX exports; see source manifest."}
+    bpy.ops.object.select_all(action="DESELECT")
+    coll_obj.select_set(True)
+    bpy.context.view_layer.objects.active=coll_obj
+    collision_result=bpy.ops.export_scene.fbx(filepath=str(collision_fbx),use_selection=True,apply_unit_scale=True,apply_scale_options="FBX_SCALE_UNITS",bake_space_transform=False,object_types={"MESH"})
+    if "FINISHED" not in collision_result or not collision_fbx.exists() or collision_fbx.stat().st_size == 0:
+        raise RuntimeError(f"Terrain collision FBX export failed: {collision_result}")
+    # Ship the exact provenance record with the engine-ready geometry.
+    import shutil
+    shutil.copy2(tile/"sources.json",out/"sources.json")
+    summary={"tile":tile_id,"blend":str(blend),"glb":str(glb),"fbx":str(fbx),"collision_fbx":str(collision_fbx),"sources_manifest":str(out/"sources.json"),"artifact_bytes":{"blend":blend.stat().st_size,"glb":glb.stat().st_size,"fbx":fbx.stat().st_size,"collision_fbx":collision_fbx.stat().st_size},"terrain_vertices":len(verts),"terrain_faces":len(faces),"osm_road_objects":road_count,"osm_waterway_objects":water_count,"osm_building_footprints":building_count,"collision_mesh":"Collision_Terrain_"+tile_id,"collision_exported":True,"notes":"Road/river display widths are estimated; building footprints are not extruded. Collision is separately exported in collision_terrain.fbx; it is excluded from the visual GLB/FBX."}
     report=out/"build_report.json"
     report.write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding="utf-8")
     print("AYU_BUILD_REPORT="+json.dumps(summary,ensure_ascii=False))
