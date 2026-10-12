@@ -1,0 +1,199 @@
+{
+  "observation_id": "obs_3fa164cffde2c5374cfffdc28fcf4288a0c03009ac5d119782e75a445f451672",
+  "origin": "custom-read-only-python-inspector",
+  "result": {
+    "identity": {
+      "path": "D:\\Stram\\steamapps\\common\\Total War Rome II\\data\\text\\default_keys.xml",
+      "bytes": 25539,
+      "sha256": "6d25b9c9779fdcdb59dfe773107d2a68265b4128191f58cc7eeb1b48a1538b17"
+    },
+    "modes": [
+      "battle",
+      "campaign",
+      "frontend",
+      "all"
+    ],
+    "selected_functions": [
+      {
+        "keyset": "Classic Total War",
+        "category": "universal",
+        "group": "misc",
+        "function": "select_all",
+        "keys": [
+          {
+            "text": "A",
+            "modifier": "CTRL"
+          }
+        ]
+      },
+      {
+        "keyset": "Classic Total War",
+        "category": "universal",
+        "group": "misc",
+        "function": "select_next",
+        "keys": [
+          {
+            "text": "PERIOD",
+            "modifier": "ALLOW_SHIFT"
+          }
+        ]
+      },
+      {
+        "keyset": "Classic Total War",
+        "category": "universal",
+        "group": "misc",
+        "function": "select_prev",
+        "keys": [
+          {
+            "text": "COMMA",
+            "modifier": "ALLOW_SHIFT"
+          }
+        ]
+      },
+      {
+        "keyset": "Classic Total War",
+        "category": "universal",
+        "group": "misc",
+        "function": "current_selection_order_cancel",
+        "keys": [
+          {
+            "text": "BACK",
+            "modifier": "ALLOW_SHIFT"
+          }
+        ]
+      },
+      {
+        "keyset": "Classic Total War",
+        "category": "universal",
+        "group": "misc",
+        "function": "toggle_stream_pause",
+        "keys": [
+          {
+            "text": "F7"
+          }
+        ]
+      },
+      {
+        "keyset": "Classic Total War",
+        "category": "campaign",
+        "group": "game_play",
+        "function": "end_turn",
+        "keys": [
+          {
+            "text": "RETURN"
+          },
+          {
+            "text": "NUMPADENTER"
+          }
+        ]
+      },
+      {
+        "keyset": "Classic Total War",
+        "category": "campaign",
+        "group": "game_play",
+        "function": "toggle_move_speed",
+        "keys": [
+          {
+            "text": "SPACE"
+          }
+        ]
+      },
+      {
+        "keyset": "Classic Total War",
+        "category": "campaign",
+        "group": "game_play",
+        "function": "current_selection_disband",
+        "keys": [
+          {
+            "text": "P",
+            "modifier": "CTRL"
+          }
+        ]
+      },
+      {
+        "keyset": "Classic Total War",
+        "category": "battle",
+        "group": "selection_control",
+        "function": "select_all_artillery",
+        "keys": [
+          {
+            "text": "B",
+            "modifier": "CTRL"
+          }
+        ]
+      },
+      {
+        "keyset": "Classic Total War",
+        "category": "battle",
+        "group": "selection_control",
+        "function": "select_all_melee",
+        "keys": [
+          {
+            "text": "I",
+            "modifier": "CTRL"
+          }
+        ]
+      },
+      {
+        "keyset": "Classic Total War",
+        "category": "battle",
+        "group": "selection_control",
+        "function": "select_all_cavalry",
+        "keys": [
+          {
+            "text": "C",
+            "modifier": "CTRL"
+          }
+        ]
+      },
+      {
+        "keyset": "Classic Total War",
+        "category": "battle",
+        "group": "selection_control",
+        "function": "select_all_ranged",
+        "keys": [
+          {
+            "text": "M",
+            "modifier": "CTRL"
+          }
+        ]
+      },
+      {
+        "keyset": "Classic Total War",
+        "category": "battle",
+        "group": "selection_control",
+        "function": "deselect_all",
+        "keys": [
+          {
+            "text": "RETURN"
+          }
+        ]
+      },
+      {
+        "keyset": "Classic Total War",
+        "category": "battle",
+        "group": "game_controls",
+        "function": "cycle_battle_speed",
+        "keys": [
+          {
+            "text": "T"
+          }
+        ]
+      },
+      {
+        "keyset": "Classic Total War",
+        "category": "battle",
+        "group": "game_controls",
+        "function": "toggle_pause",
+        "keys": [
+          {
+            "text": "P"
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "Declared defaults only; active settings and runtime event bindings not observed."
+    ]
+  }
+}

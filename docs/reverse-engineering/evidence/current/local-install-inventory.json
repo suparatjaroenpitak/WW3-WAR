@@ -1,0 +1,432 @@
+{
+  "observation_id": "obs_2f6cd47490d80e62d2f9ae6ee19f7c141540bb0020c302dd87347f846a1524c0",
+  "origin": "custom-read-only-python-inspector",
+  "result": {
+    "install_path": "D:\\Stram\\steamapps\\common\\Total War Rome II",
+    "steam_manifest_identity": {
+      "path": "D:\\Stram\\steamapps\\appmanifest_214950.acf",
+      "bytes": 1435,
+      "sha256": "57ad5b6cd500f12200d5aba47c08afca45dc72c80cd04cabef7a84125ffb31f2"
+    },
+    "steam_manifest_selected_fields": {
+      "appid": "214950",
+      "name": "Total War: ROME II - Emperor Edition",
+      "installdir": "Total War Rome II",
+      "buildid": "25370349",
+      "SizeOnDisk": "38148699932",
+      "language": "english"
+    },
+    "top_level_files": [
+      {
+        "name": "avcodec-53.dll",
+        "bytes": 1099632
+      },
+      {
+        "name": "avformat-53.dll",
+        "bytes": 190832
+      },
+      {
+        "name": "avutil-51.dll",
+        "bytes": 123248
+      },
+      {
+        "name": "avutil-ttv-51.dll",
+        "bytes": 246332
+      },
+      {
+        "name": "Awesomium.dll",
+        "bytes": 20645216
+      },
+      {
+        "name": "binkw32.dll",
+        "bytes": 224768
+      },
+      {
+        "name": "cacert.pem",
+        "bytes": 232597
+      },
+      {
+        "name": "calibswinext.retail.dll",
+        "bytes": 195584
+      },
+      {
+        "name": "clockwork.Release.x86.dll",
+        "bytes": 1100288
+      },
+      {
+        "name": "clockwork_crossplatform_eos.Release.x86.dll",
+        "bytes": 310784
+      },
+      {
+        "name": "clockwork_steam.Release.x86.dll",
+        "bytes": 202240
+      },
+      {
+        "name": "cudart32_30_14.dll",
+        "bytes": 285800
+      },
+      {
+        "name": "D3DCompiler_47.dll",
+        "bytes": 3466856
+      },
+      {
+        "name": "dcclient.retail.dll",
+        "bytes": 94208
+      },
+      {
+        "name": "empire.retail.dll",
+        "bytes": 28708352
+      },
+      {
+        "name": "EOSSDK-Win32-Shipping.dll",
+        "bytes": 14938576
+      },
+      {
+        "name": "FreeImage.dll",
+        "bytes": 2088960
+      },
+      {
+        "name": "icudt.dll",
+        "bytes": 9955168
+      },
+      {
+        "name": "icudt38.dll",
+        "bytes": 8679424
+      },
+      {
+        "name": "icudt42.dll",
+        "bytes": 10941440
+      },
+      {
+        "name": "installscript.vdf",
+        "bytes": 1832
+      },
+      {
+        "name": "Interop.SQLXMLBULKLOADLib.dll",
+        "bytes": 24576
+      },
+      {
+        "name": "jpeg62.dll",
+        "bytes": 127488
+      },
+      {
+        "name": "libeay32.dll",
+        "bytes": 1179648
+      },
+      {
+        "name": "libEGL.dll",
+        "bytes": 104800
+      },
+      {
+        "name": "libfbxsdk.dll",
+        "bytes": 11134248
+      },
+      {
+        "name": "libGLESv2.dll",
+        "bytes": 513376
+      },
+      {
+        "name": "libmfxsw32.dll",
+        "bytes": 16196504
+      },
+      {
+        "name": "libmp3lame-ttv.dll",
+        "bytes": 394810
+      },
+      {
+        "name": "libpng12.dll",
+        "bytes": 161792
+      },
+      {
+        "name": "libssl32.dll",
+        "bytes": 274432
+      },
+      {
+        "name": "libtiff3.dll",
+        "bytes": 376832
+      },
+      {
+        "name": "nvtt.dll",
+        "bytes": 294912
+      },
+      {
+        "name": "Rome2.exe",
+        "bytes": 865416
+      },
+      {
+        "name": "SDL.dll",
+        "bytes": 330080
+      },
+      {
+        "name": "ssleay32.dll",
+        "bytes": 274432
+      },
+      {
+        "name": "steam_api.dll",
+        "bytes": 266600
+      },
+      {
+        "name": "steam_appid.txt",
+        "bytes": 8
+      },
+      {
+        "name": "swresample-ttv-0.dll",
+        "bytes": 113171
+      },
+      {
+        "name": "tbb.dll",
+        "bytes": 184320
+      },
+      {
+        "name": "tbbmalloc.dll",
+        "bytes": 43008
+      },
+      {
+        "name": "telemetry32.dll",
+        "bytes": 72704
+      },
+      {
+        "name": "telemetry32c.dll",
+        "bytes": 92160
+      },
+      {
+        "name": "twitchsdk_32_release.dll",
+        "bytes": 891904
+      },
+      {
+        "name": "XCurl.dll",
+        "bytes": 155648
+      },
+      {
+        "name": "zlib1.dll",
+        "bytes": 75264
+      }
+    ],
+    "pack_count": 30,
+    "pack_total_bytes": 32821339664,
+    "pack_headers": [
+      {
+        "path": "data\\boot.pack",
+        "bytes": 18980,
+        "first_32_bytes_hex": "504648344000000000000000000000000c000000a6020000bc18c968f0010000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "0a39571ba97dc0f737381b0e16bb89bb8570f7838ed3b3a87c85a4126dc1c015"
+      },
+      {
+        "path": "data\\data.pack",
+        "bytes": 1385690960,
+        "first_32_bytes_hex": "50464834010000000000000000000000f0890000bace29005b4c426aa6020000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "310f95dd6a6cafec6c6dc8f2668891a859d7c8db0c3c7ea8d58555f7b7f5cc4a"
+      },
+      {
+        "path": "data\\data_rome2.pack",
+        "bytes": 966582382,
+        "first_32_bytes_hex": "504648340200000000000000000000007969000091e51f0064803969d4030000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "9296791d602f4b6153e3bbf639f07784ba35d29543b7b55fd5a42d87537e5368"
+      },
+      {
+        "path": "data\\local_en.pack",
+        "bytes": 68959408,
+        "first_32_bytes_hex": "50464834010000000000000000000000e8000000be2000005d072b69ca6ec500",
+        "magic_ascii": "PFH4",
+        "header_sha256": "85f565ad2591b0f3fb2f6932117582e330bb3256e7ffea33c404a2548ae6b9c1"
+      },
+      {
+        "path": "data\\local_en_shared_rome2.pack",
+        "bytes": 1113206436,
+        "first_32_bytes_hex": "504648340100000000000000000000000c9a0000460011000f1bc968e2360000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "e682b414fe7312050f083509c0ae1339ddde5769a91c3d252e38dfd3e2348e5b"
+      },
+      {
+        "path": "data\\models.pack",
+        "bytes": 677740826,
+        "first_32_bytes_hex": "504648340100000000000000000000004c0b000059630300b1d4e6515ec70400",
+        "magic_ascii": "PFH4",
+        "header_sha256": "4305d1758dda2dbb469d492ae06ce5dbdc5a91b262eb7b8fe71139ae0e335975"
+      },
+      {
+        "path": "data\\models2.pack",
+        "bytes": 1512041922,
+        "first_32_bytes_hex": "50464834010000000000000000000000eb0f0000a96d0600cfd4e651b00c0000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "cf414d2a29501f95b86657c7325500707f66e3ff74f4d1dc42f11394433cd4b1"
+      },
+      {
+        "path": "data\\models2_rome2.pack",
+        "bytes": 1779130439,
+        "first_32_bytes_hex": "50464834020000000000000000000000a80a00004fe0030035eb8064b00c0000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "9873d28426f979a2fd521227b06b77a2672871085769b8426fe9678fe81ea9f0"
+      },
+      {
+        "path": "data\\models3_rome2.pack",
+        "bytes": 4126982538,
+        "first_32_bytes_hex": "50464834020000000000000000000000b4360000bd5113005deb806464d80300",
+        "magic_ascii": "PFH4",
+        "header_sha256": "f3aac688f0d051d793f64a3b6332215527423c368a88583f85f18263cce8933a"
+      },
+      {
+        "path": "data\\models_rome2.pack",
+        "bytes": 2167824911,
+        "first_32_bytes_hex": "504648340200000000000000000000003620000039900a00ffea806464790c00",
+        "magic_ascii": "PFH4",
+        "header_sha256": "e2e390224cca3cc348208c6163b9061c9517e9298f51c6445e7ebcac897a8bbe"
+      },
+      {
+        "path": "data\\movies.pack",
+        "bytes": 172054373,
+        "first_32_bytes_hex": "504648340400000000000000000000000300000059000000d6d4e65198814400",
+        "magic_ascii": "PFH4",
+        "header_sha256": "308b30a5d3ad1951643994b34d1092c283a699b4eba6405446b04237e5909221"
+      },
+      {
+        "path": "data\\movies_rome2.pack",
+        "bytes": 2577661952,
+        "first_32_bytes_hex": "5046483404000000010000000c00000045000000b00b0000b6e980646d6f7669",
+        "magic_ascii": "PFH4",
+        "header_sha256": "85663ded89885fe83efeda5c48f5e8480d933b9ab816a535004ef6d65193ba9f"
+      },
+      {
+        "path": "data\\music.pack",
+        "bytes": 203978452,
+        "first_32_bytes_hex": "504648341100000000000000000000005d000000bf080000dad4e65126482600",
+        "magic_ascii": "PFH4",
+        "header_sha256": "d1ecc225794ed5dbb6c30d3ccc445428740b6727004e7aaa9a54c6f11d8437f9"
+      },
+      {
+        "path": "data\\music_en_shared_rome2.pack",
+        "bytes": 180052181,
+        "first_32_bytes_hex": "5046483411000000000000000000000043000000520600004819c968cd490d00",
+        "magic_ascii": "PFH4",
+        "header_sha256": "f6651f8c26babdae9d658ae77f998c01d4f87c36ba178105eeb62b48d07031c9"
+      },
+      {
+        "path": "data\\music_rome2.pack",
+        "bytes": 308449193,
+        "first_32_bytes_hex": "50464834120000000000000000000000aa000000ed0f0000bbe9806470060700",
+        "magic_ascii": "PFH4",
+        "header_sha256": "5de227be15b79e1ff0ea1d77781d6d5b3d13700e579ed3f5662a5d5e0453f7d1"
+      },
+      {
+        "path": "data\\sound.pack",
+        "bytes": 290617014,
+        "first_32_bytes_hex": "5046483401000000000000000000000003070000dea80000e1d4e65121180000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "f127a015a48f2c6de72ba715b46a691707662a2d67ada4b1fdf326de1848beab"
+      },
+      {
+        "path": "data\\sound_rome2.pack",
+        "bytes": 361629036,
+        "first_32_bytes_hex": "504648340200000000000000000000005108000064c80000bde9806423180000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "c99919724af2897d3df344fccf728c8e4a80daa1f0ba68fb61a94d780d3246fb"
+      },
+      {
+        "path": "data\\terrain.pack",
+        "bytes": 269151229,
+        "first_32_bytes_hex": "50464834010000000000000000000000710200000fb60000e8d4e65138ab0200",
+        "magic_ascii": "PFH4",
+        "header_sha256": "44d87b3789c904d50e89c08c7fb713f20b36b22d5ed32fc3980768b116aef92c"
+      },
+      {
+        "path": "data\\terrain2.pack",
+        "bytes": 1388344243,
+        "first_32_bytes_hex": "504648340100000000000000000000008f060000489a0100ffd4e651e81d0000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "c85f8b3f05fa7ece97be333d5944ab4732916a3156665f37a7c5bb9c2d18ed6e"
+      },
+      {
+        "path": "data\\terrain2_rome2.pack",
+        "bytes": 3290461797,
+        "first_32_bytes_hex": "50464834020000000000000000000000a427000061730900d2e980648e3d0000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "da1a827a39f1fc300d00cfdddef14bbae1f2bb35e50b27c521c66252f2444a41"
+      },
+      {
+        "path": "data\\terrain3_rome2.pack",
+        "bytes": 2621769023,
+        "first_32_bytes_hex": "50464834020000000000000000000000071100005607040020ea80641c0a0000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "e0c6255821697a432a5b19ebe8404f48bd53240bce29099141b499272fae6bde"
+      },
+      {
+        "path": "data\\terrain_rome2.pack",
+        "bytes": 397610406,
+        "first_32_bytes_hex": "5046483402000000000000000000000005040000c03f0100c0e9806400000000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "49e6fa11a44c5c0866e13cc904979862cbe0a3a82c016555845528f380731c6e"
+      },
+      {
+        "path": "data\\tiles.pack",
+        "bytes": 760893944,
+        "first_32_bytes_hex": "50464834010000000000000000000000cb0d0000e5e4030016d5e651f33b0000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "7e978e17b0b304c5440474c584cdb6b12e0e31f66f2d01770f9c2c08ae63b8a9"
+      },
+      {
+        "path": "data\\tiles2.pack",
+        "bytes": 33545347,
+        "first_32_bytes_hex": "50464834010000000000000000000000780000008728000018d5e651d0060600",
+        "magic_ascii": "PFH4",
+        "header_sha256": "ed81844d024f3bf74ffdfbf8c792072b7058d9203a9bfc4e9d21ab61577ed675"
+      },
+      {
+        "path": "data\\tiles2_rome2.pack",
+        "bytes": 744435825,
+        "first_32_bytes_hex": "5046483402000000000000000000000042050000c6bc010098ea8064e0551500",
+        "magic_ascii": "PFH4",
+        "header_sha256": "c5bdcb7b757251072d429ff31c788b284135c63e94b96793ac5e34ef109ed132"
+      },
+      {
+        "path": "data\\tiles3.pack",
+        "bytes": 25453463,
+        "first_32_bytes_hex": "504648340100000000000000000000002b000000b50d000018d5e65100000000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "edecd764825b23e6a17f2af9df1108fa65f4ae364cdc0f2dc9f752e7115fe683"
+      },
+      {
+        "path": "data\\tiles3_rome2.pack",
+        "bytes": 146497655,
+        "first_32_bytes_hex": "504648340200000000000000000000006e0100000b710000a9ea80642a010000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "041f52293160790ac28a0f1255fa6b5e1f1bcbd2e361711fcd3aac1269c7864d"
+      },
+      {
+        "path": "data\\tiles4.pack",
+        "bytes": 1159998307,
+        "first_32_bytes_hex": "5046483401000000000000000000000047090000316303002cd5e6519e260000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "f904078fdf9fd2b81a5e270737d04b9c62f56d5a95bce47c307b90c03c9a3ddb"
+      },
+      {
+        "path": "data\\tiles4_rome2.pack",
+        "bytes": 1787216894,
+        "first_32_bytes_hex": "50464834020000000000000000000000480e00006d5c0500aeea806456280000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "9f7bcff579c6d0cbfd86c95a1724edf0a4af26208c4d16437069e96ba893f8cd"
+      },
+      {
+        "path": "data\\tiles_rome2.pack",
+        "bytes": 2303340528,
+        "first_32_bytes_hex": "5046483402000000000000000000000066370000815c10005bea8064594c0000",
+        "magic_ascii": "PFH4",
+        "header_sha256": "f27d14dd45f408877d9f90e9583023f3280bc12a9820dfd2b9698355cfe99862"
+      }
+    ],
+    "campaign_startpos_files": [
+      "data\\campaigns\\main_emperor\\startpos.esf",
+      "data\\campaigns\\main_rome\\startpos.esf",
+      "data\\campaigns\\prologue_01\\startpos.esf",
+      "data\\campaigns\\prologue_02\\startpos.esf",
+      "data\\campaigns\\prologue_03\\startpos.esf"
+    ],
+    "limitations": [
+      "Pack inventory only: names, sizes, raw header bytes; no member index decoded.",
+      "Large pack contents were not fully hashed; header hashes identify only first 32 bytes.",
+      "Manifest name/build are Steam declarations, not independent vendor verification."
+    ]
+  }
+}

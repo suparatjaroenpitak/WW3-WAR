@@ -1,0 +1,129 @@
+{
+  "observation_id": "obs_33a7b9a1db600584f3a99d42fb6d7d5960ea10d54b56b9a7181c5195776e4a8d",
+  "origin": "custom-read-only-python-inspector",
+  "result": {
+    "identity": {
+      "path": "D:\\Stram\\steamapps\\common\\Total War Rome II\\Rome2.exe",
+      "bytes": 865416,
+      "sha256": "356abfb596097f26bd61e62b2eff9d687d01a3f3eaa4a8499a4794a6b7c4f851"
+    },
+    "machine": 332,
+    "pe_magic": 267,
+    "coff_timestamp_raw": 1775116441,
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "virtual_size": 128425,
+        "raw_offset": 1024,
+        "raw_size": 128512
+      },
+      {
+        "name": ".rdata",
+        "rva": 135168,
+        "virtual_size": 76174,
+        "raw_offset": 129536,
+        "raw_size": 76288
+      },
+      {
+        "name": ".data",
+        "rva": 212992,
+        "virtual_size": 1283988,
+        "raw_offset": 205824,
+        "raw_size": 6144
+      },
+      {
+        "name": ".fptable",
+        "rva": 1499136,
+        "virtual_size": 128,
+        "raw_offset": 211968,
+        "raw_size": 512
+      },
+      {
+        "name": ".rsrc",
+        "rva": 1503232,
+        "virtual_size": 628648,
+        "raw_offset": 212480,
+        "raw_size": 628736
+      },
+      {
+        "name": ".reloc",
+        "rva": 2134016,
+        "virtual_size": 8908,
+        "raw_offset": 841216,
+        "raw_size": 9216
+      }
+    ],
+    "imported_libraries": [
+      {
+        "name": "ADVAPI32.dll",
+        "descriptor_file_offset": 203460
+      },
+      {
+        "name": "KERNEL32.dll",
+        "descriptor_file_offset": 203480
+      },
+      {
+        "name": "USER32.dll",
+        "descriptor_file_offset": 203500
+      }
+    ],
+    "cli_data_directory": {
+      "rva": 0,
+      "size": 0
+    },
+    "ascii_string_search": {
+      "minimum_length": 6,
+      "terms": [
+        "campaign",
+        "battle",
+        "morale",
+        "formation",
+        "recruit",
+        "diplomacy"
+      ],
+      "occurrence_counts": {
+        "campaign": 0,
+        "battle": 0,
+        "morale": 0,
+        "formation": 3,
+        "recruit": 0,
+        "diplomacy": 0
+      },
+      "max_examples_per_term": 8,
+      "examples": {
+        "campaign": [],
+        "battle": [],
+        "morale": [],
+        "formation": [
+          {
+            "file_offset": 157128,
+            "text": "GetFileInformationByHandleEx",
+            "original_length": 28,
+            "truncated": false
+          },
+          {
+            "file_offset": 157160,
+            "text": "SetFileInformationByHandle",
+            "original_length": 26,
+            "truncated": false
+          },
+          {
+            "file_offset": 204546,
+            "text": "HeapSetInformation",
+            "original_length": 18,
+            "truncated": false
+          }
+        ],
+        "recruit": [],
+        "diplomacy": []
+      }
+    },
+    "limitations": [
+      "Custom Python PE/static-string inspection; not REA Evidence.",
+      "Import declarations do not prove runtime loading.",
+      "Strings are uninterpreted literals; no function ownership or execution established.",
+      "No disassembly, decompilation, unpacking or resource payload extraction."
+    ]
+  }
+}

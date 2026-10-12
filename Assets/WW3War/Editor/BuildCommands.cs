@@ -17,9 +17,25 @@ namespace WW3War.Editor
                 EditorSceneManager.OpenScene(MainScene);
         }
 
+        [MenuItem("WW3 War/Documentation/Development Guide (Thai)")]
+        public static void OpenThaiGuide() { OpenDocument("docs/DEVELOPMENT.th.md"); }
+
+        [MenuItem("WW3 War/Documentation/Development Guide (English)")]
+        public static void OpenEnglishGuide() { OpenDocument("docs/DEVELOPMENT.en.md"); }
+
+        [MenuItem("WW3 War/Documentation/Local REA Report")]
+        public static void OpenAnalysisReport() { OpenDocument("docs/reverse-engineering/REPORT.md"); }
+
+        static void OpenDocument(string path)
+        {
+            if (!File.Exists(path)) throw new FileNotFoundException("Documentation is missing.", path);
+            UnityEngine.Application.OpenURL(new Uri(Path.GetFullPath(path)).AbsoluteUri);
+        }
+
         [MenuItem("WW3 War/Build Windows")]
         public static void BuildWindows()
         {
+            SmokeChecks.Run();
             Directory.CreateDirectory("Builds/Windows");
             var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
             {

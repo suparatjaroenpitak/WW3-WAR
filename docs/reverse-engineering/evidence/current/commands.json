@@ -1,0 +1,66 @@
+{
+  "utc": "2026-10-12T12:35:36.153219+00:00",
+  "commands": [
+    {
+      "name": "rea-doctor",
+      "command": [
+        "node",
+        "D:/งาน/clone app/rea-main/rea-main/rea-main copy/scripts/rea.mjs",
+        "doctor",
+        "--provider",
+        "ghidra",
+        "--format",
+        "json",
+        "--filter-output",
+        "healthy,environment_healthy,scope,scope_checks,providerInspections"
+      ],
+      "exit_code": 1,
+      "stdout": "rea-doctor.json",
+      "stderr": "rea-doctor.stderr.txt"
+    },
+    {
+      "name": "rea-pe-resources-rome2",
+      "command": [
+        "node",
+        "D:/งาน/clone app/rea-main/rea-main/rea-main copy/scripts/rea.mjs",
+        "inspect-pe-resources",
+        "D:/Stram/steamapps/common/Total War Rome II/Rome2.exe",
+        "--format",
+        "json"
+      ],
+      "exit_code": 0,
+      "stdout": "rea-pe-resources-rome2.json",
+      "stderr": "rea-pe-resources-rome2.stderr.txt"
+    },
+    {
+      "name": "rea-pe-resources-empire",
+      "command": [
+        "node",
+        "D:/งาน/clone app/rea-main/rea-main/rea-main copy/scripts/rea.mjs",
+        "inspect-pe-resources",
+        "D:/Stram/steamapps/common/Total War Rome II/empire.retail.dll",
+        "--format",
+        "json"
+      ],
+      "exit_code": 0,
+      "stdout": "rea-pe-resources-empire.json",
+      "stderr": "rea-pe-resources-empire.stderr.txt"
+    },
+    {
+      "name": "rea-native-analysis",
+      "command": [
+        "node",
+        "D:/งาน/clone app/rea-main/rea-main/rea-main copy/scripts/rea.mjs",
+        "analyze",
+        "D:/Stram/steamapps/common/Total War Rome II/Rome2.exe",
+        "--provider",
+        "ghidra",
+        "--format",
+        "json"
+      ],
+      "exit_code": 1,
+      "stdout": "rea-native-analysis.json",
+      "stderr": "rea-native-analysis.stderr.txt"
+    }
+  ]
+}

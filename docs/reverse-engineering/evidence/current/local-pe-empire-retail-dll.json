@@ -1,0 +1,514 @@
+{
+  "observation_id": "obs_571a8af5a4bbc023c59cf953635690c68a825fbe40d1b31a5b8fbe0f9def633a",
+  "origin": "custom-read-only-python-inspector",
+  "result": {
+    "identity": {
+      "path": "D:\\Stram\\steamapps\\common\\Total War Rome II\\empire.retail.dll",
+      "bytes": 28708352,
+      "sha256": "07cb2215b80591224a5f8889963344d560492f09c4d22696c988b957ca49b2b7"
+    },
+    "machine": 332,
+    "pe_magic": 267,
+    "coff_timestamp_raw": 1775116353,
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "virtual_size": 24591748,
+        "raw_offset": 1024,
+        "raw_size": 24591872
+      },
+      {
+        "name": ".rdata",
+        "rva": 24596480,
+        "virtual_size": 2224010,
+        "raw_offset": 24592896,
+        "raw_size": 2224128
+      },
+      {
+        "name": ".data",
+        "rva": 26820608,
+        "virtual_size": 42632780,
+        "raw_offset": 26817024,
+        "raw_size": 781312
+      },
+      {
+        "name": ".msvcjmc",
+        "rva": 69455872,
+        "virtual_size": 55774,
+        "raw_offset": 27598336,
+        "raw_size": 55808
+      },
+      {
+        "name": "_RDATA",
+        "rva": 69513216,
+        "virtual_size": 9736,
+        "raw_offset": 27654144,
+        "raw_size": 10240
+      },
+      {
+        "name": ".fptable",
+        "rva": 69525504,
+        "virtual_size": 128,
+        "raw_offset": 27664384,
+        "raw_size": 512
+      },
+      {
+        "name": ".rsrc",
+        "rva": 69529600,
+        "virtual_size": 1400,
+        "raw_offset": 27664896,
+        "raw_size": 1536
+      },
+      {
+        "name": ".reloc",
+        "rva": 69533696,
+        "virtual_size": 1041832,
+        "raw_offset": 27666432,
+        "raw_size": 1041920
+      }
+    ],
+    "imported_libraries": [
+      {
+        "name": "ADVAPI32.dll",
+        "descriptor_file_offset": 26801032
+      },
+      {
+        "name": "binkw32.dll",
+        "descriptor_file_offset": 26801052
+      },
+      {
+        "name": "clockwork.Release.x86.dll",
+        "descriptor_file_offset": 26801072
+      },
+      {
+        "name": "COMDLG32.dll",
+        "descriptor_file_offset": 26801092
+      },
+      {
+        "name": "d3d9.dll",
+        "descriptor_file_offset": 26801112
+      },
+      {
+        "name": "D3DCompiler_42.dll",
+        "descriptor_file_offset": 26801132
+      },
+      {
+        "name": "d3dx11_42.dll",
+        "descriptor_file_offset": 26801152
+      },
+      {
+        "name": "d3dx9_42.dll",
+        "descriptor_file_offset": 26801172
+      },
+      {
+        "name": "dbghelp.dll",
+        "descriptor_file_offset": 26801192
+      },
+      {
+        "name": "DINPUT8.dll",
+        "descriptor_file_offset": 26801212
+      },
+      {
+        "name": "GDI32.dll",
+        "descriptor_file_offset": 26801232
+      },
+      {
+        "name": "IPHLPAPI.DLL",
+        "descriptor_file_offset": 26801252
+      },
+      {
+        "name": "KERNEL32.dll",
+        "descriptor_file_offset": 26801272
+      },
+      {
+        "name": "LIBEAY32.dll",
+        "descriptor_file_offset": 26801292
+      },
+      {
+        "name": "ole32.dll",
+        "descriptor_file_offset": 26801312
+      },
+      {
+        "name": "OLEAUT32.dll",
+        "descriptor_file_offset": 26801332
+      },
+      {
+        "name": "OPENGL32.dll",
+        "descriptor_file_offset": 26801352
+      },
+      {
+        "name": "RPCRT4.dll",
+        "descriptor_file_offset": 26801372
+      },
+      {
+        "name": "SHELL32.dll",
+        "descriptor_file_offset": 26801392
+      },
+      {
+        "name": "SHLWAPI.dll",
+        "descriptor_file_offset": 26801412
+      },
+      {
+        "name": "SSLEAY32.dll",
+        "descriptor_file_offset": 26801432
+      },
+      {
+        "name": "twitchsdk_32_release.dll",
+        "descriptor_file_offset": 26801452
+      },
+      {
+        "name": "USER32.dll",
+        "descriptor_file_offset": 26801472
+      },
+      {
+        "name": "VERSION.dll",
+        "descriptor_file_offset": 26801492
+      },
+      {
+        "name": "WINMM.dll",
+        "descriptor_file_offset": 26801512
+      },
+      {
+        "name": "WLDAP32.dll",
+        "descriptor_file_offset": 26801532
+      },
+      {
+        "name": "WS2_32.dll",
+        "descriptor_file_offset": 26801552
+      }
+    ],
+    "cli_data_directory": {
+      "rva": 0,
+      "size": 0
+    },
+    "ascii_string_search": {
+      "minimum_length": 6,
+      "terms": [
+        "campaign",
+        "battle",
+        "morale",
+        "formation",
+        "recruit",
+        "diplomacy"
+      ],
+      "occurrence_counts": {
+        "campaign": 1395,
+        "battle": 1897,
+        "morale": 62,
+        "formation": 146,
+        "recruit": 228,
+        "diplomacy": 192
+      },
+      "max_examples_per_term": 8,
+      "examples": {
+        "campaign": [
+          {
+            "file_offset": 24640320,
+            "text": "Set the number of threads to be used for the campaign pathfinder cache.  This is independent from and additional to the number_of_threads < 0 - automatic up to the specified number, >=0 = explicit number ",
+            "original_length": 204,
+            "truncated": false
+          },
+          {
+            "file_offset": 24640528,
+            "text": "number_of_threads_for_campaign_pathfinder_cache <int>",
+            "original_length": 53,
+            "truncated": false
+          },
+          {
+            "file_offset": 24640584,
+            "text": "number_of_threads_for_campaign_pathfinder_cache",
+            "original_length": 47,
+            "truncated": false
+          },
+          {
+            "file_offset": 24642216,
+            "text": "Sets the handicap for campaigns.  Positive gives advantage.  -2 is vhard, -1 is hard, 0 normal, 1 easy",
+            "original_length": 102,
+            "truncated": false
+          },
+          {
+            "file_offset": 24642320,
+            "text": "campaign_difficulty <int>",
+            "original_length": 25,
+            "truncated": false
+          },
+          {
+            "file_offset": 24642348,
+            "text": "campaign_difficulty",
+            "original_length": 19,
+            "truncated": false
+          },
+          {
+            "file_offset": 24642368,
+            "text": "Sets the time (in minutes) for each round of the campaign. -1 for unlimited",
+            "original_length": 75,
+            "truncated": false
+          },
+          {
+            "file_offset": 24642444,
+            "text": "campaign_time_limit <int>",
+            "original_length": 25,
+            "truncated": false
+          }
+        ],
+        "battle": [
+          {
+            "file_offset": 24636176,
+            "text": "default battle camera: 0-totalwar 1-rts 2-debug",
+            "original_length": 47,
+            "truncated": false
+          },
+          {
+            "file_offset": 24636224,
+            "text": "default_battle_camera <card32>",
+            "original_length": 30,
+            "truncated": false
+          },
+          {
+            "file_offset": 24639688,
+            "text": "Enable hiding of dead bodies on the battlefield",
+            "original_length": 47,
+            "truncated": false
+          },
+          {
+            "file_offset": 24641776,
+            "text": "Sets the time (in minutes) for each battle. -1 for unlimited",
+            "original_length": 60,
+            "truncated": false
+          },
+          {
+            "file_offset": 24641840,
+            "text": "battle_time_limit <int>",
+            "original_length": 23,
+            "truncated": false
+          },
+          {
+            "file_offset": 24641864,
+            "text": "battle_time_limit",
+            "original_length": 17,
+            "truncated": false
+          },
+          {
+            "file_offset": 24641888,
+            "text": "Sets the handicap for battles. Positive gives advantage.  -2 is vhard, -1 is hard, 0 normal, 1 easy",
+            "original_length": 99,
+            "truncated": false
+          },
+          {
+            "file_offset": 24641988,
+            "text": "battle_difficulty <int>",
+            "original_length": 23,
+            "truncated": false
+          }
+        ],
+        "morale": [
+          {
+            "file_offset": 24740280,
+            "text": "morale_behavior_default",
+            "original_length": 23,
+            "truncated": false
+          },
+          {
+            "file_offset": 24740304,
+            "text": "morale_behavior_fearless",
+            "original_length": 24,
+            "truncated": false
+          },
+          {
+            "file_offset": 24740332,
+            "text": "morale_behavior_rout",
+            "original_length": 20,
+            "truncated": false
+          },
+          {
+            "file_offset": 24740712,
+            "text": "enable_army_destruction_morale_effect",
+            "original_length": 37,
+            "truncated": false
+          },
+          {
+            "file_offset": 24847100,
+            "text": "Chance of playing a reaction animation when morale is shaken",
+            "original_length": 60,
+            "truncated": false
+          },
+          {
+            "file_offset": 24847164,
+            "text": "MORALE_SHAKEN_REACTION_CHANCE",
+            "original_length": 29,
+            "truncated": false
+          },
+          {
+            "file_offset": 24847196,
+            "text": "Chance of playing a reaction animation when morale wavering",
+            "original_length": 59,
+            "truncated": false
+          },
+          {
+            "file_offset": 24847256,
+            "text": "MORALE_WAVERING_REACTION_CHANCE",
+            "original_length": 31,
+            "truncated": false
+          }
+        ],
+        "formation": [
+          {
+            "file_offset": 24649928,
+            "text": "Imposes legendary difficulty settings on battle ui; no radar, reduced tooltip and banner information for enemies and restricted camera",
+            "original_length": 134,
+            "truncated": false
+          },
+          {
+            "file_offset": 24674944,
+            "text": "GetLogicalProcessorInformationEx",
+            "original_length": 32,
+            "truncated": false
+          },
+          {
+            "file_offset": 24701512,
+            "text": "Special Ability string : pike_square_formation, pike_wall_formation, square_formation, wedge_formation, diamond_formation, light_infantry_behaviour,  loose_formation, fire_and_advance, plug_bayonets, dismount, unlimber, none",
+            "original_length": 224,
+            "truncated": false
+          },
+          {
+            "file_offset": 24702096,
+            "text": "Special Ability string : pike_square_formation, pike_wall_formation, square_formation, wedge_formation, diamond_formation, light_infantry_behaviour, loose_formation, fire_and_advance, plug_bayonets, dismount, unlimber, none",
+            "original_length": 223,
+            "truncated": false
+          },
+          {
+            "file_offset": 24707076,
+            "text": "BattlePlayerUnitCurrentFormation( \"pike_square_formation\" )",
+            "original_length": 59,
+            "truncated": false
+          },
+          {
+            "file_offset": 24707136,
+            "text": "Returns true if the string matches the current formation employed, otherwise it returns false",
+            "original_length": 93,
+            "truncated": false
+          },
+          {
+            "file_offset": 24707232,
+            "text": "Takes in a single string which can be one of the following : block_formation, pike_square_formation, pike_wall_formation, square_formation, diamond_formation, wedge_formation, light_infantry_behaviour.",
+            "original_length": 201,
+            "truncated": false
+          },
+          {
+            "file_offset": 24707436,
+            "text": "BattlePlayerUnitCurrentFormation",
+            "original_length": 32,
+            "truncated": false
+          }
+        ],
+        "recruit": [
+          {
+            "file_offset": 25008824,
+            "text": "Score penalty for recruiting less than the requested amount of units in the military generator MCTS search",
+            "original_length": 106,
+            "truncated": false
+          },
+          {
+            "file_offset": 25013320,
+            "text": "mission_text_text_mis_activity_recruit_unit_type",
+            "original_length": 48,
+            "truncated": false
+          },
+          {
+            "file_offset": 25013372,
+            "text": "CAMPAIGN_MISSION_OBJECTIVE_IMPL_RECRUIT_UNIT",
+            "original_length": 44,
+            "truncated": false
+          },
+          {
+            "file_offset": 25016840,
+            "text": "mission_text_text_mis_activity_recruit_agent",
+            "original_length": 44,
+            "truncated": false
+          },
+          {
+            "file_offset": 25016888,
+            "text": "CAMPAIGN_MISSION_OBJECTIVE_IMPL_RECRUIT_AGENT",
+            "original_length": 45,
+            "truncated": false
+          },
+          {
+            "file_offset": 25032076,
+            "text": "RECRUITMENT_ITEM",
+            "original_length": 16,
+            "truncated": false
+          },
+          {
+            "file_offset": 25032132,
+            "text": "RECRUITMENT_MANAGER",
+            "original_length": 19,
+            "truncated": false
+          },
+          {
+            "file_offset": 25072828,
+            "text": "disable_cancel_recruitment",
+            "original_length": 26,
+            "truncated": false
+          }
+        ],
+        "diplomacy": [
+          {
+            "file_offset": 24665004,
+            "text": "Diplomacy",
+            "original_length": 9,
+            "truncated": false
+          },
+          {
+            "file_offset": 25013744,
+            "text": "CAMPAIGN_MISSION_OBJECTIVE_IMPL_DIPLOMACY",
+            "original_length": 41,
+            "truncated": false
+          },
+          {
+            "file_offset": 25051600,
+            "text": "Initialised diplomacy",
+            "original_length": 21,
+            "truncated": false
+          },
+          {
+            "file_offset": 25068064,
+            "text": "force_diplomacy",
+            "original_length": 15,
+            "truncated": false
+          },
+          {
+            "file_offset": 25072740,
+            "text": "disable_diplomacy",
+            "original_length": 17,
+            "truncated": false
+          },
+          {
+            "file_offset": 25076924,
+            "text": "CAI_DIPLOMACY_NEGOTIATION_DISPLAYED_LIKELIHOOD_THRESHOLD_LOW",
+            "original_length": 60,
+            "truncated": false
+          },
+          {
+            "file_offset": 25077148,
+            "text": "CAI_DIPLOMACY_NEGOTIATION_DISPLAYED_LIKELIHOOD_THRESHOLD_HIGH",
+            "original_length": 61,
+            "truncated": false
+          },
+          {
+            "file_offset": 25079828,
+            "text": "END_TURN_ALLOW_DIPLOMACY",
+            "original_length": 24,
+            "truncated": false
+          }
+        ]
+      }
+    },
+    "limitations": [
+      "Custom Python PE/static-string inspection; not REA Evidence.",
+      "Import declarations do not prove runtime loading.",
+      "Strings are uninterpreted literals; no function ownership or execution established.",
+      "No disassembly, decompilation, unpacking or resource payload extraction."
+    ]
+  }
+}

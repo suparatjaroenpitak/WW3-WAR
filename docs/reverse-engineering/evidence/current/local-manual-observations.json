@@ -1,0 +1,1753 @@
+{
+  "observation_id": "obs_e99334ea426675aa720d984a044b512e291f0e2c9ab7a81ecf02713e3f8d73fc",
+  "origin": "custom-read-only-python-inspector",
+  "result": {
+    "files": [
+      {
+        "identity": {
+          "path": "D:\\Stram\\steamapps\\common\\Total War Rome II\\data\\encyclopedia\\en\\manual\\single-player\\0012_enc_page_campaign_play.html",
+          "bytes": 35813,
+          "sha256": "c908dc75a98d3938599842d997aeab34bb4c2e3e115d443a4bebd9f502015457"
+        },
+        "headings": [
+          {
+            "line": 173,
+            "text": "Campaign Map Play",
+            "truncated": false,
+            "full_text_sha256": "e341e44c72cad75ff17a445dc5712ad1bbe77b32304c9a7b3185821e942d397c"
+          },
+          {
+            "line": 179,
+            "text": "Introduction",
+            "truncated": false,
+            "full_text_sha256": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e"
+          },
+          {
+            "line": 188,
+            "text": "Basic Controls",
+            "truncated": false,
+            "full_text_sha256": "52a614e8f139502385da7d183f4e9776c378d65bc2da2d1b59e957f9aae1a663"
+          },
+          {
+            "line": 197,
+            "text": "Strategic Overview Map",
+            "truncated": false,
+            "full_text_sha256": "274783e327eb470dd4355ab979d302a039c5653bbf8b3b5ce58f291285ecbb71"
+          },
+          {
+            "line": 206,
+            "text": "Revealing the Map",
+            "truncated": false,
+            "full_text_sha256": "56d259077633aed72cf23a90375e50ae2d16480aeddad2c0473ef88b8a470ba7"
+          },
+          {
+            "line": 215,
+            "text": "Action Points",
+            "truncated": false,
+            "full_text_sha256": "a92ba54fc2e9590b6b83c04496006ed45012438455560852a24814d00c7f5fb1"
+          }
+        ],
+        "paragraph_previews": [
+          {
+            "line": 180,
+            "text": "The campaign map is a turn-based environment, so actions can be completed in any order, and you are entirely free in what you choose to do - construction, recruitment, diplomacy, missions, faction management, subterfuge, battles - sometimes even choosing to do nothing if you want your treasury to accumulate funds! When you are ready to proceed, press the end turn button. The AI",
+            "truncated": true,
+            "full_text_sha256": "a5689a3583aa40907d889a46abb5e54858f677cccc2e4d906418fed781506504"
+          },
+          {
+            "line": 189,
+            "text": "Survey the campaign map using the W, A, S and D keys. Q and E rotate the camera. You can also hold down the middle mouse button and drag it to scout around, using the Z and X keys, or your mousewheel, to zoom in. Left-clicking on a settlement, army or agent selects it; all orders are issued by right-clicking on your chosen target.",
+            "truncated": false,
+            "full_text_sha256": "9053db4748f1ac2c60eb1883a394839e7f8cc67c17d0aeff3eb45e3a72a00545"
+          },
+          {
+            "line": 198,
+            "text": "The strategic overview map shows Europe divided into regions, with your own territory picked out in your faction's colours. Click on a region to zoom the campaign map to it and centre the camera there. Click on the toggle button to display the map full screen. Lists of your faction's current forces and agents, provinces, known factions, as well as important event messages and e",
+            "truncated": true,
+            "full_text_sha256": "a3fc8f1a63ca7dae1801cbad0ce3b735209f09aee3e54d12490be29dbef9b63d"
+          },
+          {
+            "line": 207,
+            "text": "You can increase your line of sight by sending fleets further along the coast or agents into unknown lands to encounter new factions. However, be careful not to go too far without back-up - you may fall foul of hostile neighbours or suffer attrition if your ships stray too far from the coast.",
+            "truncated": false,
+            "full_text_sha256": "8021e84aa1e6103954d5a406a74ca8a53c48f6d6473a5d777a696ec2fdca2073"
+          },
+          {
+            "line": 216,
+            "text": "Each turn every character has a number of action points allotted to them. Every move, from the distance they travel, to the stance they adopt, to which actions they can take, costs action points. When they have been exhausted it is not possible to do anything else with that particular character until the beginning of the next turn.",
+            "truncated": false,
+            "full_text_sha256": "48f61024805fdab20085fb71036952aebc1a373f19d718c0122c039e78672a6a"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "path": "D:\\Stram\\steamapps\\common\\Total War Rome II\\data\\encyclopedia\\en\\manual\\single-player\\0016_enc_page_campaign_play_military_attack.html",
+          "bytes": 43552,
+          "sha256": "07d36afc946eb79d40e751db39e93224fbdce343c55e13eeed07e53f5f0b5161"
+        },
+        "headings": [
+          {
+            "line": 173,
+            "text": "Attacking The Enemy",
+            "truncated": false,
+            "full_text_sha256": "e6c2c9af73bc47a4f46d54cd6f9480a78cf6568bb7f8d6145b9d09d7d20f3468"
+          },
+          {
+            "line": 179,
+            "text": "Attacking with Armies",
+            "truncated": false,
+            "full_text_sha256": "f10c1cc2ba26424fe5d802a9020a70dbd21197f6cd466aff69e390be7e58290f"
+          },
+          {
+            "line": 188,
+            "text": "Attacking with Fleets",
+            "truncated": false,
+            "full_text_sha256": "2d0e773b890896e74459e2aefbdcf30be95ca49e23ff72f5d30ec57d54a472a0"
+          },
+          {
+            "line": 197,
+            "text": "Zones of Control",
+            "truncated": false,
+            "full_text_sha256": "a32476aad18b4f4c73db05e5c7e4125e8381a6c7ab25c10faea4d7fc03073fe8"
+          },
+          {
+            "line": 206,
+            "text": "Reinforcements",
+            "truncated": false,
+            "full_text_sha256": "66c6d3c2c45da50c302889a232ff86ff1a16f49c6b9f07f10dbc21fee5d493f4"
+          },
+          {
+            "line": 215,
+            "text": "Destroying a Faction",
+            "truncated": false,
+            "full_text_sha256": "8942db611952ed302364787010b92b09dd4f91029476c3713dddeb89407b3560"
+          },
+          {
+            "line": 224,
+            "text": "The Battle Panel",
+            "truncated": false,
+            "full_text_sha256": "ee2a6507ab82f0ed4d824e744f906e0c8036a2d9b0c1f03b020b1dbd1d0164cf"
+          },
+          {
+            "line": 233,
+            "text": "Fighting Battles",
+            "truncated": false,
+            "full_text_sha256": "4a3644bd8a9b05a265a9744a3f139d14e18fe9778081eeddde4a218c88e663f0"
+          },
+          {
+            "line": 242,
+            "text": "Auto-resolving Battles",
+            "truncated": false,
+            "full_text_sha256": "f7d6e8ed185eeef4b331ad7b67068e35311c3cee0bdc90a28578809256b9568b"
+          },
+          {
+            "line": 251,
+            "text": "Auto-resolve Stances",
+            "truncated": false,
+            "full_text_sha256": "11bbda641902be6d584e8e548c03f0861ac8a6a34e2fda746ee226d081fdf270"
+          },
+          {
+            "line": 260,
+            "text": "Aggressive Stance",
+            "truncated": false,
+            "full_text_sha256": "5687fd44179fde0dfb48853526fa4077892eb52a82260bec687f6c07c5629690"
+          },
+          {
+            "line": 269,
+            "text": "Protective Stance",
+            "truncated": false,
+            "full_text_sha256": "9af89be7a9aa35a534f1b38bb28a57e92f48aaaf557e246e99b60513c55c5e1e"
+          },
+          {
+            "line": 278,
+            "text": "The Retreat Button",
+            "truncated": false,
+            "full_text_sha256": "f5e9226147bf9e7516930789d33bda76d842dbc3acae94f4b9a05634b6a390c3"
+          },
+          {
+            "line": 287,
+            "text": "Battle Replays",
+            "truncated": false,
+            "full_text_sha256": "c188a38ea637cda6f9a3ab6ce4fb5648babaaaf1b5f9deda646b09d48c9f380f"
+          },
+          {
+            "line": 296,
+            "text": "Post-battle Statistics",
+            "truncated": false,
+            "full_text_sha256": "8418a8bfe9138a7f32c6271be5f05be4c29aeb5a7523609bba124d14e46e305a"
+          },
+          {
+            "line": 305,
+            "text": "Famous Battle Markers",
+            "truncated": false,
+            "full_text_sha256": "aedf7bd5a7446d09de245da165e38466a03a6751ce7e3a7abec2e4382fcb76dd"
+          }
+        ],
+        "paragraph_previews": [
+          {
+            "line": 180,
+            "text": "An army can attack another army, a port or a settlement. An attack on a settlement will result in a siege taking place. If the target is further away than your army's movement extent will allow, it will take more than one turn to reach it and launch an attack. Once an army has reached its target the battle panel will be displayed, prompting you to fight on the battlefield, reso",
+            "truncated": true,
+            "full_text_sha256": "5611d4fb4b315733741e891be58b8c421849d26f8ce3875d01a5039cbc41ff9c"
+          },
+          {
+            "line": 189,
+            "text": "You can attack a fleet belonging to another faction when it is within your zone of control by right-clicking on it. If the target is further away than your fleet's movement extent will allow, it will take more than one turn to reach it and launch an attack. Once a fleet has reached its target the battle panel will be displayed, prompting you to fight, resolve the battle automat",
+            "truncated": true,
+            "full_text_sha256": "b6b3ac1e38b8bc60edb4dd23aaf144aecb08d4706fa5cad082946c6e5fc71746"
+          },
+          {
+            "line": 198,
+            "text": "All armies and fleets have a zone of control, represented by the circle displayed around them. They are prompted to respond to any hostile activity that takes place within it. You cannot enter a zone of control unless you are attacking the army within it.",
+            "truncated": false,
+            "full_text_sha256": "75092060f0d057bf2083e832ce613f2c062172aed9b4b14b430826502dca9801"
+          },
+          {
+            "line": 207,
+            "text": "If it is possible for one army to reinforce another this is indicated by a yellow line that connects them when you mouse over either army. If a red line appears between two armies it means they are enemies within each other’s zone of control.",
+            "truncated": false,
+            "full_text_sha256": "956cfe4fdf2671e274099e4eee12d48e51d1f22f956ad490c331a497b11610b7"
+          },
+          {
+            "line": 216,
+            "text": "In Total War: ROME II, when you capture a faction’s last settlement they are not automatically destroyed. Any remaining forces will immediately begin suffering attrition and will dedicate their time to trying to recapture a region in order to re-establish themselves as a viable faction.",
+            "truncated": false,
+            "full_text_sha256": "10b19ab4e014a9cf6caeb239ef0f419ad87a11c679e157bcc7c8e806082dd77a"
+          },
+          {
+            "line": 225,
+            "text": "The battle panel presents you with several options for resolving the upcoming battle - fighting on the battlefield or seascape, resolving the battle automatically via a comparison of each force's statistics and withdrawing from the fight. If you withdraw when attacked there is a good chance that the attacking force will attack you again. If you have attacked a provincial capita",
+            "truncated": true,
+            "full_text_sha256": "842b17896aef4a6a30496886bdd9e1ea169b2934377e5fe507762db139a7cbbf"
+          },
+          {
+            "line": 234,
+            "text": "Select this option to fight in 3D on the battlefield. The topography of the battlefield is a direct representation of the corresponding area on the campaign map where the attack was made.",
+            "truncated": false,
+            "full_text_sha256": "51c7fa89de911adacbac4f0ff1d704d35ef5599460138042556e2912c7147804"
+          },
+          {
+            "line": 243,
+            "text": "Select the auto-resolve option to automatically determine the victor without fighting the battle personally. Auto-resolving compares the statistics of all the units or ships involved to calculate who has won.",
+            "truncated": false,
+            "full_text_sha256": "810c2bdee4d974a2f1ac760f05a821c8c90ae138495b094bfd2a2afed7c36b95"
+          },
+          {
+            "line": 252,
+            "text": "When auto-resolving a battle, you can give high level instructions to your generals on how to fight the upcoming battle by selecting a battle stance first. Comparing the composition of each army before choosing the stance best suited for the situation ensures a much better result. The balanced battle stance enables armies to retreat from the battle and, unlike other stances, do",
+            "truncated": true,
+            "full_text_sha256": "fc0124fb53968f120f3a8662dd0768004d309203f2794acc49454d2168558143"
+          },
+          {
+            "line": 261,
+            "text": "The adoption of aggressive stance ensures your units try to rush the enemy and won’t let them escape the battle. When using it, the following bonuses and penalties are applied: cavalry and other mounted units receive an attack bonus, whilst enemy spear infantry receive a bonus when fighting against them; missile units on both sides have their effectiveness reduced; your units g",
+            "truncated": true,
+            "full_text_sha256": "65e8302923ecdcd0da97a819fbf8df1537e782e5cc5575cf60ee8932ab8307ab"
+          },
+          {
+            "line": 270,
+            "text": "Adopting protective stance ensures your units take a defensive position, advancing slowly in formation. They will attempt to retreat if things get out of control and won’t try to chase down retreating units to avoid getting enemy tricks and ruses. When using it, the following bonuses and penalties are applied: your spear infantry receives a bonus when fighting against cavalry, ",
+            "truncated": true,
+            "full_text_sha256": "28db1200f78c40b94325da10ff6fde75524d4a29d89d2d5580f92821e2585661"
+          },
+          {
+            "line": 279,
+            "text": "The retreat button enables you to avoid fighting a battle if you think you cannot win. If under attack it is usually only possible to use the button once, so if the enemy attack again in the same turn you will be forced to face them in battle.",
+            "truncated": false,
+            "full_text_sha256": "aed4d73b72cae793ba247c9e78bad306a9383f8ec33a1bb7b74c9d2703c4e6e2"
+          },
+          {
+            "line": 288,
+            "text": "Immediately after a battle has ended there is an option to save a replay of it to watch later or play again. There is also an option to re-fight the battle if you want to change its outcome!",
+            "truncated": false,
+            "full_text_sha256": "a6ae84f72c4f4c9b04d0ccde7658f7d12732e5a2c15ab191a1eb148bfb1032cd"
+          },
+          {
+            "line": 297,
+            "text": "When a battle is over the post-battle statistics panel is displayed. Numbers of deployed troops, casualties, survivors, and captives/kills are displayed here, along with the options to occupy or loot if you have captured a settlement.",
+            "truncated": false,
+            "full_text_sha256": "26dbd45154236f4b0fc85e034901f277c4698895832a22419e8ac91219afd4b5"
+          },
+          {
+            "line": 306,
+            "text": "After a heroic or crushing victory a commemorative statue will appear on the campaign map at the site of the battle. Mouse over it to see a tooltip containing the details.",
+            "truncated": false,
+            "full_text_sha256": "0e9c7809be38be3a247ebd88e216f777208968b4acc4cdb93d42ec93d6d28fd1"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "path": "D:\\Stram\\steamapps\\common\\Total War Rome II\\data\\encyclopedia\\en\\manual\\single-player\\0017_enc_page_campaign_play_military_recruit.html",
+          "bytes": 36121,
+          "sha256": "416420e854439e9bd5af000b762d5a4c22afe5b8b75398442786431ae1698a30"
+        },
+        "headings": [
+          {
+            "line": 173,
+            "text": "Recruitment",
+            "truncated": false,
+            "full_text_sha256": "9396ed8f2948bfa6e6a7b666a407746891f7b4d5be46b978ee025b96420dd901"
+          },
+          {
+            "line": 179,
+            "text": "Introduction",
+            "truncated": false,
+            "full_text_sha256": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e"
+          },
+          {
+            "line": 188,
+            "text": "Upkeep",
+            "truncated": false,
+            "full_text_sha256": "7671224c5c511d450bfb285ab09e0518b922cf515d14e09eee0dfd95a2b6cabd"
+          },
+          {
+            "line": 197,
+            "text": "Retraining Units",
+            "truncated": false,
+            "full_text_sha256": "64e43da82939384ab41a848bdddcbdeee7b03f5fa5c358c5772a9b338267d20c"
+          },
+          {
+            "line": 206,
+            "text": "Disbanding Units",
+            "truncated": false,
+            "full_text_sha256": "6119b07b9bd7e1a20f59f5d5ecc0eedb317e46eb34a6e50e6525fc2b6c92f444"
+          },
+          {
+            "line": 215,
+            "text": "Mercenaries",
+            "truncated": false,
+            "full_text_sha256": "7db5f4a3b7fe5a0001f20f9d9241fa25127f6dcd8634b70ff547aae66fdc58db"
+          }
+        ],
+        "paragraph_previews": [
+          {
+            "line": 180,
+            "text": "Units are the constituent parts of your army and are divided into classes that broadly define their role on the battlefield. They are recruited directly to your general, either in the field or when garrisoning a settlement. This is known as mustering. The only troops displayed are those troop types available in the region in which he is currently standing, i.e. it is not possib",
+            "truncated": true,
+            "full_text_sha256": "db470e17c33a89cd3983c250cb9e0951102ca43749e129b34f105693ffd76cad"
+          },
+          {
+            "line": 189,
+            "text": "Following recruitment of a unit or construction of a ship, funds are deducted from your treasury at the beginning of each turn to pay for the supplies and wages of the troops and crew. This is known as upkeep. Notice that your regular upkeep costs are detailed on the trade & finance panel and the financial summary.",
+            "truncated": false,
+            "full_text_sha256": "c43aa11babe17b784e44463c41e571f1d3b95525c4f5813af083e46b165c31a2"
+          },
+          {
+            "line": 198,
+            "text": "If your army is garrisoning a settlement containing a military (training) chain of buildings it may be possible to retrain its units. You can retrain a unit by selecting their army, left-clicking on its unit card and selecting the retrain button.",
+            "truncated": false,
+            "full_text_sha256": "5a4fe6f0c7004e16b171f26cc5b7b2fd0c2187d1168c5f3af646634f0b9bcb7a"
+          },
+          {
+            "line": 207,
+            "text": "You may find yourself with more units than your treasury can support. If this happens you can disband a unit by selecting their army, left-clicking on its unit card and selecting the disband button.",
+            "truncated": false,
+            "full_text_sha256": "30aa3531afbe39d816d07ff7eb8e7e1d99214bbd758db5f060c82dfdb808229e"
+          },
+          {
+            "line": 216,
+            "text": "Mercenaries are troops for hire. In return for the skill and experience of professional soldiers, a general must pay more to make them a part of his army, and keep them there, than he would a normal citizen or levied soldier. Like regular troops, they are sent directly to your general once hired, but, unlike them, mercenaries do not have to go through the multi-turn recruitment",
+            "truncated": true,
+            "full_text_sha256": "832b432a753d01787d1093585103859608eb1c57ef325118c2d356a71f6d8b97"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "path": "D:\\Stram\\steamapps\\common\\Total War Rome II\\data\\encyclopedia\\en\\manual\\single-player\\0026_enc_page_campaign_play_military_replenish.html",
+          "bytes": 34103,
+          "sha256": "e29cf99ec31a93ebf91993d4d9f317f7fda6051fb72cde5056cc3841efd11539"
+        },
+        "headings": [
+          {
+            "line": 173,
+            "text": "Replenishing Your Forces",
+            "truncated": false,
+            "full_text_sha256": "96d03572d0b2e0b7b74db436e1443d71ef1faabd6907da86f2fc958948b78a45"
+          },
+          {
+            "line": 179,
+            "text": "Attrition",
+            "truncated": false,
+            "full_text_sha256": "907afb9b97954e318ec4e6b08b946f28c2eb08380419fa8d59eb944222dfffa7"
+          },
+          {
+            "line": 188,
+            "text": "Unit Replenishment",
+            "truncated": false,
+            "full_text_sha256": "ae642df44a1f2dcdc49f8129adcc368135dd4258e33ffcd3b3a0ba65be4a0377"
+          },
+          {
+            "line": 197,
+            "text": "Ship Repair",
+            "truncated": false,
+            "full_text_sha256": "01cd296c263e183027fbcf096c54b1f8e5f86122b8d4a8014433bd114ff465cb"
+          }
+        ],
+        "paragraph_previews": [
+          {
+            "line": 180,
+            "text": "Attrition is the loss of men due to desertion, disease, etc. An army will generally suffer attrition when in desert or extremely cold conditions unless it is native to that part of the world. Ship crews and armies transported by sea may also suffer attrition when in deep waters.",
+            "truncated": false,
+            "full_text_sha256": "ec6fa49ba7138d0067340b7f43d9e98c67dd1a838507465715d69c2edc785a31"
+          },
+          {
+            "line": 189,
+            "text": "An army that has suffered casualties or attrition requires fresh recruits to replenish troop numbers. If it is on friendly territory unit replenishment will occur automatically. The closer it is to a region with fresh recruits in it, the faster the rate of replenishment will be. If no replenishment occurs it may be because the army is in an enemy province or an area of attritio",
+            "truncated": true,
+            "full_text_sha256": "801af3e316ebab7028fc66adde77b37effac05f4f1127b5e0fb089f8b8911025"
+          },
+          {
+            "line": 198,
+            "text": "A ship that has been damaged in combat must be repaired. In this instance, move to a friendly port to begin the process. The crew will be replenished at the same time.",
+            "truncated": false,
+            "full_text_sha256": "6f73681a32e6f83caee46981834633baa262e9093a54bd9ed982e985cc3442f9"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "path": "D:\\Stram\\steamapps\\common\\Total War Rome II\\data\\encyclopedia\\en\\manual\\single-player\\0038_enc_page_campaign_play_faction_diplomacy.html",
+          "bytes": 45136,
+          "sha256": "dc6c67179fa121e0070736fdadb9b07cd127b3243f0f24c69dd79c5697493027"
+        },
+        "headings": [
+          {
+            "line": 173,
+            "text": "Diplomacy",
+            "truncated": false,
+            "full_text_sha256": "bd4076f29ec7c49a96a02debdcf721ed2911910287bbbe2bb4b233c7602ae312"
+          },
+          {
+            "line": 179,
+            "text": "Introduction",
+            "truncated": false,
+            "full_text_sha256": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e"
+          },
+          {
+            "line": 188,
+            "text": "Diplomatic Relations",
+            "truncated": false,
+            "full_text_sha256": "b30bebda4a164d5e2eb338b2753ceaa616b29a40cf8c50783e49c48b96efcdaf"
+          },
+          {
+            "line": 197,
+            "text": "The Diplomacy Panel",
+            "truncated": false,
+            "full_text_sha256": "a85da4e6788e81fcc1fc1c9dc6262c3d0f44bc7ee4070ac702e2c4d7ec66f1a3"
+          },
+          {
+            "line": 206,
+            "text": "Counter-offers",
+            "truncated": false,
+            "full_text_sha256": "82a340bc1e70ff1048db6437c6704dc38928003cb23c007d8b5138dbac9c2293"
+          },
+          {
+            "line": 215,
+            "text": "Trade Agreements",
+            "truncated": false,
+            "full_text_sha256": "b463e3583c3348696f845e0e7de536c5294e08b6b0acb0f4265b083e8cc4c742"
+          },
+          {
+            "line": 224,
+            "text": "Military Alliances",
+            "truncated": false,
+            "full_text_sha256": "1c41879a05c219650eee7b6e139e6bbf838602544858a2dbe7f86d3906e5fafe"
+          },
+          {
+            "line": 233,
+            "text": "Defensive Alliances",
+            "truncated": false,
+            "full_text_sha256": "873827edbbc306b286aafb9fdef0cedc4f6690fd7e6a4f04ca1baf80d4629b35"
+          },
+          {
+            "line": 242,
+            "text": "Satrapies & Client States",
+            "truncated": false,
+            "full_text_sha256": "d9ec808b9f554cd29dd8f6fe34044d8e3a7c60f362f68a92422e9fd76b4d9926"
+          },
+          {
+            "line": 251,
+            "text": "Military Access",
+            "truncated": false,
+            "full_text_sha256": "54b3d915acf89d4f4a3b4310d90721033255dee238b1c094eec2abc3588242e4"
+          },
+          {
+            "line": 260,
+            "text": "Declarations of War",
+            "truncated": false,
+            "full_text_sha256": "e71a1c42704b543af3d60191862ef239df03696c4d6b9639ce732f42737be846"
+          },
+          {
+            "line": 269,
+            "text": "Non-aggression Pacts",
+            "truncated": false,
+            "full_text_sha256": "ead4535ef439471e7870c9148f20602b57e48c49402ee14cc38231c630e77d3c"
+          },
+          {
+            "line": 278,
+            "text": "Payments & State Gifts",
+            "truncated": false,
+            "full_text_sha256": "8e1bba56b6989ee70185b38309d0b29e529c68b49480f95be6c5f32f6a5604b7"
+          },
+          {
+            "line": 287,
+            "text": "Form Confederation",
+            "truncated": false,
+            "full_text_sha256": "b4d8a861ea6ad09190492011313dd7885ce0083c7a838c2267c1dd863f5ad853"
+          },
+          {
+            "line": 296,
+            "text": "Demand Join War",
+            "truncated": false,
+            "full_text_sha256": "fecc916c0485af53d79039be1961c6dbe676da28a0825231814de124e46b324a"
+          },
+          {
+            "line": 305,
+            "text": "Demand Break Pacts & Alliances",
+            "truncated": false,
+            "full_text_sha256": "04264736b2f2653a8a6283a1287a6f3245087c985db6ceb71494d7c5deed3c34"
+          },
+          {
+            "line": 314,
+            "text": "Peace Treaties",
+            "truncated": false,
+            "full_text_sha256": "40d9b9fe955753ccfb8a20db6916301acb9f676d32322335e3fbe5e31a7410dc"
+          },
+          {
+            "line": 323,
+            "text": "War Co-ordination",
+            "truncated": false,
+            "full_text_sha256": "401bf39fbbf7da2ab2d0a96e8e3ba14e66971271f27014356f7d93ec12927a92"
+          }
+        ],
+        "paragraph_previews": [
+          {
+            "line": 180,
+            "text": "Diplomacy is the art of negotiation used to maintain relations between rival factions for as long as possible. Think of it as a useful tool for holding back the inevitable descent into hostilities. The diplomacy system enables you to construct deals with other factions to facilitate increased trade, military alliances and access through territory, peace treaties, and payments t",
+            "truncated": true,
+            "full_text_sha256": "fc2e9f8f5fb50a4737bb20ce454b7813e5e676b69e9dd3a7ab5cbcca05072605"
+          },
+          {
+            "line": 189,
+            "text": "What one faction thinks of another is characterised by diplomatic relations - friendly, indifferent, unfriendly, hostile. The conduct of your faction during diplomacy, military situations involving other factions and espionage all have an effect on diplomatic relations.",
+            "truncated": false,
+            "full_text_sha256": "b93e784e72858e240d7dabec15f3c20844eb4276f4e964e3120d712f5fe0c415"
+          },
+          {
+            "line": 198,
+            "text": "Add diplomatic options by clicking on the add offer or demand buttons and selecting one. The proposed deal will take shape on the negotiation table with the strategic overview map displayed so you can see at a glance who and where your rival factions are. In order to construct a proposal select a diplomatic option from the list or click on the X button next to it to remove it. ",
+            "truncated": true,
+            "full_text_sha256": "2da2b9690253373dd156c0fcf3a41cea919f08788262a9c226c907a151222727"
+          },
+          {
+            "line": 207,
+            "text": "If a faction's initial offer or demand isn’t quite what you had in mind you can use the counter-offer option to enable further negotiation to take place, rather than simply rejecting it.",
+            "truncated": false,
+            "full_text_sha256": "461834f2920ebff17fa4c1245f97e18fd2d7b459d0f1884ad09b83330a0efeda"
+          },
+          {
+            "line": 216,
+            "text": "A trade agreement is a deal between two factions agreeing the type and price of commodities to be traded. The details of such an agreement are not visible to you, you simply set it up and the rest of the negotiation is implied by the other party's acceptance. Trade agreements are hugely profitable for the factions involved. Once an agreement is in place, a trade route is establ",
+            "truncated": true,
+            "full_text_sha256": "1397db930a7dd950259a238815e3e1445871e8210f649f9b2bc7b586e5cd88f0"
+          },
+          {
+            "line": 225,
+            "text": "A military alliance between two factions enables you to call upon an ally to provide assistance when at war, and likewise for them to request your help in the same way. Note that a refusal to provide support when an ally is under attack will instantly cancel the alliance between you.",
+            "truncated": false,
+            "full_text_sha256": "368a8595ab1c28679a141eb28cc81408d361cc7fd65b243bb204939f2ab1a143"
+          },
+          {
+            "line": 234,
+            "text": "A defensive alliance is an obligation to support another faction only if it suffers an official declaration of war. If a member is attacked its allies will be asked to join the war against the aggressor. Such an agreement can be upgraded to full military alliance, vassalage or client status.",
+            "truncated": false,
+            "full_text_sha256": "081f181d6815eebc482f5f27b9c0b05332b307aff09e74ef82731351d244df37"
+          },
+          {
+            "line": 243,
+            "text": "Satrapies and client states are weaker factions who agree to exchange a large proportion of their income and unlimited military access in return for the protection of their overlord. In addition, satrapies may find themselves dragged into conflicts not of their own design, and unlike regular allies, cannot decline a request to fight for their overlord without automatically decl",
+            "truncated": true,
+            "full_text_sha256": "8acfa0724373b3554b7f42114264db9e285e5da98a3d7e6a920d6c06326c1d41"
+          },
+          {
+            "line": 252,
+            "text": "Military access allows armies to pass through and replenish their forces in each other's territory without declaring war or incurring other diplomatic penalties. If you are invited to join a war you will be automatically granted access to your ally's territory for the duration of that war.",
+            "truncated": false,
+            "full_text_sha256": "76b4e058490fdebf5fc8a253249f55e665f8e8d6c63095204801812796840487"
+          },
+          {
+            "line": 261,
+            "text": "The declare war option is used to officially open armed hostilities with another faction, as opposed to simply marching into their territory to stake your claim. Never declare war without first considering the consequences, as an ill-prepared assault could have consequences resulting in your reduction to satrapy or client status, or worse: the annihilation of your faction. Note",
+            "truncated": true,
+            "full_text_sha256": "448588b9b4d8b8777bbc6b9b94c5abedcb9417240aa11dca9fb9de620d742c75"
+          },
+          {
+            "line": 270,
+            "text": "A non-aggression pact is a temporary agreement between two factions not to attack each other for a period of time. It can be broken at any time by either party, but there is a diplomatic relations penalty for doing so. Breaking a pact within ten turns is seen as treachery and will therefore affect the ability to broker of future agreements.",
+            "truncated": false,
+            "full_text_sha256": "44e3fdba6f598fd0000d0dec4a227b9033f24b716ac85053eaf29ba6c0436705"
+          },
+          {
+            "line": 279,
+            "text": "It is possible to offer or demand money as part of a diplomatic deal. Unsolicited gifts of cash can help to improve diplomatic relations too, which is useful if you want to keep a rival faction happy just long enough to prepare a stab in the back!",
+            "truncated": false,
+            "full_text_sha256": "b2805d5991b5c339bd52b8bada33d8f08b8d4891fce64087d2dd1ae4b0496cba"
+          },
+          {
+            "line": 288,
+            "text": "A confederation allows factions to join together for the common good, combining military resources to make all members stronger. Upon formation, your target faction ceases to act independently and their strongest armies and fleets become confederation property. Anyone already at war with the target faction may choose to declare war on every faction within it.",
+            "truncated": false,
+            "full_text_sha256": "3bd33bacb5c9be31f3bc186215d2a67c8444d58155f364cd2584a4b6ddff0128"
+          },
+          {
+            "line": 297,
+            "text": "At any time during a conflict, the join war option can be used to request that an ally declares war on a faction you are already fighting against. This means you can look for new allies to help if the war is not necessarily going your way. When they join you in a war, missions can be offered to all your allies, vassals, satrapies, etc. - although there is a chance they may not ",
+            "truncated": true,
+            "full_text_sha256": "65ebf39c44790f9778c63cb7a01aff226ff548a88dc116aad58442b2c4c474ec"
+          },
+          {
+            "line": 306,
+            "text": "This option is used to ask a faction to abandon any treaties or alliances with another, preventing dangerous coalitions from emerging against you.",
+            "truncated": false,
+            "full_text_sha256": "95bf0ec2e7bbaaee9d10b489ce7afc594953e97dfcaa3cbdb627a60db504fd56"
+          },
+          {
+            "line": 315,
+            "text": "Use this option to broker peace with a faction you are at war with. Note that it will often be necessary to \"sweeten\" a peace treaty with other concessions such as a payment, especially if your faction was the aggressor..",
+            "truncated": false,
+            "full_text_sha256": "ace9be8ab0472794f5720ec61bb978a8a6e183804d3612dbcf1d323f60632644"
+          },
+          {
+            "line": 324,
+            "text": "War co-ordination is not a diplomatic option as such, but you can initiate it from the diplomacy panel. It makes your allies increase their efforts to destroy a designated target. You don't have to talk to a specific faction to designate a war co-ordination target; when you left-click on a settlement it is marked as the target and your allies will automatically send their force",
+            "truncated": true,
+            "full_text_sha256": "8d76d4b6360c74ec51f2ecddd7a4dc0c5db17173db064f55de009e81198d09d4"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "path": "D:\\Stram\\steamapps\\common\\Total War Rome II\\data\\encyclopedia\\en\\manual\\single-player\\0039_enc_page_campaign_play_faction_technology.html",
+          "bytes": 34948,
+          "sha256": "6eaed8beb2350d50c3dc34c49db0ff01739d8b0b45115ec1eb03e2664d4118ce"
+        },
+        "headings": [
+          {
+            "line": 173,
+            "text": "Technology",
+            "truncated": false,
+            "full_text_sha256": "3169ce6442acdc8192ea935cfc09f6110dc31899379717f3b43c3b9045a27dd2"
+          },
+          {
+            "line": 179,
+            "text": "Introduction",
+            "truncated": false,
+            "full_text_sha256": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e"
+          },
+          {
+            "line": 188,
+            "text": "Research Goals",
+            "truncated": false,
+            "full_text_sha256": "fba53daabbc529c7442d33e6df2be15018f97b2a03c2b7270051d1d6422b0147"
+          },
+          {
+            "line": 197,
+            "text": "The Technology Panel",
+            "truncated": false,
+            "full_text_sha256": "5a0f454a0d929e488b8a97bf60da377a7891eed6e8bc3452677ca591c7afd3f4"
+          }
+        ],
+        "paragraph_previews": [
+          {
+            "line": 180,
+            "text": "Technology reflects the advancement of your faction through new ideas and techniques, allowing you to construct advanced buildings, new unit types or greatly improved equipment. A faction can develop technology along three paths of specialisation, each consisting of three interlocking modules. While each technology has its own inherent benefits, researching all technologies wit",
+            "truncated": true,
+            "full_text_sha256": "484796a199dc59446cf8605d43617e328a9879740aa8a772f51627f9ff360a7b"
+          },
+          {
+            "line": 189,
+            "text": "Setting a research goal is a useful feature whereby you specify a technology you wish to acquire and the game will then highlight any pre-requisites, selecting the shortest route and researching them one at a time until your goal has been reached. If a goal has not been selected the game will warn you at the end of each turn until you do so.",
+            "truncated": false,
+            "full_text_sha256": "d9491148a91c787444c097556af648979066a869cfed89bf4ff19676c7cd144c"
+          },
+          {
+            "line": 198,
+            "text": "The technology panel enables the research of new ideas that may give you a technological or cultural advantage over your rivals. To begin, simply select the item you wish to master. Mouse over an art for a short description, details of effects, and the length of time needed to research it. Longer descriptions for each technology can be found here. Certain mission or dilemma rew",
+            "truncated": true,
+            "full_text_sha256": "134e6b658a1ba88346bc924f551d42f268f42f7b1ec78150fcc024d59baf8d47"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "path": "D:\\Stram\\steamapps\\common\\Total War Rome II\\data\\encyclopedia\\en\\manual\\single-player\\0044_enc_page_campaign_play_province_regions.html",
+          "bytes": 38098,
+          "sha256": "62e7061201c6466a1262f2e602581b37abacff74202c2d95c23aa9467ed8d894"
+        },
+        "headings": [
+          {
+            "line": 173,
+            "text": "Provinces, Regions & Settlements",
+            "truncated": false,
+            "full_text_sha256": "b0de5b988ccbe69b3bc935c6a2a9c42f0b2b7407fdb9152f1d872a00aff18102"
+          },
+          {
+            "line": 179,
+            "text": "Introduction",
+            "truncated": false,
+            "full_text_sha256": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e"
+          },
+          {
+            "line": 188,
+            "text": "Food",
+            "truncated": false,
+            "full_text_sha256": "e4eb18069d65aaa901cecb66371155f389643796428e9d54c5f5127c91ab3fdc"
+          },
+          {
+            "line": 197,
+            "text": "Growth",
+            "truncated": false,
+            "full_text_sha256": "66b06e996553a4e70d0f3a5a50c6b6877d23fb448cad524fef307399ebe36d5e"
+          },
+          {
+            "line": 206,
+            "text": "Squalor",
+            "truncated": false,
+            "full_text_sha256": "5612565cf0f361ca82dde2d702a18a28ea7ab5a798af48c24cfbb29397e1c137"
+          },
+          {
+            "line": 215,
+            "text": "Plague",
+            "truncated": false,
+            "full_text_sha256": "78f02188f5c081807a4a46cafa91cf4bb1f3ef484b7aba603a76e10f18c182ee"
+          },
+          {
+            "line": 224,
+            "text": "Resources",
+            "truncated": false,
+            "full_text_sha256": "e89b30aa1dc30a6ad8c34610689bede83b3ef645a24c3a84a0990826687fb735"
+          },
+          {
+            "line": 233,
+            "text": "Edicts",
+            "truncated": false,
+            "full_text_sha256": "1cb92da38be219f1ae681d1dde6d90291d26dcea133c52b7644d1145fc5d74dd"
+          }
+        ],
+        "paragraph_previews": [
+          {
+            "line": 180,
+            "text": "A province consists of up to four regions, each one containing a settlement, the hub of activity within it and in which you can construct buildings to improve its strategic and economic potential, enabling growth. One of these is always the provincial capital, a major, walled settlement, whilst the remainder are minor settlements without defensive walls. Building construction i",
+            "truncated": true,
+            "full_text_sha256": "57df2f459267b07b6111ea165d6068d3c6b179080ab7086b6610000c738c0ec4"
+          },
+          {
+            "line": 189,
+            "text": "Farms, markets and ports supply food and settlements and certain buildings within them consume it. Although food is automatically distributed across your territory, if total consumption is not matched by production then food shortages can occur, which can lead to unrest and, ultimately, rebellion. Make sure you keep food production buildings upgraded.",
+            "truncated": false,
+            "full_text_sha256": "cde41f3a3d210a4883a016112b70c9e3be25cef241b4a39d7d51ac02cd3858e8"
+          },
+          {
+            "line": 198,
+            "text": "As your campaign progresses, growth enables surplus population to accumulate via the primary buildings in your settlements, enabling them to expand. Certain buildings will improve that rate of growth. However, the larger your settlements, the more food is consumed, so it is important to keep food producing buildings upgraded in tandem with the size of your settlement in order t",
+            "truncated": true,
+            "full_text_sha256": "26e935410ae9f046598cacc8e55bd0e001d7ced413ef12420040364a284b52a2"
+          },
+          {
+            "line": 207,
+            "text": "As your population increases, the conditions inside your settlements worsen as more and more people are crammed into the limited space. It is therefore sensible to upgrade buildings in the capital chain so living space expands to cope with a larger populace. Ignoring squalor eventually leads to public order problems. Some buildings increase squalor also, so always make sure the",
+            "truncated": true,
+            "full_text_sha256": "46dc6a5fe14c0cbdc15b77989dfac6465a9f71de581e723a8deb57c4b7e58b25"
+          },
+          {
+            "line": 216,
+            "text": "In the ancient world, poor living conditions and sanitation often resulted in disease, and, as understanding of contagion was non-existent, plagues soon spread throughout infected regions. As such, if you do not construct buildings from the sanitation chain, an army moves into a diseased region or settlement or close to an infected army, there is a chance they will contract pla",
+            "truncated": true,
+            "full_text_sha256": "e5bc3b8a626893e76a48bac395ef96bb6ec33d15f57f4f7c15ce60e1d22090af"
+          },
+          {
+            "line": 225,
+            "text": "Resources are the natural elements and manufactured goods present in a region. They can be exploited to your faction’s benefit, so other factions will target your territory if they wish to obtain resources they do not currently have access to. Since each region contains different resources, some more valuable than others, so it is wise to keep an army nearby to protect them.",
+            "truncated": false,
+            "full_text_sha256": "ca99d8e5ab7a5e5f668bdbea7fda04d5efad0382d37df02eb78ab8e420e1bd2c"
+          },
+          {
+            "line": 234,
+            "text": "When a faction controls an entire province, provincial edicts may be issued from the provincial capital. Lasting until you change to another or switch them off, they have powerful effects such as increased tax income and food or improved public order. The number of edicts that can be issued per turn depends on your faction’s imperium.",
+            "truncated": false,
+            "full_text_sha256": "75cd149d65cf131f50c76a1ae26c30edc3c46f97e3d6148a9a2bc2d51de30fc6"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "path": "D:\\Stram\\steamapps\\common\\Total War Rome II\\data\\encyclopedia\\en\\manual\\single-player\\0045_enc_page_campaign_play_province_construction.html",
+          "bytes": 36988,
+          "sha256": "0cf30477e48a8b722fbc623d3a57f71444c2f5b3c824e15c270692513f7b10db"
+        },
+        "headings": [
+          {
+            "line": 173,
+            "text": "Construction",
+            "truncated": false,
+            "full_text_sha256": "9dc7e90e56b2f2635e18b04c731ea09762e1acd223b106df46e0013851b532b1"
+          },
+          {
+            "line": 179,
+            "text": "Introduction",
+            "truncated": false,
+            "full_text_sha256": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e"
+          },
+          {
+            "line": 188,
+            "text": "Building Repair",
+            "truncated": false,
+            "full_text_sha256": "a6cc50c944079c27a094f91a7f53e7cb8270f4558d22fc81ca7528804179e206"
+          },
+          {
+            "line": 197,
+            "text": "Demolishing Buildings",
+            "truncated": false,
+            "full_text_sha256": "4480c9e7217cce9039ca02f1b767594ff26892aacf1f646e0a9e9f6ad51a81dd"
+          },
+          {
+            "line": 206,
+            "text": "Farms",
+            "truncated": false,
+            "full_text_sha256": "a9202174814542a75ca9820290545b5f912a460ff949b8d069b71bb538ee5ead"
+          },
+          {
+            "line": 215,
+            "text": "Ports",
+            "truncated": false,
+            "full_text_sha256": "de5648dd8c8ea01b58958a7767c3c176367c36890141739abf69d7c741ed70ab"
+          },
+          {
+            "line": 224,
+            "text": "Legendary Buildings",
+            "truncated": false,
+            "full_text_sha256": "13c77f3e7f8852df4d66b80e15de8d895be3cc4b0d181b8bd983186221ca8f0c"
+          },
+          {
+            "line": 233,
+            "text": "Slums",
+            "truncated": false,
+            "full_text_sha256": "1ede4f3f6ef72056fc1f9a2e1d131744d7e4a7685fd662f55cd67f45481430d5"
+          }
+        ],
+        "paragraph_previews": [
+          {
+            "line": 180,
+            "text": "When you select a settlement, the construction tab will appear. Left-click on a building to add it to the construction queue, and again to remove it. The cost of construction is displayed at the bottom and the time required is shown in the top left of the picture. Buildings facilitate unit production, can increase income, and improve governmental control within a province. The ",
+            "truncated": true,
+            "full_text_sha256": "17e09a2d349cd6db1212dd85ca1ece9638d035078a5b1a9134fdc05065edc387"
+          },
+          {
+            "line": 189,
+            "text": "Buildings damaged during sieges or through sabotage can be repaired. If simply left, damaged buildings will be automatically repaired very slowly over time at no cost. However, if a building is ruined you must select it and click on the repair button that appears when you mouse over the building on the settlement panel.",
+            "truncated": false,
+            "full_text_sha256": "9fa2a1009167e9dcb0b3473f1fb7479131ece5db940c74299674b561c36547e6"
+          },
+          {
+            "line": 198,
+            "text": "Buildings can be demolished if you want to construct something else in their place (or leave nothing of value to an invader if you are about to lose a region to them) by use of the demolish button that appears when you mouse over a building on the settlement panel. Settlements and ports cannot be demolished at their base levels.",
+            "truncated": false,
+            "full_text_sha256": "d65463a17e6e368068b58198c6bc564147da8d6b9596f75111c0fd9a99c43af6"
+          },
+          {
+            "line": 207,
+            "text": "Farms are positioned in the fields in rural areas away from settlements. They provide an income and are an essential source of food, so not upgrading them will eventually lead to food shortages.",
+            "truncated": false,
+            "full_text_sha256": "cb6ffaf7f5e425ae55f5ada9f129e4985652e1807691b3d74c489531a2533e5c"
+          },
+          {
+            "line": 216,
+            "text": "Ports enable the construction of ships for both war and trade, and as such are positioned on the coast. They also provide income and enable you to trade with other factions.",
+            "truncated": false,
+            "full_text_sha256": "2f7f58f7322e815733fac0ac2df3e449eb83f85b7165cc7697fc17fbefd183a3"
+          },
+          {
+            "line": 225,
+            "text": "When your faction reaches the top of a building chain and a certain event has occurred it may then be possible to construct a legendary building. If you are the first to construct one your faction will be awarded a permanent faction trait and its associated effects. Guard your legendary buildings well, they will quickly become a target for your enemies.",
+            "truncated": false,
+            "full_text_sha256": "da6a7b4e8c81b3665c1aeff3f660b29d79ab529214b115bfb5e2b12a92c9d8da"
+          },
+          {
+            "line": 234,
+            "text": "An empty construction slot or ruined building (one that is 100% damaged) can be turned into a slum. Slums consume food and generate squalor, but also increase population growth, enable the recruitment of mob units, and reduce the cost of recruiting light units.",
+            "truncated": false,
+            "full_text_sha256": "09eac180dd20016eb1887ba61605e4bbbb406b58b62d92a905c07dce84eb56fa"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "path": "D:\\Stram\\steamapps\\common\\Total War Rome II\\data\\encyclopedia\\en\\manual\\single-player\\0075_enc_page_battle_play.html",
+          "bytes": 33409,
+          "sha256": "2a666cebaf7a602b6c781874238a011ec0bfdf6344c0d453ba0b2edbf1d6dd04"
+        },
+        "headings": [
+          {
+            "line": 173,
+            "text": "Battlefield Play",
+            "truncated": false,
+            "full_text_sha256": "fd25ddc5c41b4900c9ee9f1030db08b5d04295cda3535832fcd7018f5f6c3fb6"
+          },
+          {
+            "line": 179,
+            "text": "Introduction",
+            "truncated": false,
+            "full_text_sha256": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e"
+          },
+          {
+            "line": 188,
+            "text": "Victory Points",
+            "truncated": false,
+            "full_text_sha256": "1e2d4533801983948e3136d9a71c294005eee5416384c834d701d809831e0a1b"
+          }
+        ],
+        "paragraph_previews": [
+          {
+            "line": 180,
+            "text": "Unlike the campaign map, the battlefield is a real-time environment. Here you command an army or fleet of up to forty units against an opposing force controlled by the game's artificial intelligence. There are two distinct phases of a battle: deployment and conflict.",
+            "truncated": false,
+            "full_text_sha256": "7abd9bc22de015cac85bfdcbe4b64eb5ecf8572e16b0eb2cb6498319db0c2583"
+          },
+          {
+            "line": 189,
+            "text": "The scale of any victory in battle is measured by the number of casualties suffered by each side. However, in siege, port assault and encampment battles the attacker can capture key positions known as victory points. When two thirds of the available victory points have been captured, or the only one in the case of minor settlements or encampment battles, the defenders’ victory ",
+            "truncated": true,
+            "full_text_sha256": "2071869525979dd51f1e1a3d83ec0c4d8acb5da89b68df3362bd76fe6ae83d87"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "path": "D:\\Stram\\steamapps\\common\\Total War Rome II\\data\\encyclopedia\\en\\manual\\single-player\\0077_enc_page_battle_play_phase_deployment.html",
+          "bytes": 38210,
+          "sha256": "accc06f3a6894ff2ab02008b790d105aa4fd064420deb3f4a1d41e5a38b3f943"
+        },
+        "headings": [
+          {
+            "line": 173,
+            "text": "Deploying Your Forces",
+            "truncated": false,
+            "full_text_sha256": "3d6632617827c99c5527deb4975c4d38122f63873476ab059dee654b92e7990c"
+          },
+          {
+            "line": 179,
+            "text": "The Deployment Phase",
+            "truncated": false,
+            "full_text_sha256": "abadaab19aa1880adc4c5e600cb1ee476fe7f1d11e72c5cf0d629f838ddd44cf"
+          },
+          {
+            "line": 188,
+            "text": "Deployable Items",
+            "truncated": false,
+            "full_text_sha256": "cf593dc215e3667381489990563f0dd93e1ee6a174304a998d67bba10425ff75"
+          },
+          {
+            "line": 197,
+            "text": "Barricades",
+            "truncated": false,
+            "full_text_sha256": "b99df2163921362d392e5863a54ba9a7e666ec90c12e12233afd4d35af636f89"
+          },
+          {
+            "line": 206,
+            "text": "Brimstone",
+            "truncated": false,
+            "full_text_sha256": "c61d97360a5a41533d46490d4a46c7cf2ce65aaeeb38eb27768c687da1994700"
+          },
+          {
+            "line": 215,
+            "text": "Fireballs",
+            "truncated": false,
+            "full_text_sha256": "73dda53255f5e5b933268bdfddaa5e398e2de50b6fd635785daf4977672ffc6d"
+          },
+          {
+            "line": 224,
+            "text": "Sharp Stones",
+            "truncated": false,
+            "full_text_sha256": "7c24345088e72a2f15ed9e2cbedcccd199b207ff5bbb96a15086bb27ade48d48"
+          },
+          {
+            "line": 233,
+            "text": "Spike Traps",
+            "truncated": false,
+            "full_text_sha256": "9b935382de6474bcdae14443efa9a112ceab13d2cdc867d52f4186d22d97c394"
+          },
+          {
+            "line": 242,
+            "text": "Stakes",
+            "truncated": false,
+            "full_text_sha256": "5e35185a08fb4df3e0c2c48494024682c98cc375e0f26707b7be1718acad2b8a"
+          },
+          {
+            "line": 251,
+            "text": "Sudes Caltrops",
+            "truncated": false,
+            "full_text_sha256": "b669ba5ce5a6cbefcbcc7a8277047d0cc06620f8d24497dbf02591bbfdf556f5"
+          }
+        ],
+        "paragraph_previews": [
+          {
+            "line": 180,
+            "text": "The deployment phase is the period of time between arriving on a battlefield and the start of the battle itself, where you can arrange your units into the formation of your choice. The enemy general will deploy his men within the opposite area. All units can be secretly arranged apart from siege engines and ships, due to their size. When complete, press the start battle button ",
+            "truncated": true,
+            "full_text_sha256": "add23f3ff108482032a83d9671b5ae6a933bbae5c2540c2a4da7a4b821fc3b31"
+          },
+          {
+            "line": 189,
+            "text": "The following fixed items can be set up during the deployment phase to aid your attack or defence:",
+            "truncated": false,
+            "full_text_sha256": "c37717489db01b098e228ac55703adb1e446276a26e11bd439a03895cc1862d5"
+          },
+          {
+            "line": 198,
+            "text": "Barricades are designed to waylay an opponent rather than inflict casulties. Often made from trees, stones or dug earth, a barricade can stop a cavalry charge, slow an infantry march, or create a killing zone for missile units.",
+            "truncated": false,
+            "full_text_sha256": "dccb61c8fe7fae725fa9b73fc904db0841accdda80e50653b4c59b02576a4bf1"
+          },
+          {
+            "line": 207,
+            "text": "Brimstone (sulphur) and bitumen, amongst other things, can be composited to create a highly dangerous weapon. Bitumen helps a slow-burning brimstone composite stick to things, especially men and mounts, causing severe burns if not death. In addition to fire arrows, the mixture can also be poured from towers during sieges. A brimstone pit can be deployed before a battle begins a",
+            "truncated": true,
+            "full_text_sha256": "443a813eac5096d0574ed22fb570a86741127f31efdd9a8560e1d7a8aa1d3f49"
+          },
+          {
+            "line": 216,
+            "text": "Rocks, logs and hay bales can be set alight and used to disrupt battlelines prior to an attack or weaken the morale of the defenders. Objects can doused in pitch, brimstone, resin, sap, etc. depending on the desired effect. These deployable items are best used in ambush situations and/or on undulating terrain.",
+            "truncated": false,
+            "full_text_sha256": "4ee3fc5d871ad5531179b092c52a3e6de0fc5a32a65eb10888ca9e409e6b123c"
+          },
+          {
+            "line": 225,
+            "text": "Sharp stone beds are created from various types of stone, constructed as a form of non-lethal defence around settlements. Stones can either sunk into the ground or layed in irregular piles. Infantry find these difficult objects to traverse, whereas cavalry can only pass through by picking routes between the stones. This slowing effect produces an effective killing zone in and a",
+            "truncated": true,
+            "full_text_sha256": "0bdeb474305881de27f2a89540caee9c0bbae76db1129de881527b08a99d7f55"
+          },
+          {
+            "line": 234,
+            "text": "Spike traps are sunken stakes or groups of stakes concealed by foliage. Often producing more kills when charging, the foliage collapses when stepped on causing injury or death by impalement.",
+            "truncated": false,
+            "full_text_sha256": "422f2d17184cc45db604ae04bee80b9f690c21e1f02e9f9748516bf3fa92292b"
+          },
+          {
+            "line": 243,
+            "text": "Wooden stakes are one of the most common settlement defences. A simple yet effective device, sharpened stakes are set in 45 degree lines to impale charging men or horses. They can easily be navigated around when moving slowly, but even this can be used to the advantage of missile units. Stakes angled this way can also enable defenders to sally forth without the risk of impaleme",
+            "truncated": true,
+            "full_text_sha256": "d916eba0eb62bd19dc421d3d942c2507d4d390c043ee2b8590a61747c1f4e58e"
+          },
+          {
+            "line": 252,
+            "text": "Sudes are an extremely versatile weapon. Due to the nature of their construction they can be placed in the ground to create low palisades or interlocked to create a caltrop shape. In caltrop form, sudes can kill charging/running units from either direction (something that stakes cannot).",
+            "truncated": false,
+            "full_text_sha256": "71a3f2e701cdf465dc7837fef11da71ee7300293072b75a5ec8cb4f5e664f996"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "path": "D:\\Stram\\steamapps\\common\\Total War Rome II\\data\\encyclopedia\\en\\manual\\single-player\\0081_enc_page_battle_play_phase_conflict_army_formations.html",
+          "bytes": 60442,
+          "sha256": "3fdb85bcff926103030e20e705515fe7a3f9ad416eaef86758981a099b25444a"
+        },
+        "headings": [
+          {
+            "line": 173,
+            "text": "Formations",
+            "truncated": false,
+            "full_text_sha256": "fbc7be683a2a20679b760a68f5762cec2ec2b131d3a676e0a70448dfd4ba2016"
+          },
+          {
+            "line": 179,
+            "text": "Formations",
+            "truncated": false,
+            "full_text_sha256": "fbc7be683a2a20679b760a68f5762cec2ec2b131d3a676e0a70448dfd4ba2016"
+          },
+          {
+            "line": 188,
+            "text": "Land Battle Formations",
+            "truncated": false,
+            "full_text_sha256": "3bc3aaa596f67c8fd3b267df332ff481e253cdeaf99d901760afb6daccdaa9d4"
+          },
+          {
+            "line": 197,
+            "text": "Armenian",
+            "truncated": false,
+            "full_text_sha256": "676f73a9f00aadc4f33b37eb7c9ef4dd2ca99112d0e4e9bf163d0f7142c02231"
+          },
+          {
+            "line": 206,
+            "text": "Bear",
+            "truncated": false,
+            "full_text_sha256": "8c578ed3e9d5fec6f0f1f46402fdb52e4b6174ae74aef1487b1905d0b666c168"
+          },
+          {
+            "line": 215,
+            "text": "Bird",
+            "truncated": false,
+            "full_text_sha256": "68b515e1903e6d629eeb25b886b6f90bb791121e70c5ea72793220dd7f70e70d"
+          },
+          {
+            "line": 224,
+            "text": "Boar",
+            "truncated": false,
+            "full_text_sha256": "bf10a5ee1fab92a8db98dc937e5368b046eea1e95ff4d9fdcbdf61534a3f8406"
+          },
+          {
+            "line": 233,
+            "text": "Cannae",
+            "truncated": false,
+            "full_text_sha256": "eb813d2ae127ed0dba9447c045a1183b89f3ebdfe5707b5f1d856717244f5b39"
+          },
+          {
+            "line": 242,
+            "text": "Caucasian",
+            "truncated": false,
+            "full_text_sha256": "f974c6105b58e487ca22b71001c84d6b64b3fabca4d3efed5402547a50d9092d"
+          },
+          {
+            "line": 251,
+            "text": "Cavalry Front Triple Line",
+            "truncated": false,
+            "full_text_sha256": "95355e8e651891495956991e971953b410de92ab9054075c2164e296d36c9a5a"
+          },
+          {
+            "line": 260,
+            "text": "Centre",
+            "truncated": false,
+            "full_text_sha256": "45c19322f7b9337e148397c84067d4f15cb76b6a1226acb467a6c5a2b1584b70"
+          },
+          {
+            "line": 269,
+            "text": "Column",
+            "truncated": false,
+            "full_text_sha256": "3fdc9a587693f9e63574b30ec55c2b947a7fb4ba5fd11f0cf213072f53d91bdd"
+          },
+          {
+            "line": 278,
+            "text": "Crescent (land)",
+            "truncated": false,
+            "full_text_sha256": "b1c13a28aa17aba1b89683eb22b612aef438bab54deb24e938f22124b546c95d"
+          },
+          {
+            "line": 287,
+            "text": "Deer",
+            "truncated": false,
+            "full_text_sha256": "ba8af0f4802678da4aed060c9953d893e237d366ae63633b7ca3e94360334ce5"
+          },
+          {
+            "line": 296,
+            "text": "Double Acies",
+            "truncated": false,
+            "full_text_sha256": "15deb5e388541838bc19adc9eb2da37a42e106974c76a077d6080acb8ee366b8"
+          },
+          {
+            "line": 305,
+            "text": "Double Line (land)",
+            "truncated": false,
+            "full_text_sha256": "d5878886ff8c751b75d5e6fc5fba64270e9f60983c775e205b8cf602869b5437"
+          },
+          {
+            "line": 314,
+            "text": "Sorted Double Line",
+            "truncated": false,
+            "full_text_sha256": "72e6ec16ee7f0c653213d17e5c183007063e314dd6d25d429715589c52ce4db6"
+          },
+          {
+            "line": 323,
+            "text": "Flank",
+            "truncated": false,
+            "full_text_sha256": "161b66ec2fdd293c76053c9c6c0e8570e313da9ff00982b061e5aa2cc8d0c2bb"
+          },
+          {
+            "line": 332,
+            "text": "Horse",
+            "truncated": false,
+            "full_text_sha256": "edc5134033662b11f124eb353016838b04709f972e27355d7ed1c5686671e47f"
+          },
+          {
+            "line": 341,
+            "text": "Issus",
+            "truncated": false,
+            "full_text_sha256": "ae3aa021aaaaba547dcc037d662e599abeba414c9cdb8c6ee89a6bc28a6b08e5"
+          },
+          {
+            "line": 350,
+            "text": "Magnesia",
+            "truncated": false,
+            "full_text_sha256": "9f914cc5fc9f18b74c620c4a4029a40d7dd8e587956ea2325488a9d64a168aaf"
+          },
+          {
+            "line": 359,
+            "text": "Melee Front Triple Line",
+            "truncated": false,
+            "full_text_sha256": "20db0ba66ebc57a72beed8bd62f063836e667bc7517f3140e99be96183a16484"
+          },
+          {
+            "line": 368,
+            "text": "Missile Front Triple Line",
+            "truncated": false,
+            "full_text_sha256": "f778e0a932a997d5346f27f8c25521a3858c669c39c31cef48995926d77782e4"
+          },
+          {
+            "line": 377,
+            "text": "Persian",
+            "truncated": false,
+            "full_text_sha256": "7428909a1062757c7c7886759e31a39dc90a074ec63262814ef39e6bb56505d4"
+          },
+          {
+            "line": 386,
+            "text": "Raphia",
+            "truncated": false,
+            "full_text_sha256": "813f94b313422ea0ce6af505d23ce771285b012b475dd93ab55b8acc39791ff6"
+          },
+          {
+            "line": 395,
+            "text": "River Defence",
+            "truncated": false,
+            "full_text_sha256": "1cf8b6ecbceaf1cd21ba3597ad0cc7343f173f55cbc0af37d5f115d20159a94b"
+          },
+          {
+            "line": 404,
+            "text": "Simplex Acies",
+            "truncated": false,
+            "full_text_sha256": "5d3eaa1b41f460fb20617107f7c28a592fe7c185194ac87b76fa0344cf51d6cd"
+          },
+          {
+            "line": 413,
+            "text": "Single Line",
+            "truncated": false,
+            "full_text_sha256": "7f07ae3076c59583486176b1b0528aa346fe2bc8fac909fc0f8240a686b75e66"
+          },
+          {
+            "line": 422,
+            "text": "Sorted Single Line",
+            "truncated": false,
+            "full_text_sha256": "61d7718b68c0d04f865eb3e81194c82abcec93305c4be8ef65a0c8f8b2f24ce7"
+          },
+          {
+            "line": 431,
+            "text": "Skirmish",
+            "truncated": false,
+            "full_text_sha256": "b148766a6ee96d83fd57fa5aa3706f21e4cfbaf5d435a76c098bc01f3514460f"
+          },
+          {
+            "line": 440,
+            "text": "Spear Point",
+            "truncated": false,
+            "full_text_sha256": "7a970a463bbcfbfaa345546b3c11802caf45451d86b1f338825ab29e1dc78161"
+          },
+          {
+            "line": 449,
+            "text": "Torc",
+            "truncated": false,
+            "full_text_sha256": "73ce8e69de0dc30459cdbe637f6b5914b989ea870192d4573d34908f10494290"
+          },
+          {
+            "line": 458,
+            "text": "Trebia",
+            "truncated": false,
+            "full_text_sha256": "c75a99553579be9b41115e12f0c4e0c9aa96a72001f764b7aae94aaac3f4e93a"
+          },
+          {
+            "line": 467,
+            "text": "Triplex Acies",
+            "truncated": false,
+            "full_text_sha256": "fbf7ac9ea70b98b33520debf39c63141b8fe1f19f9a6625583f98ce043634ee7"
+          },
+          {
+            "line": 476,
+            "text": "Wheel",
+            "truncated": false,
+            "full_text_sha256": "889a08322a4116f561b14bd114f3183977be9ea9d7df60ce42b129c1ace30796"
+          },
+          {
+            "line": 485,
+            "text": "Wolf",
+            "truncated": false,
+            "full_text_sha256": "ea858afbf837aae714617e89a36524aced28f7de921f7798e72810fd8839a462"
+          },
+          {
+            "line": 494,
+            "text": "Zama",
+            "truncated": false,
+            "full_text_sha256": "b6bd63f0985ca67c969ef7ab76dc117d65c320fa9e50816ae06ef34e552665ed"
+          },
+          {
+            "line": 503,
+            "text": "Naval Battle Formations",
+            "truncated": false,
+            "full_text_sha256": "35d155f14b4e6d8eb5edeb3e96d9a48ff1ee7fdaa0ec2888946d63494cc14773"
+          },
+          {
+            "line": 512,
+            "text": "Battle Line",
+            "truncated": false,
+            "full_text_sha256": "9e6c3715e22080dc309586d0076eb2ecba800c5172efe7dac459a0093b396c62"
+          },
+          {
+            "line": 521,
+            "text": "Crescent (sea)",
+            "truncated": false,
+            "full_text_sha256": "c7dabc732a6f6a2698738670346af8c67d4be9d81e62b82e9a05db746e3e629e"
+          },
+          {
+            "line": 530,
+            "text": "Diekplous",
+            "truncated": false,
+            "full_text_sha256": "01148f6b50d45f545b58af9fdc9ebec0cd375ba64e558ca937e19c6c7f6d89d8"
+          },
+          {
+            "line": 539,
+            "text": "Double Line (sea)",
+            "truncated": false,
+            "full_text_sha256": "cf22d616d1733b790c0fc02c08252d8dd48e560ca9d1bdd785ec5be579c3735b"
+          },
+          {
+            "line": 548,
+            "text": "Flanking Melee Double",
+            "truncated": false,
+            "full_text_sha256": "f811751a182292725cd3cff33e109e388140f4e94eb96ebde672917a4f6a84ee"
+          },
+          {
+            "line": 557,
+            "text": "Flanking Melee Single",
+            "truncated": false,
+            "full_text_sha256": "6d4d628e910b20f1dc9e3820da0426c0dc34ef966f76bed01936fd6cc0c1f739"
+          },
+          {
+            "line": 566,
+            "text": "Flanking Missile Double",
+            "truncated": false,
+            "full_text_sha256": "812191857e0d9e14866734c2db90f3e860fd04fcb0c6f8c6dead7c12fed6b037"
+          },
+          {
+            "line": 575,
+            "text": "Flanking Missile Single",
+            "truncated": false,
+            "full_text_sha256": "4b0d6a6be8308f4e8046e6c16aeccc7ed27d9bcc26b2cc81d9fd134a8033676e"
+          },
+          {
+            "line": 584,
+            "text": "Heavy Melee Double",
+            "truncated": false,
+            "full_text_sha256": "bece26912779b965b733c150c8b9e0aaaa8dae86fbcf33427d1f8cc3743ba688"
+          },
+          {
+            "line": 593,
+            "text": "Heavy Melee Single",
+            "truncated": false,
+            "full_text_sha256": "08ca20b7eaf2e4cda3951387eb0476b7f02eeb147d97c0bcd04bf941ee567c96"
+          },
+          {
+            "line": 602,
+            "text": "Heavy Missile Double",
+            "truncated": false,
+            "full_text_sha256": "ef820f426061337bb58664d3a2b03c392226b4966ebfb500168536f7542112a8"
+          },
+          {
+            "line": 611,
+            "text": "Heavy Missile Single",
+            "truncated": false,
+            "full_text_sha256": "4e2be7c32083bcbc1495b6183dfc04e573ce123c66ee68ff7b0cfc4cbfe4a88b"
+          },
+          {
+            "line": 620,
+            "text": "Spear",
+            "truncated": false,
+            "full_text_sha256": "c71c66ea7e4c65d6131187cb9938f7eb34364d78f436b140f6e3192619a4bd30"
+          },
+          {
+            "line": 629,
+            "text": "Wedge",
+            "truncated": false,
+            "full_text_sha256": "7447e0c8019c265265ca08e2a88381e07eb01eb0caf14efb22149756ec8c10e5"
+          }
+        ],
+        "paragraph_previews": [
+          {
+            "line": 180,
+            "text": "Each of these formations enables the effective implementation of a tactic, instantly forming up your army or fleet to maximise its strengths or exploit a weakness in the enemy. Formations can be assigned at any point during a battle, but are best set up during the deployment phase. Units in formation will maintain their fixed shape and spacing whilst carrying out orders.",
+            "truncated": false,
+            "full_text_sha256": "5d14eb640af5c4e7c6f21eb224f9e1c25ee377b14caa965f8d75b2f1e9c04516"
+          },
+          {
+            "line": 189,
+            "text": "The following are group formations that an army or group of units can adopt:",
+            "truncated": false,
+            "full_text_sha256": "7d55d6410be23482d2699092ccebe7e66dd0565a2d7b462562f19cececea239c"
+          },
+          {
+            "line": 198,
+            "text": "This formation places heavy melee infantry at its centre flanked by light melee infantry. Missile infantry are positioned in front, with heavy and light melee cavalry behind.",
+            "truncated": false,
+            "full_text_sha256": "8ba30c7a49c04c2c50662152b6b74a65fc43a153085ef4e1135104aac6d2c3fb"
+          },
+          {
+            "line": 207,
+            "text": "This formation places heavy melee infantry at its centre flanked by light melee infantry. Heavy cavalry are on the flanks of the front line, supported by light cavalry. Missile infantry make up the second row with any reserves positioned behind.",
+            "truncated": false,
+            "full_text_sha256": "dc5a269388efcfd1539a5e8bd08b6a5190b26058615caf0b819dcb24441a3121"
+          },
+          {
+            "line": 216,
+            "text": "The bird formation positions heavy infantry in front, with light infantry behind them. In turn, missile infantry flank the light infantry, with cavalry on the extreme flanks.",
+            "truncated": false,
+            "full_text_sha256": "b72c630435e1d4e7fe2c716ae2a5d487b5ca285fa1e862ea13f096adffed5d0c"
+          },
+          {
+            "line": 225,
+            "text": "This formation puts spear infantry in the centre flanked by melee infantry. Missile infantry form the front row and cavalry sit on the extreme flanks.",
+            "truncated": false,
+            "full_text_sha256": "6af33aaac6d5d5e920b051901ba82dc90bc9dfd66196e30495ea91544c9b0303"
+          },
+          {
+            "line": 234,
+            "text": "A light infantry centre flanked by heavy infantry. Missile infantry form the front row and cavalry are placed at the rear. Hannibal used this formation in his crushing victory at Cannae in 216BC.",
+            "truncated": false,
+            "full_text_sha256": "6362c9085e7ced48760e5954b03f0974a70df12a0b171ef97308405198820dc3"
+          },
+          {
+            "line": 243,
+            "text": "Missile infantry are placed at the front, followed by a line of light infantry with light cavalry on their flanks, then on the flanks stands a line of heavy infantry and heavy cavalry.",
+            "truncated": false,
+            "full_text_sha256": "61c7d401819034ae77455295e7924b294ae19fac6d41bdc796839454f4b55446"
+          },
+          {
+            "line": 252,
+            "text": "This formation arranges units in three lines with cavalry at the front, missile infantry in the middle, and melee infantry at the back.",
+            "truncated": false,
+            "full_text_sha256": "42f783fced35b24334bda518f0104691f4a94cd84fc87d54602a25203582edbb"
+          },
+          {
+            "line": 261,
+            "text": "Missile cavalry make up the front line, heavy cavalry are positioned behind them, with light cavalry covering their flanks.",
+            "truncated": false,
+            "full_text_sha256": "d7bd7fbd4435155066842c959dd736d78fba58cfd53c56b639d8d0df3a6ef95b"
+          },
+          {
+            "line": 270,
+            "text": "This formation arranges units in a column with missile infantry at the front, melee infantry in the middle, and cavalry at the rear.",
+            "truncated": false,
+            "full_text_sha256": "db5af3f202f55e521f525c48c4cbc22246816cad0fd60a1cc55a613e63f78a42"
+          },
+          {
+            "line": 279,
+            "text": "In this formation the battle line bows inwards, drawing the enemy army into the centre, allowing you to encircle and trap them.",
+            "truncated": false,
+            "full_text_sha256": "ce9fff22daf502ef4d487925cdbf8389d56bf12e26ba48e4dcd12fdcd9476bab"
+          },
+          {
+            "line": 288,
+            "text": "Missile infantry at the front, with light infantry behind, and light cavalry on the flanks. Heavy infantry and cavalry make up the last line.",
+            "truncated": false,
+            "full_text_sha256": "c50c478776eb40e27d986d670c60e44d18898057171c8c5a965cb656968f636b"
+          },
+          {
+            "line": 297,
+            "text": "Two well-spaced lines of melee infantry with spearmen on the flanks and cavalry behind. Missile infantry form a screen at the front.",
+            "truncated": false,
+            "full_text_sha256": "665d7e54aff27ed828db1a5e2b4a2c88e872d39aa1ff565bc2a8959db24fd82b"
+          },
+          {
+            "line": 306,
+            "text": "Double line formation places units in two lines without positioning them according to their unit types.",
+            "truncated": false,
+            "full_text_sha256": "4e93fd942b42b4ff22f29e61f4cc96fd0e3091f781447d58c563460ab6732d13"
+          },
+          {
+            "line": 315,
+            "text": "This formation arranges units in two lines with missile infantry positioned in the front row and melee infantry in the second. Cavalry guard the flanks.",
+            "truncated": false,
+            "full_text_sha256": "3746e321c8694b862e9c87c239a93f8259b157a057196782c170c6f4245fb4f6"
+          },
+          {
+            "line": 324,
+            "text": "A specialised flanking formation that places missile cavalry at the front, light cavalry behind them, and heavy cavalry on the flanks.",
+            "truncated": false,
+            "full_text_sha256": "73a5c01264f65a600a094698f646b0aff0ee3f34b032264fd7b891c6f7009304"
+          },
+          {
+            "line": 333,
+            "text": "Spear infantry flanked with light cavalry occupy the main line, missile infantry in front of them, with melee infantry and heavy cavalry behind them.",
+            "truncated": false,
+            "full_text_sha256": "b9eed8c55a298266f1a6b98144cd13c82d13c9f4d87840fba117f9f8e72eca0e"
+          },
+          {
+            "line": 342,
+            "text": "A main line of pikemen with heavy infantry to the right and light infantry to the left. Cavalry and missile infantry are positioned on the flanks. Alexander the Great used this formation when he defeated the Persian king, Darius III, in 333BC.",
+            "truncated": false,
+            "full_text_sha256": "e272a7b9a93d91eee7a7ee7a1d07eb865b9cad88fbcfc27b4af2f82b5facbd31"
+          },
+          {
+            "line": 351,
+            "text": "Mixed blocks of pike infantry and elephants in the middle. Melee infantry and spearmen occupy the flanks along with missile infantry and cavalry. This formation was used by the Seleucid king, Antiochus the Great, at Magnesia in 190BC.",
+            "truncated": false,
+            "full_text_sha256": "67c2d1a9c8c94d61d5e29d7a1422a45081cb4122ad47fb36bc3098883f7d7829"
+          },
+          {
+            "line": 360,
+            "text": "This formation arranges units in three lines with melee infantry at the front, missile infantry in the middle, and cavalry at the very back.",
+            "truncated": false,
+            "full_text_sha256": "776f00e2024ad058365f0c5a2ca1ca73e1323305174fab143559e8065ba58503"
+          },
+          {
+            "line": 369,
+            "text": "This formation arranges units in three lines with missile infantry at the front, melee infantry in the middle, and cavalry bringing up the rear.",
+            "truncated": false,
+            "full_text_sha256": "947aebb9bc05eb96ed29bd77aa3d073ea43f8df4a9c9c684a1793d64f3587871"
+          },
+          {
+            "line": 378,
+            "text": "Missile units occupy the front line with light cavalry on their flanks, then a second line of melee infantry with heavy cavalry on their flanks. This was a popular formation favoured by the Achaemenid Persians.",
+            "truncated": false,
+            "full_text_sha256": "6fd11e4211d62becb84454adecbe8a94ead7623ac979adf86dc18b16f26a2e35"
+          },
+          {
+            "line": 387,
+            "text": "This formation places a main line of pikemen with heavy infantry to the left and light infantry to the right. Cavalry are positioned on the flanks with missile infantry in front and elephants on the flanks as well. This formation was favoured by Ptolemy IV of Egypt when he defeated the Seleucids at Raphia in 217BC.",
+            "truncated": false,
+            "full_text_sha256": "fa61f8ce0d508920b569622bff1f41f72a0eb19ce2ce51691ef2aa8dba1e2def"
+          },
+          {
+            "line": 396,
+            "text": "This is a simple formation that positions melee infantry in the centre, missile infantry on the flanks, and cavalry behind to defend river crossings.",
+            "truncated": false,
+            "full_text_sha256": "362313651d7a42fd80fda0c9c7321eb480929b8b8595c5a65f609e09afe799e7"
+          },
+          {
+            "line": 405,
+            "text": "A basic army formation with loose formation spearmen in the front row, equally spaced melee infantry behind, with cavalry at the back and missile infantry deployed at the very front.",
+            "truncated": false,
+            "full_text_sha256": "c7a746b2829db70c70b905f55c78291c18d53d3cebe5aba0a9e2f3e367d629a3"
+          },
+          {
+            "line": 414,
+            "text": "This is a simple formation which arranges units in an unorganised single line, taking no account of their unit types.",
+            "truncated": false,
+            "full_text_sha256": "4305aa36a71c2db4dfd0cda157e469d383de562f858685a29839cddd2f4fd11a"
+          },
+          {
+            "line": 423,
+            "text": "This simple formation arranges units in a single line with melee infantry in the middle, missile infantry next to them, and cavalry on the flanks.",
+            "truncated": false,
+            "full_text_sha256": "36c91be94e96d0f62e1bdb4bfc67529831cbbe9f6de6fb9f631bb844925187ef"
+          },
+          {
+            "line": 432,
+            "text": "Ideal for skirmish battles, this formation places missile infantry on the front line flanked by missile cavalry. Melee infantry form the second line with melee cavalry on the flanks.",
+            "truncated": false,
+            "full_text_sha256": "c070c1353c597da8ee7655e4025482faa0868fdbf673708a2318c89dd4d249e4"
+          },
+          {
+            "line": 441,
+            "text": "The spear point formation puts heavy infantry at the front, light infantry on the flanks, and cavalry at the rear. Chariots are deployed on the flanks of the front row.",
+            "truncated": false,
+            "full_text_sha256": "af1365ee477ef26ef925f24e23b5e6ca08be4704b28f735bb24555146c7e725e"
+          },
+          {
+            "line": 450,
+            "text": "The torc formation places heavy infantry at the front, with light infantry in the second line and on the flanks. Chariots are placed at the back with cavalry in the last line on the flanks.",
+            "truncated": false,
+            "full_text_sha256": "278eab4d330db4966723cc3132dd9ad43c97656e027d15bc500930b3fc8ae67e"
+          },
+          {
+            "line": 459,
+            "text": "Light infantry occupy the main line, heavy infantry stand behind them, and missile infantry are placed at the very front. Elephants are placed on the flanks long with the cavalry. Hannibal used this formation to defeat the Romans at the River Trebia in 218BC.",
+            "truncated": false,
+            "full_text_sha256": "fa976e00d280d0f53801ec590360f6df231f187f03073b5d2c754168938549ae"
+          },
+          {
+            "line": 468,
+            "text": "The classic triplex acies formation places melee infantry in three lines, with the lightest at the front and spearmen in the last line. Missile infantry are deployed at the front to skirmish, with cavalry at the rear and on the flanks.",
+            "truncated": false,
+            "full_text_sha256": "db56afa54ad93e1c6afe2e954b356baf0ca44637d5982e7d335b553d7f1f4d87"
+          },
+          {
+            "line": 477,
+            "text": "This formation has a hollow centre. Heavy infantry are placed at the front behind chariots, with light infantry behind, and missile infantry on their flanks. Light cavalry are placed behind and to the side of the missile troops. Finally melee cavalry stand at the very back of the formation.",
+            "truncated": false,
+            "full_text_sha256": "4027a3adb2ef957750ea6029dc14636b923b1c55d7fb98f5db1d1f1975d1b486"
+          },
+          {
+            "line": 486,
+            "text": "This is a formation with heavy infantry in the main line and missile infantry at the front. Heavy cavalry flank the heavy infantry, light infantry and then light cavalry protect the flanks.",
+            "truncated": false,
+            "full_text_sha256": "140df27e65c11c462b7c1a73851e430803169f01de81c94de82110f7c8aacc89"
+          },
+          {
+            "line": 495,
+            "text": "Missile infantry are placed out in front of light infantry in order to skirmish, then heavy infantry are positioned behind them. Elephants make up the next line, with cavalry on the flanks. Hannibal used this formation at Zama.",
+            "truncated": false,
+            "full_text_sha256": "93aa418d6bf120527a477dbfbd73ed001973c88e1bd6d6e620e6ababbd546e25"
+          },
+          {
+            "line": 504,
+            "text": "The following are group formations that a fleet or group of ships can adopt:",
+            "truncated": false,
+            "full_text_sha256": "8fbea602e21f972d7deb8c13655a3b6b0bf9909b02b161625db2291628ded077"
+          },
+          {
+            "line": 513,
+            "text": "This is a standard battle line with heavy ships forming the centre with light and missile ships positioned on the flanks.",
+            "truncated": false,
+            "full_text_sha256": "4af03a7e51bcb5ceb52e334d1be7ec7f6a11b45f906a4522fbd964c0fcc8f3c9"
+          },
+          {
+            "line": 522,
+            "text": "When in crescent formation the battle line bows inwards, drawing the enemy fleet into the centre, allowing you to encircle and trap them.",
+            "truncated": false,
+            "full_text_sha256": "27a090bd43323c058bafcea6e4b8b31a22f97d06bb8eb1d2ac7aa6e1e9def50c"
+          },
+          {
+            "line": 531,
+            "text": "This formation is a formation of multiple columns, designed to break into an enemy line and pin their fleet down for one-on-one engagements. It is best used against a fleet formed of a single line.",
+            "truncated": false,
+            "full_text_sha256": "98547abc91643574ed2e17aac0336e94140452dea0758ffce35c3b02d75b936b"
+          },
+          {
+            "line": 540,
+            "text": "A double line consists of two rows, with missile ships on the flanks and at the rear and melee ships in the centre, presenting a strong attacking front.",
+            "truncated": false,
+            "full_text_sha256": "e3d08595a27cce7da2c06e9f65e92c4aac668bf3c96669d40073d56d2c02d095"
+          },
+          {
+            "line": 549,
+            "text": "This variant of the melee double formation arranges its ships two deep in order to smash through the enemy centre to split their formation. Heavier ships are furthest from the centre of the formation.",
+            "truncated": false,
+            "full_text_sha256": "a44b44edf6530a6f1ced6154efc5a8290d0ae3dbd11fd2de85dded2536522af2"
+          },
+          {
+            "line": 558,
+            "text": "Ships in this formation present a strong attacking front to the enemy's centre with melee ships, whilst missile ships cover the flanks. Heavier ships are furthest from the centre of the formation.",
+            "truncated": false,
+            "full_text_sha256": "b7046d1b8a1a6500244ca10142fd74e604bc33885036d93e1f78487fb403f4d1"
+          },
+          {
+            "line": 567,
+            "text": "Melee ships at the centre of this two-deep formation can push into either side of an enemy fleet whilst the central missile ships attack the pinned-down forces. Heavier ships are furthest from the centre of the formation.",
+            "truncated": false,
+            "full_text_sha256": "be131e3003a066ff2026a0f03c1a17e1d4d3829c68503fb77e3a623223c646b2"
+          },
+          {
+            "line": 576,
+            "text": "This formation enables a strong missile battery in the centre, with melee ships poised to close in from the flanks. Heavier ships are furthest from the centre of the formation.",
+            "truncated": false,
+            "full_text_sha256": "462cb0dcc0f24a3e926f3743028b55b75ce65aaf8fe9e06fa087fc873dd6fddd"
+          },
+          {
+            "line": 585,
+            "text": "This formation arranges its ships two deep and is designed to hammer through an enemy line through melee. Missile ships provide coverage on either side and the heaviest ships are closest to the centre.",
+            "truncated": false,
+            "full_text_sha256": "c91a7f4979eea498768c53332ea6dd551691c1e07e523d64df9d2011c0aa5bad"
+          },
+          {
+            "line": 594,
+            "text": "Heavy melee ships are used to punch through an enemy line, with missile ships to harry their flanks. Your heaviest ships will be closest to the centre of this formation.",
+            "truncated": false,
+            "full_text_sha256": "84c04c03a1dedc03ce998d7a1e08120f3661c959df5c83829c6e73ffeb3e3101"
+          },
+          {
+            "line": 603,
+            "text": "This is a powerful, two-deep central battery of missile ships, designed to break an enemy's line apart, with melee ships along either side to push through. The heaviest ships are positioned closest to the centre of the formation.",
+            "truncated": false,
+            "full_text_sha256": "55e9ae4fbbcdafbd1d1048577d7de92801bea62e652afebd06527ba262f70b0a"
+          },
+          {
+            "line": 612,
+            "text": "This formation allows you to shatter the enemy's centre with missile fire whilst your heavy melee ships close in on their flanks. The heaviest ships are positioned closest to the centre.",
+            "truncated": false,
+            "full_text_sha256": "11d961cba8733f95e80b02c71bb5637d6067860bc1917e9609273c8230cc72f1"
+          },
+          {
+            "line": 621,
+            "text": "This spear-shaped formation allows you to drive a hole through the enemy's line with your heaviest ships at its point, melee ships in the centre and missile support at the rear.",
+            "truncated": false,
+            "full_text_sha256": "b87c70e70e3241023108d20d74d1aa84a2c82133d50446c699e06aee53e7da69"
+          },
+          {
+            "line": 630,
+            "text": "Use this formation to stab through the enemy line with your forward melee ships, giving you room to manoeuvre and rake their decks with missile fire prior to boarding.",
+            "truncated": false,
+            "full_text_sha256": "2e3048a577031d3d1ca1c2adf0a41d2175b6bd92140b7fbfba29ea89c318152d"
+          }
+        ]
+      },
+      {
+        "identity": {
+          "path": "D:\\Stram\\steamapps\\common\\Total War Rome II\\data\\encyclopedia\\en\\manual\\single-player\\0087_enc_page_battle_play_phase_conflict_morale.html",
+          "bytes": 35356,
+          "sha256": "a9f583fa14cd7d1997388077ec55a6b87a9c864f74e375fc687e981d7a943dc0"
+        },
+        "headings": [
+          {
+            "line": 173,
+            "text": "Morale",
+            "truncated": false,
+            "full_text_sha256": "18bb9492c49f640d9e3badbbbb1a74112dc336f375915a304ae9633b4b149600"
+          },
+          {
+            "line": 179,
+            "text": "Morale",
+            "truncated": false,
+            "full_text_sha256": "18bb9492c49f640d9e3badbbbb1a74112dc336f375915a304ae9633b4b149600"
+          },
+          {
+            "line": 188,
+            "text": "Routing",
+            "truncated": false,
+            "full_text_sha256": "bcba696f3eb100537ab06942d097dfb259afca3eaa6e37a43327e67215620060"
+          },
+          {
+            "line": 197,
+            "text": "Rallying (land)",
+            "truncated": false,
+            "full_text_sha256": "e7ac516ed1fb0c8481c631712e5d9a68fc5f03321cfd1e58c6bb27546ef47f96"
+          },
+          {
+            "line": 206,
+            "text": "Losing a General",
+            "truncated": false,
+            "full_text_sha256": "9624bc007e7b6c36a68dedcd28deeaa7c19240b62c0645d4101bc8295c082333"
+          }
+        ],
+        "paragraph_previews": [
+          {
+            "line": 180,
+            "text": "Morale is a measure of a unit's confidence and spirit during a battle. During a lengthy, protracted melee, the morale of the men is severely tested, and they will break and rout if it gets too low. This is indicated by the coloured bar at the top of each unit’s banner; when it is green morale is healthy, when it turns yellow a morale penalty is in place, when it turns red the u",
+            "truncated": true,
+            "full_text_sha256": "dc8cee2698a2fff40853f97214ca7a03fd07dc872f1df47bb91eef9ed1d3364a"
+          },
+          {
+            "line": 189,
+            "text": "A unit or ship crew whose morale is broken due to casualties, fatigue or having to face overwhelming numbers of opponents will rout - break from combat and begin to leave the battlefield. There is a possibility that routers can be rallied, either by his presence or by use of the general's rally ability.",
+            "truncated": false,
+            "full_text_sha256": "3a5dd550155f663d15e8e2fd43c9cf7d4f8c972bf540eb0f2bf748454492302e"
+          },
+          {
+            "line": 198,
+            "text": "There is a chance that a routing unit can be persuaded to stay on the battlefield via the general's rally ability. To rally, click on the rally ability button with the general selected. The routers must be within the general's radius of influence for the rally to take effect. Units whose morale is shattered will not respond to the command to rally.",
+            "truncated": false,
+            "full_text_sha256": "6dec7988b2d30bef6b2e72b7a93512ae2a3469f5d741df3664b359b84c57e785"
+          },
+          {
+            "line": 207,
+            "text": "If a general is killed in battle whilst units or ships are routing they will become shattered, meaning that it will not be possible for them to be rallied from then on. Any units or ships that rout following a general's death will automatically become shattered, and even the presence of a more junior general cannot prevent this. Armies or fleets fielded without a general presen",
+            "truncated": true,
+            "full_text_sha256": "66f5a27c331208e6ca88f6cfb66ddc4f5908ec7742b9c896791534c4a456a2a7"
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "Installed vendor documentation statements, not live gameplay or engine internals.",
+      "Paragraph previews capped at 380 characters; complete source remains in installation.",
+      "Manual may describe features beyond this build/configuration; no balance constants inferred."
+    ]
+  }
+}
