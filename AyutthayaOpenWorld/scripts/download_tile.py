@@ -127,10 +127,12 @@ def run(config_path: Path, *, tile_id=None, output_root=None, sleep_seconds=1.0)
         source_dem = page.asarray(maxworkers=2)
 
     resolution = float(project["tile_resolution_m"])
-    width = height = int(math.ceil(size / resolution))
-    cell_x, cell_y = size/width, size/height
-    target_x = xmin + (np.arange(width, dtype=np.float64)+0.5)*cell_x
-    target_y = ymax - (np.arange(height, dtype=np.float64)+0.5)*cell_y
+    subdivisions = int(math.ceil(size / resolution))
+    width = height = subdivisions + 1
+    cell_x, cell_y = size/(width-1), size/(height-1)
+    # Vertex samples include the exact projected tile boundaries, so mesh bounds are exactly 1 km.
+    target_x = np.linspace(xmin, xmax, width, dtype=np.float64)
+    target_y = np.linspace(ymax, ymin, height, dtype=np.float64)
     xx, yy = np.meshgrid(target_x, target_y)
     target_lon, target_lat = to_wgs.transform(xx, yy)
     source_col = (target_lon-lon_tie)/scale_lon+i0
@@ -149,7 +151,15 @@ def run(config_path: Path, *, tile_id=None, output_root=None, sleep_seconds=1.0)
     if int(valid.sum()) < arr.size*0.95:
         raise RuntimeError(f"DEM coverage insufficient: {int(valid.sum())}/{arr.size}; no synthetic fill permitted")
     arr[~valid]=np.nan
-    origin_elevation=float(arr[height//2,width//2])
+    origin_col=(lon0-lon_tie)/scale_lon+i0
+    origin_row=(lat_tie-lat0)/scale_lat+j0
+    oc0,or0=int(math.floor(origin_col)),int(math.floor(origin_row))
+    if oc0<0 or or0<0 or oc0+1>=source_dem.shape[1] or or0+1>=source_dem.shape[0]:
+        raise RuntimeError("Configured local origin falls outside source DEM tile")
+    odc,odr=origin_col-oc0,origin_row-or0
+    oa=source_dem[or0,oc0]; ob=source_dem[or0,oc0+1]
+    oc=source_dem[or0+1,oc0]; od=source_dem[or0+1,oc0+1]
+    origin_elevation=float(oa*(1-odc)*(1-odr)+ob*odc*(1-odr)+oc*(1-odc)*odr+od*odc*odr)
     terrain=root/"terrain_30m.npy"
     np.save(terrain,arr)
     valid_path=root/"terrain_valid.npy"
@@ -159,10 +169,16 @@ def run(config_path: Path, *, tile_id=None, output_root=None, sleep_seconds=1.0)
     query=overpass_query(bbox)
     osm_url=sources["osm"]["overpass_url"]
     raw_osm=root/"osm_overpass.json"
-    payload=urllib.parse.urlencode({"data":query}).encode("utf-8")
-    request=urllib.request.Request(osm_url,data=payload,headers={"User-Agent":"AyutthayaOpenWorldGIS/0.1","Content-Type":"application/x-www-form-urlencoded"},method="POST")
-    with urllib.request.urlopen(request,timeout=150) as response:
-        raw_osm.write_bytes(response.read())
+    # Reuse a prior real response unless the caller explicitly asks to refresh it.
+    if not raw_osm.exists() or raw_osm.stat().st_size == 0:
+        payload=urllib.parse.urlencode({"data":query}).encode("utf-8")
+        request=urllib.request.Request(osm_url,data=payload,headers={"User-Agent":"AyutthayaOpenWorldGIS/0.1","Content-Type":"application/x-www-form-urlencoded"},method="POST")
+        with urllib.request.urlopen(request,timeout=180) as response:
+            raw_osm.write_bytes(response.read())
+    else:
+        cached=json.loads(raw_osm.read_text(encoding="utf-8"))
+        if "elements" not in cached:
+            raise RuntimeError("Cached OSM response is invalid; refusing to treat an error document as map data")
     osm_local=root/"osm.geojson"
     clip=box(-half,-half,half,half)
     feature_count=osm_to_geojson(raw_osm,osm_local,to_utm,(origin_x,origin_y),clip)
@@ -171,7 +187,7 @@ def run(config_path: Path, *, tile_id=None, output_root=None, sleep_seconds=1.0)
         "tile_id":tile_id,"retrieved_utc":datetime.now(timezone.utc).isoformat(),"crs":crs,"units":"metres",
         "extent_local_m":[-half,-half,half,half],"extent_projected_m":[xmin,ymin,xmax,ymax],
         "local_origin":{"longitude":lon0,"latitude":lat0,"projected_easting_m":origin_x,"projected_northing_m":origin_y,**project["local_origin"]},
-        "dem":{"url":dem_url,"provider":dem["provider"],"product_type":dem["product_type"],"license":dem["license"],"attribution":dem["attribution"],"metadata_url":dem["metadata_url"],"sha256_source_geotiff":sha256(raw_dem),"sha256_processed_array":sha256(terrain),"sha256_valid_mask":sha256(valid_path),"origin_elevation_m":origin_elevation,"valid_cells":int(valid.sum()),"total_cells":int(arr.size),"resolution_m":resolution,"grid_cell_size_xy_m":[cell_x,cell_y]},
+        "dem":{"url":dem_url,"provider":dem["provider"],"product_type":dem["product_type"],"license":dem["license"],"attribution":dem["attribution"],"metadata_url":dem["metadata_url"],"sha256_source_geotiff":sha256(raw_dem),"sha256_processed_array":sha256(terrain),"sha256_valid_mask":sha256(valid_path),"origin_elevation_m":origin_elevation,"valid_cells":int(valid.sum()),"total_cells":int(arr.size),"resolution_m":resolution,"grid_vertex_spacing_xy_m":[cell_x,cell_y],"grid_layout":"vertices_include_exact_tile_bounds"},
         "osm":{"url":osm_url,"query_bbox_s_w_n_e":bbox,"query":query,"license":sources["osm"]["license"],"attribution":sources["osm"]["attribution"],"copyright_url":sources["osm"]["copyright_url"],"sha256_raw_response":sha256(raw_osm),"sha256_local_geojson":sha256(osm_local),"feature_count":feature_count},
         "files":{"terrain_array":terrain.name,"terrain_valid_mask":valid_path.name,"osm_geojson":osm_local.name,"raw_osm":raw_osm.name,"source_dem":raw_dem.name},
     }

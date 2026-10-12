@@ -68,26 +68,19 @@ def main(config_path: Path, data_root: Path, output_root: Path):
     h, w = grid.shape
     size = float(p["tile_size_m"])
     origin_z = float(manifest["dem"]["origin_elevation_m"])
-    # Raster cells are source samples. Construct a grid over exact tile bounds and bilinearly
-    # resample only the real DEM values (no extrapolation beyond source edge except edge clamp).
-    rows, cols = np.mgrid[0:h+1, 0:w+1]
-    src_r = np.clip(rows * (h-1) / h, 0, h-1)
-    src_c = np.clip(cols * (w-1) / w, 0, w-1)
-    r0, c0 = np.floor(src_r).astype(int), np.floor(src_c).astype(int)
-    r1, c1 = np.minimum(r0+1, h-1), np.minimum(c0+1, w-1)
-    fr, fc = src_r-r0, src_c-c0
-    z = (grid[r0,c0]*(1-fr)*(1-fc) + grid[r1,c0]*fr*(1-fc) + grid[r0,c1]*(1-fr)*fc + grid[r1,c1]*fr*fc) - origin_z
+    # Source samples are vertices spanning the exact projected tile boundaries.
+    z = grid - origin_z
     verts, faces, uv_values = [], [], []
-    for row in range(h+1):
-        y = size/2 - row*size/h
-        for col in range(w+1):
-            x = -size/2 + col*size/w
-            verts.append((float(x), float(y), float(z[row,col])))
-            uv_values.append((col/w, 1-row/h))
     for row in range(h):
+        y = size/2 - row*size/(h-1)
         for col in range(w):
-            a=row*(w+1)+col
-            faces.append((a,a+1,a+w+2,a+w+1))
+            x = -size/2 + col*size/(w-1)
+            verts.append((float(x), float(y), float(z[row,col])))
+            uv_values.append((col/(w-1), 1-row/(h-1)))
+    for row in range(h-1):
+        for col in range(w-1):
+            a=row*w+col
+            faces.append((a,a+1,a+w+1,a+w))
 
     # Keep the current user's scene but isolate this deliverable in a clearly named root.
     root = collection("AYU_" + tile_id, bpy.context.scene.collection)
@@ -117,11 +110,11 @@ def main(config_path: Path, data_root: Path, output_root: Path):
     feature_doc=json.loads((tile/"osm.geojson").read_text(encoding="utf-8"))
     features=feature_doc.get("features", [])
     road_count=water_count=building_count=0
-    cell_x=float(manifest["dem"]["grid_cell_size_xy_m"][0])
-    cell_y=float(manifest["dem"]["grid_cell_size_xy_m"][1])
+    cell_x=float(manifest["dem"]["grid_vertex_spacing_xy_m"][0])
+    cell_y=float(manifest["dem"]["grid_vertex_spacing_xy_m"][1])
     def terrain_height(x,y):
-        col=max(0,min(w-1,int((x+size/2)/cell_x)))
-        row=max(0,min(h-1,int((size/2-y)/cell_y)))
+        col=max(0,min(w-1,round((x+size/2)/cell_x)))
+        row=max(0,min(h-1,round((size/2-y)/cell_y)))
         return float(grid[row,col])-origin_z
     def add_curve(name, coords, coll, mat, width, tags):
         if len(coords)<2: return None

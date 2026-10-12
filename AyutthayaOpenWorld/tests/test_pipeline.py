@@ -45,7 +45,7 @@ class PipelineTests(unittest.TestCase):
         self.assertIn("refusing to build a fabricated surface",source)
         source=(ROOT/"scripts"/"download_tile.py").read_text(encoding="utf-8")
         self.assertIn("no synthetic fill permitted",source)
-        self.assertIn("valid.sum()) < arr.size*0.95",source)
+        self.assertIn("int(valid.sum()) < arr.size*0.95",source)
         self.assertIn("ModelTiepointTag",source)
 
     def test_demo_extent_is_exactly_one_square_kilometre(self):

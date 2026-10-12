@@ -16,7 +16,7 @@ def validate(project_root: Path, tile_id: str):
     manifest=json.loads((data/"sources.json").read_text(encoding="utf-8"))
     arr=np.load(data/"terrain_30m.npy",mmap_mode="r")
     mask=np.load(data/"terrain_valid.npy",mmap_mode="r")
-    assert arr.shape==(34,34),f"Expected 34x34 tile at 30m; got {arr.shape}"
+    assert arr.shape==(35,35),f"Expected 35x35 terrain vertices spanning 1 km at 30m; got {arr.shape}"
     assert mask.shape==arr.shape and bool(mask.all()),"Terrain has missing samples"
     assert np.isfinite(arr).all(),"Terrain array contains no-data"
     assert manifest["dem"]["valid_cells"]==arr.size,"Manifest does not account for every DEM cell"
