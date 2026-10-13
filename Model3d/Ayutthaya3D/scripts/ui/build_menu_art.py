@@ -51,24 +51,15 @@ def background():
         shade = (18 + i * 3, 12, 16, 255)
         prang(draw, x, base, height, width, shade)
         draw.rectangle((x - width, base, x + width, base + 30), fill=shade)
-    draw.polygon([(0, 700), (900, 640), (1920, 690), (1920, 1080), (0, 1080)], fill=(18, 28, 38, 255))
-    for y in range(700, 1080):
-        for x in range(0, 1920, 3):
-            wave = int(8 * math.sin(x * 0.02 + y * 0.04))
-            src = px[min(1919, x), max(0, 640 - (y - 700) + wave)]
-            px[x, y] = tuple(int(src[c] * 0.35 + (12, 22, 32)[c] * 0.65) for c in range(3))
-    draw = ImageDraw.Draw(img, "RGBA")
-    draw.polygon([(40, 860), (210, 860), (180, 900), (70, 900)], fill=(12, 10, 8, 255))
-    draw.ellipse((150, 820, 190, 860), fill=(255, 196, 90, 220))
-    draw.polygon([(1480, 780), (1680, 770), (1640, 810), (1520, 816)], fill=(20, 16, 12, 255))
-    for lx in (120, 260, 410, 980, 1500, 1760):
-        draw.ellipse((lx, 760, lx + 8, 768), fill=(255, 196, 110, 200))
-    leaves = Image.new("RGBA", (w, h), (0, 0, 0, 0))
-    ld = ImageDraw.Draw(leaves)
-    ld.ellipse((-180, -80, 280, 260), fill=(8, 18, 8, 180))
-    ld.ellipse((1680, 820, 2100, 1200), fill=(8, 16, 8, 160))
-    img = Image.alpha_composite(img.convert("RGBA"), leaves).convert("RGB")
-    img = img.filter(ImageFilter.GaussianBlur(0.6))
+    draw.polygon([(0, 690), (980, 640), (1920, 700), (1920, 1080), (0, 1080)], fill=(16, 24, 34, 255))
+    for x, base, height, width in ((180, 760, 520, 90), (310, 790, 430, 70), (430, 800, 360, 58)):
+        draw.polygon([(x - width * 0.35, 760), (x + width * 0.35, 760), (x + width * 0.15, 980), (x - width * 0.15, 980)], fill=(8, 12, 18, 90))
+    draw.polygon([(70, 860), (230, 852), (200, 892), (96, 896)], fill=(10, 8, 8, 255))
+    draw.ellipse((168, 828, 188, 848), fill=(255, 196, 90, 220))
+    draw.polygon([(1500, 790), (1688, 778), (1650, 816), (1536, 820)], fill=(18, 14, 12, 255))
+    for lx in (140, 280, 430, 1020, 1540, 1760):
+        draw.ellipse((lx, 748, lx + 7, 755), fill=(255, 196, 110, 210))
+    img = img.filter(ImageFilter.SMOOTH)
     img.save(OUT / "menu_background.png", quality=92)
 
 

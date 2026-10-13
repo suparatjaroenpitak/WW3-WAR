@@ -3,6 +3,8 @@ using System.IO;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 namespace AyutthayaSimulator.Editor
 {
@@ -186,7 +188,30 @@ namespace AyutthayaSimulator.Editor
 
         static void Capture(string name)
         {
-            ScreenCapture.CaptureScreenshot(Path.Combine(Output, name));
+            // Batch mode has no Game view backbuffer. Render the actual player camera.
+            var camera = player.Interaction.ViewCamera;
+            var target = new RenderTexture(1280, 720, 24);
+            var pixels = new Texture2D(1280, 720, TextureFormat.RGB24, false);
+            var previous = RenderTexture.active;
+            var previousAspect = camera.aspect;
+            try
+            {
+                target.Create();
+                camera.aspect = 1280f / 720f;
+                RenderPipeline.SubmitRenderRequest(camera, new UniversalRenderPipeline.SingleCameraRequest { destination = target });
+                RenderTexture.active = target;
+                pixels.ReadPixels(new Rect(0f, 0f, 1280f, 720f), 0, 0);
+                pixels.Apply();
+                File.WriteAllBytes(Path.Combine(Output, name), pixels.EncodeToPNG());
+            }
+            finally
+            {
+                camera.aspect = previousAspect;
+                RenderTexture.active = previous;
+                target.Release();
+                UnityEngine.Object.DestroyImmediate(target);
+                UnityEngine.Object.DestroyImmediate(pixels);
+            }
         }
 
         static void Finish(string error)

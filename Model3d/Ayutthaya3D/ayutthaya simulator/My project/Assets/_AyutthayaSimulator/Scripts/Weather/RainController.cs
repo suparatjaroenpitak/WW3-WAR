@@ -21,6 +21,8 @@ namespace AyutthayaSimulator
             main.playOnAwake = false;
             main.loop = true;
             main.simulationSpace = ParticleSystemSimulationSpace.World;
+            // The emitter sits above the camera; keep falling drops alive off screen.
+            main.cullingMode = ParticleSystemCullingMode.AlwaysSimulate;
             main.startSpeed = 20f;
             main.startSize = 0.022f;
             main.startLifetime = 0.9f;
@@ -28,6 +30,7 @@ namespace AyutthayaSimulator
             main.startColor = new Color(0.68f, 0.78f, 0.9f, 0.42f);
             main.gravityModifier = 0.15f;
             var shape = Rain.shape;
+            shape.enabled = true;
             shape.shapeType = ParticleSystemShapeType.Box;
             shape.scale = new Vector3(24f, 24f, 1f);
             var renderer = Rain.GetComponent<ParticleSystemRenderer>();
@@ -71,6 +74,7 @@ namespace AyutthayaSimulator
             if (Rain != null)
             {
                 var emission = Rain.emission;
+                emission.enabled = true;
                 emission.rateOverTime = MaximumEmission * amount;
                 if (amount > 0.001f && !Rain.isPlaying) Rain.Play();
                 if (amount <= 0.001f && Rain.isPlaying) Rain.Stop(true, ParticleSystemStopBehavior.StopEmitting);
