@@ -311,6 +311,66 @@ def clip_polygon(points: list[tuple[float, float]], tile) -> list[list[list[floa
     return parts
 
 
+def pack_points(points: list[list[float]]) -> list[float]:
+    packed: list[float] = []
+    for point in points:
+        packed.extend([point[0], point[1]])
+    return packed
+
+
+def unity_tile(tile_doc: dict) -> dict:
+    origin = tile_doc["origin"]
+    return {
+        "schemaVersion": 1,
+        "tileId": tile_doc["tileId"],
+        "terrainStatus": tile_doc["status"]["terrain"],
+        "originName": origin.get("name") or "",
+        "originLatitude": origin["latitude"],
+        "originLongitude": origin["longitude"],
+        "originEasting": origin["utmEasting"],
+        "originNorthing": origin["utmNorthing"],
+        "attribution": tile_doc["license"]["attribution"],
+        "licenseName": tile_doc["license"]["license"],
+        "buildings": [
+            {
+                "id": item["id"],
+                "name": item["name"],
+                "buildingType": item["buildingType"],
+                "historic": item["historic"],
+                "heightMeters": item["heightMeters"],
+                "heightSource": item["heightSource"],
+                "confidence": item["confidence"],
+                "footprint": pack_points(item["footprint"]),
+            }
+            for item in tile_doc["buildings"]
+        ],
+        "roads": [
+            {
+                "id": item["id"],
+                "name": item["name"],
+                "highway": item["highway"],
+                "widthMeters": item["widthMeters"],
+                "widthSource": item["widthSource"],
+                "bridge": 1 if item["bridge"] else 0,
+                "points": pack_points(item["points"]),
+            }
+            for item in tile_doc["roads"]
+        ],
+        "water": [
+            {
+                "id": item["id"],
+                "name": item["name"],
+                "kind": item["kind"],
+                "shape": item["shape"],
+                "widthMeters": item["widthMeters"],
+                "widthSource": item["widthSource"],
+                "points": pack_points(item["points"]),
+            }
+            for item in tile_doc["water"]
+        ],
+    }
+
+
 def main() -> None:
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
@@ -496,6 +556,10 @@ def main() -> None:
     text = json.dumps(tile_doc, ensure_ascii=False, indent=2)
     processed_path.write_text(text, encoding="utf-8")
     (STREAMING_DIR / "demo_tile_500m.json").write_text(text, encoding="utf-8")
+    unity_text = json.dumps(unity_tile(tile_doc), ensure_ascii=False)
+    unity_path = PROCESSED_DIR / "demo_tile_500m.unity.json"
+    unity_path.write_text(unity_text, encoding="utf-8")
+    (STREAMING_DIR / "demo_tile_500m.unity.json").write_text(unity_text, encoding="utf-8")
 
     metadata = {
         "downloadedAt": downloaded_at,

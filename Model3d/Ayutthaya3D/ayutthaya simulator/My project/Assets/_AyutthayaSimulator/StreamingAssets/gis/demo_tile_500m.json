@@ -1,0 +1,9355 @@
+{
+  "schemaVersion": 1,
+  "tileId": "ayutthaya_demo_500m",
+  "generatedAt": "2026-10-13T00:24:47+00:00",
+  "status": {
+    "terrain": "PLACEHOLDER_FLAT_NO_DEM",
+    "terrainNote": "No DEM raster was downloaded. Ground is a flat 500 m plane at 0 m, not surveyed elevation.",
+    "roads": "OSM_GEOMETRY",
+    "buildings": "OSM_FOOTPRINTS",
+    "water": "OSM_GEOMETRY",
+    "historicalModels": "NOT_CREATED",
+    "historicalNote": "Named historic tags are metadata only. This tile does not claim reconstructed temple architecture."
+  },
+  "origin": {
+    "crsSource": "EPSG:4326",
+    "crsProjected": "EPSG:32647",
+    "utmZone": 47,
+    "latitude": 14.3559133,
+    "longitude": 100.5585079,
+    "utmEasting": 668060.5275291081,
+    "utmNorthing": 1587655.9645487722,
+    "selection": "nominatim_osm",
+    "name": "วัดพระศรีสรรเพชญ์",
+    "osmId": 37447698,
+    "confidence": "geocoder_result"
+  },
+  "tile": {
+    "sizeMeters": 500.0,
+    "minX": -250.0,
+    "maxX": 250.0,
+    "minZ": -250.0,
+    "maxZ": 250.0,
+    "queryBboxWgs84": {
+      "south": 14.353381059147718,
+      "west": 100.55591155586743,
+      "north": 14.35844554085228,
+      "east": 100.56110424413257
+    }
+  },
+  "license": {
+    "source": "OpenStreetMap",
+    "sourceUrl": "https://www.openstreetmap.org",
+    "api": "https://api.openstreetmap.org/api/0.6/map",
+    "license": "Open Database License (ODbL) 1.0",
+    "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "attribution": "© OpenStreetMap contributors",
+    "downloadedAt": "2026-10-13T00:24:47+00:00",
+    "copyrightNote": "Contains information from OpenStreetMap, which is made available under the Open Database License (ODbL)."
+  },
+  "counts": {
+    "buildings": 132,
+    "roads": 81,
+    "water": 8,
+    "skipped": {
+      "invalid_building": 12,
+      "invalid_road": 19,
+      "invalid_water": 2
+    },
+    "rawElements": 296
+  },
+  "buildings": [
+    {
+      "id": "way/132679227",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -32.746,
+          -204.815
+        ],
+        [
+          -31.433,
+          -217.198
+        ],
+        [
+          -30.996,
+          -221.278
+        ],
+        [
+          -67.276,
+          -225.218
+        ],
+        [
+          -69.059,
+          -208.733
+        ],
+        [
+          -32.746,
+          -204.815
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/132679231",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -156.194,
+          -230.774
+        ],
+        [
+          -144.718,
+          -237.058
+        ],
+        [
+          -151.895,
+          -250.0
+        ],
+        [
+          -166.855,
+          -250.0
+        ],
+        [
+          -156.194,
+          -230.774
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/132679232",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -142.913,
+          -242.335
+        ],
+        [
+          -136.444,
+          -250.0
+        ],
+        [
+          -146.861,
+          -250.0
+        ],
+        [
+          -142.913,
+          -242.335
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/197526941",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          234.836,
+          53.055
+        ],
+        [
+          235.681,
+          46.135
+        ],
+        [
+          222.36,
+          44.518
+        ],
+        [
+          221.515,
+          51.438
+        ],
+        [
+          234.836,
+          53.055
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/242169834",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -25.823,
+          8.024
+        ],
+        [
+          -24.342,
+          -8.34
+        ],
+        [
+          -40.091,
+          -9.752
+        ],
+        [
+          -41.572,
+          6.612
+        ],
+        [
+          -25.823,
+          8.024
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/242169840",
+      "name": "Chom Thong Throne hall",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          135.622,
+          50.172
+        ],
+        [
+          136.074,
+          43.913
+        ],
+        [
+          140.354,
+          44.218
+        ],
+        [
+          140.926,
+          36.267
+        ],
+        [
+          136.646,
+          35.962
+        ],
+        [
+          137.086,
+          29.802
+        ],
+        [
+          111.363,
+          27.969
+        ],
+        [
+          110.922,
+          34.128
+        ],
+        [
+          106.599,
+          33.823
+        ],
+        [
+          106.027,
+          41.774
+        ],
+        [
+          110.351,
+          42.08
+        ],
+        [
+          109.899,
+          48.339
+        ],
+        [
+          135.622,
+          50.172
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/566023223",
+      "name": "Chakkrawat Phichayon Throne Hall",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          162.647,
+          127.625
+        ],
+        [
+          161.941,
+          134.834
+        ],
+        [
+          165.924,
+          139.165
+        ],
+        [
+          174.149,
+          139.807
+        ],
+        [
+          178.098,
+          136.47
+        ],
+        [
+          178.837,
+          129.239
+        ],
+        [
+          184.917,
+          129.845
+        ],
+        [
+          189.46,
+          126.302
+        ],
+        [
+          190.477,
+          117.867
+        ],
+        [
+          186.547,
+          113.614
+        ],
+        [
+          180.866,
+          113.055
+        ],
+        [
+          181.462,
+          106.388
+        ],
+        [
+          177.754,
+          101.141
+        ],
+        [
+          170.252,
+          100.337
+        ],
+        [
+          164.88,
+          105.313
+        ],
+        [
+          164.267,
+          111.405
+        ],
+        [
+          160.947,
+          111.073
+        ],
+        [
+          159.317,
+          127.293
+        ],
+        [
+          162.647,
+          127.625
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/566024231",
+      "name": "Grand Wihan (royal Vihara)",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          117.615,
+          23.762
+        ],
+        [
+          119.499,
+          1.869
+        ],
+        [
+          56.564,
+          -3.369
+        ],
+        [
+          56.322,
+          -1.047
+        ],
+        [
+          50.846,
+          -1.516
+        ],
+        [
+          44.108,
+          -2.081
+        ],
+        [
+          42.725,
+          14.295
+        ],
+        [
+          49.118,
+          14.836
+        ],
+        [
+          54.594,
+          15.294
+        ],
+        [
+          54.26,
+          18.478
+        ],
+        [
+          117.615,
+          23.762
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/724700779",
+      "name": "Wihan Phra Mongkhon Bophit",
+      "buildingType": "temple",
+      "historic": "yes",
+      "footprint": [
+        [
+          -61.076,
+          -103.406
+        ],
+        [
+          -59.833,
+          -113.355
+        ],
+        [
+          -58.59,
+          -123.305
+        ],
+        [
+          -66.199,
+          -124.241
+        ],
+        [
+          -64.784,
+          -135.649
+        ],
+        [
+          -100.264,
+          -140.015
+        ],
+        [
+          -101.678,
+          -128.607
+        ],
+        [
+          -109.588,
+          -129.59
+        ],
+        [
+          -112.074,
+          -109.691
+        ],
+        [
+          -104.163,
+          -108.72
+        ],
+        [
+          -105.532,
+          -97.754
+        ],
+        [
+          -70.053,
+          -93.387
+        ],
+        [
+          -68.684,
+          -104.343
+        ],
+        [
+          -61.076,
+          -103.406
+        ]
+      ],
+      "heightMeters": 8.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/725901091",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -150.849,
+          -207.559
+        ],
+        [
+          -149.632,
+          -218.548
+        ],
+        [
+          -154.568,
+          -219.09
+        ],
+        [
+          -155.786,
+          -208.101
+        ],
+        [
+          -150.849,
+          -207.559
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/725901092",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -130.665,
+          -199.944
+        ],
+        [
+          -130.091,
+          -205.184
+        ],
+        [
+          -147.573,
+          -207.105
+        ],
+        [
+          -148.159,
+          -201.865
+        ],
+        [
+          -130.665,
+          -199.944
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/726902065",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -233.023,
+          -216.587
+        ],
+        [
+          -232.465,
+          -222.68
+        ],
+        [
+          -238.383,
+          -223.218
+        ],
+        [
+          -238.931,
+          -217.114
+        ],
+        [
+          -233.023,
+          -216.587
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/726902066",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -228.718,
+          -186.453
+        ],
+        [
+          -227.052,
+          -204.764
+        ],
+        [
+          -233.013,
+          -205.302
+        ],
+        [
+          -234.69,
+          -186.992
+        ],
+        [
+          -228.718,
+          -186.453
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/726902067",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -235.376,
+          -192.418
+        ],
+        [
+          -233.35,
+          -214.609
+        ],
+        [
+          -239.052,
+          -215.123
+        ],
+        [
+          -241.089,
+          -192.932
+        ],
+        [
+          -235.376,
+          -192.418
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/738897272",
+      "name": "Wihan Klaep",
+      "buildingType": "yes",
+      "historic": "archaeological_site",
+      "footprint": [
+        [
+          88.876,
+          -114.665
+        ],
+        [
+          88.422,
+          -109.777
+        ],
+        [
+          91.786,
+          -109.467
+        ],
+        [
+          91.553,
+          -106.957
+        ],
+        [
+          108.466,
+          -105.405
+        ],
+        [
+          108.699,
+          -107.914
+        ],
+        [
+          112.073,
+          -107.604
+        ],
+        [
+          112.527,
+          -112.491
+        ],
+        [
+          109.153,
+          -112.802
+        ],
+        [
+          109.385,
+          -115.312
+        ],
+        [
+          92.472,
+          -116.864
+        ],
+        [
+          92.239,
+          -114.354
+        ],
+        [
+          88.876,
+          -114.665
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/739583640",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          250.0,
+          -202.987
+        ],
+        [
+          250.0,
+          -210.899
+        ],
+        [
+          243.968,
+          -211.39
+        ],
+        [
+          243.322,
+          -203.538
+        ],
+        [
+          250.0,
+          -202.987
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/739583641",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          235.661,
+          -206.356
+        ],
+        [
+          236.055,
+          -210.436
+        ],
+        [
+          231.108,
+          -210.912
+        ],
+        [
+          230.713,
+          -206.821
+        ],
+        [
+          235.661,
+          -206.356
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/739583642",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          229.991,
+          -206.859
+        ],
+        [
+          230.374,
+          -210.95
+        ],
+        [
+          225.426,
+          -211.415
+        ],
+        [
+          225.043,
+          -207.335
+        ],
+        [
+          229.991,
+          -206.859
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/739583643",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -20.445,
+          -156.029
+        ],
+        [
+          -19.945,
+          -161.303
+        ],
+        [
+          -28.073,
+          -162.077
+        ],
+        [
+          -28.583,
+          -156.803
+        ],
+        [
+          -20.445,
+          -156.029
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/739583644",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -24.703,
+          -76.441
+        ],
+        [
+          -24.193,
+          -81.716
+        ],
+        [
+          -32.331,
+          -82.49
+        ],
+        [
+          -32.83,
+          -77.215
+        ],
+        [
+          -24.703,
+          -76.441
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/739583645",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          26.237,
+          -74.25
+        ],
+        [
+          27.085,
+          -83.173
+        ],
+        [
+          17.976,
+          -84.031
+        ],
+        [
+          17.128,
+          -75.119
+        ],
+        [
+          26.237,
+          -74.25
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/739583647",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          17.031,
+          -63.868
+        ],
+        [
+          17.415,
+          -67.959
+        ],
+        [
+          12.467,
+          -68.424
+        ],
+        [
+          12.083,
+          -64.333
+        ],
+        [
+          17.031,
+          -63.868
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/739583648",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          209.452,
+          -46.902
+        ],
+        [
+          209.835,
+          -50.982
+        ],
+        [
+          204.898,
+          -51.458
+        ],
+        [
+          204.504,
+          -47.367
+        ],
+        [
+          209.452,
+          -46.902
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/744115899",
+      "name": "Water Tank",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -29.327,
+          -171.224
+        ],
+        [
+          -28.488,
+          -178.853
+        ],
+        [
+          -36.507,
+          -179.726
+        ],
+        [
+          -37.346,
+          -172.086
+        ],
+        [
+          -29.327,
+          -171.224
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/752933711",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          127.467,
+          107.749
+        ],
+        [
+          125.837,
+          123.969
+        ],
+        [
+          154.132,
+          126.782
+        ],
+        [
+          155.762,
+          110.562
+        ],
+        [
+          127.467,
+          107.749
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/752933715",
+      "name": "Phra Tamnak Suan Kratai",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -206.89,
+          -48.195
+        ],
+        [
+          -205.327,
+          -64.095
+        ],
+        [
+          -241.179,
+          -67.567
+        ],
+        [
+          -242.742,
+          -51.667
+        ],
+        [
+          -206.89,
+          -48.195
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/752933716",
+      "name": "Phra Tamnak Khoha Sawan",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -192.571,
+          218.288
+        ],
+        [
+          -191.88,
+          211.687
+        ],
+        [
+          -210.893,
+          209.7
+        ],
+        [
+          -211.595,
+          216.29
+        ],
+        [
+          -192.571,
+          218.288
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/752933717",
+      "name": "Phra Tamnak Sa Kaeo",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -41.898,
+          160.521
+        ],
+        [
+          -40.037,
+          146.825
+        ],
+        [
+          -78.476,
+          141.676
+        ],
+        [
+          -80.338,
+          155.371
+        ],
+        [
+          -41.898,
+          160.521
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/755449930",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          123.812,
+          174.628
+        ],
+        [
+          108.836,
+          172.159
+        ],
+        [
+          102.183,
+          211.856
+        ],
+        [
+          117.17,
+          214.336
+        ],
+        [
+          123.812,
+          174.628
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766938",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          68.7,
+          -67.403
+        ],
+        [
+          58.988,
+          -70.035
+        ],
+        [
+          48.932,
+          -69.506
+        ],
+        [
+          47.838,
+          -59.312
+        ],
+        [
+          67.606,
+          -57.22
+        ],
+        [
+          68.7,
+          -67.403
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766947",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -142.731,
+          -8.475
+        ],
+        [
+          -142.258,
+          -14.656
+        ],
+        [
+          -148.619,
+          -15.142
+        ],
+        [
+          -149.092,
+          -8.96
+        ],
+        [
+          -142.731,
+          -8.475
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766950",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -136.95,
+          28.296
+        ],
+        [
+          -136.515,
+          21.373
+        ],
+        [
+          -144.299,
+          20.889
+        ],
+        [
+          -144.745,
+          27.801
+        ],
+        [
+          -136.95,
+          28.296
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766951",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -150.085,
+          32.766
+        ],
+        [
+          -148.77,
+          20.052
+        ],
+        [
+          -158.126,
+          19.103
+        ],
+        [
+          -159.441,
+          31.807
+        ],
+        [
+          -150.085,
+          32.766
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766952",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -142.026,
+          -45.944
+        ],
+        [
+          -140.71,
+          -58.658
+        ],
+        [
+          -150.077,
+          -59.618
+        ],
+        [
+          -151.393,
+          -46.903
+        ],
+        [
+          -142.026,
+          -45.944
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766953",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          24.826,
+          -15.411
+        ],
+        [
+          25.433,
+          -20.695
+        ],
+        [
+          15.464,
+          -21.835
+        ],
+        [
+          14.846,
+          -16.551
+        ],
+        [
+          24.826,
+          -15.411
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766958",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          153.803,
+          -6.685
+        ],
+        [
+          155.033,
+          -5.061
+        ],
+        [
+          156.849,
+          -4.13
+        ],
+        [
+          158.888,
+          -4.061
+        ],
+        [
+          160.759,
+          -4.89
+        ],
+        [
+          162.086,
+          -6.441
+        ],
+        [
+          162.595,
+          -8.407
+        ],
+        [
+          162.199,
+          -10.401
+        ],
+        [
+          160.98,
+          -12.024
+        ],
+        [
+          159.163,
+          -12.966
+        ],
+        [
+          157.114,
+          -13.024
+        ],
+        [
+          155.254,
+          -12.196
+        ],
+        [
+          153.927,
+          -10.645
+        ],
+        [
+          153.407,
+          -8.679
+        ],
+        [
+          153.803,
+          -6.685
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766959",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          163.124,
+          -14.853
+        ],
+        [
+          164.439,
+          -27.568
+        ],
+        [
+          155.083,
+          -28.527
+        ],
+        [
+          153.768,
+          -15.813
+        ],
+        [
+          163.124,
+          -14.853
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766960",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          150.157,
+          46.077
+        ],
+        [
+          151.387,
+          47.701
+        ],
+        [
+          153.203,
+          48.642
+        ],
+        [
+          155.242,
+          48.7
+        ],
+        [
+          157.113,
+          47.872
+        ],
+        [
+          158.429,
+          46.332
+        ],
+        [
+          158.949,
+          44.366
+        ],
+        [
+          158.552,
+          42.372
+        ],
+        [
+          157.334,
+          40.737
+        ],
+        [
+          155.517,
+          39.807
+        ],
+        [
+          153.468,
+          39.749
+        ],
+        [
+          151.608,
+          40.566
+        ],
+        [
+          150.281,
+          42.117
+        ],
+        [
+          149.761,
+          44.083
+        ],
+        [
+          150.157,
+          46.077
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766961",
+      "name": "Minor vihara",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          156.675,
+          64.863
+        ],
+        [
+          157.99,
+          52.149
+        ],
+        [
+          148.634,
+          51.189
+        ],
+        [
+          147.319,
+          63.904
+        ],
+        [
+          156.675,
+          64.863
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766962",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          4.415,
+          63.448
+        ],
+        [
+          5.312,
+          51.97
+        ],
+        [
+          -6.74,
+          51.026
+        ],
+        [
+          -7.649,
+          62.515
+        ],
+        [
+          4.415,
+          63.448
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766963",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          142.837,
+          75.834
+        ],
+        [
+          143.67,
+          67.586
+        ],
+        [
+          130.002,
+          66.21
+        ],
+        [
+          129.159,
+          74.458
+        ],
+        [
+          142.837,
+          75.834
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766964",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          61.235,
+          66.941
+        ],
+        [
+          62.078,
+          58.693
+        ],
+        [
+          48.399,
+          57.317
+        ],
+        [
+          47.567,
+          65.565
+        ],
+        [
+          61.235,
+          66.941
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766965",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -49.638,
+          55.992
+        ],
+        [
+          -48.795,
+          47.744
+        ],
+        [
+          -62.474,
+          46.368
+        ],
+        [
+          -63.306,
+          54.616
+        ],
+        [
+          -49.638,
+          55.992
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766966",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -133.043,
+          47.231
+        ],
+        [
+          -132.2,
+          38.983
+        ],
+        [
+          -145.879,
+          37.607
+        ],
+        [
+          -146.722,
+          45.855
+        ],
+        [
+          -133.043,
+          47.231
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766967",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -105.439,
+          50.039
+        ],
+        [
+          -104.596,
+          41.791
+        ],
+        [
+          -118.274,
+          40.416
+        ],
+        [
+          -119.106,
+          48.664
+        ],
+        [
+          -105.439,
+          50.039
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766968",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -22.174,
+          58.755
+        ],
+        [
+          -21.331,
+          50.507
+        ],
+        [
+          -35.009,
+          49.142
+        ],
+        [
+          -35.842,
+          57.39
+        ],
+        [
+          -22.174,
+          58.755
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766969",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          88.342,
+          69.923
+        ],
+        [
+          89.185,
+          61.675
+        ],
+        [
+          75.507,
+          60.31
+        ],
+        [
+          74.664,
+          68.558
+        ],
+        [
+          88.342,
+          69.923
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766970",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          116.448,
+          73.565
+        ],
+        [
+          117.291,
+          65.317
+        ],
+        [
+          103.613,
+          63.941
+        ],
+        [
+          102.78,
+          72.189
+        ],
+        [
+          116.448,
+          73.565
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766971",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          32.615,
+          64.302
+        ],
+        [
+          33.458,
+          56.054
+        ],
+        [
+          19.78,
+          54.679
+        ],
+        [
+          18.937,
+          62.927
+        ],
+        [
+          32.615,
+          64.302
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766972",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -77.536,
+          53.358
+        ],
+        [
+          -76.703,
+          45.11
+        ],
+        [
+          -90.371,
+          43.735
+        ],
+        [
+          -91.214,
+          51.983
+        ],
+        [
+          -77.536,
+          53.358
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766973",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          152.756,
+          -32.061
+        ],
+        [
+          153.588,
+          -40.309
+        ],
+        [
+          139.92,
+          -41.674
+        ],
+        [
+          139.077,
+          -33.426
+        ],
+        [
+          152.756,
+          -32.061
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766974",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          126.011,
+          -34.399
+        ],
+        [
+          126.843,
+          -42.636
+        ],
+        [
+          113.165,
+          -44.012
+        ],
+        [
+          112.332,
+          -35.764
+        ],
+        [
+          126.011,
+          -34.399
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766975",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          97.969,
+          -38.03
+        ],
+        [
+          98.802,
+          -46.278
+        ],
+        [
+          85.134,
+          -47.653
+        ],
+        [
+          84.291,
+          -39.405
+        ],
+        [
+          97.969,
+          -38.03
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766976",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          70.064,
+          -40.951
+        ],
+        [
+          70.907,
+          -49.199
+        ],
+        [
+          57.228,
+          -50.574
+        ],
+        [
+          56.396,
+          -42.326
+        ],
+        [
+          70.064,
+          -40.951
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766977",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          41.444,
+          -43.589
+        ],
+        [
+          42.287,
+          -51.837
+        ],
+        [
+          28.608,
+          -53.213
+        ],
+        [
+          27.765,
+          -44.965
+        ],
+        [
+          41.444,
+          -43.589
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766978",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -13.346,
+          -49.137
+        ],
+        [
+          -12.503,
+          -57.385
+        ],
+        [
+          -26.181,
+          -58.76
+        ],
+        [
+          -27.013,
+          -50.512
+        ],
+        [
+          -13.346,
+          -49.137
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766979",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -40.81,
+          -51.911
+        ],
+        [
+          -39.967,
+          -60.159
+        ],
+        [
+          -53.646,
+          -61.523
+        ],
+        [
+          -54.478,
+          -53.275
+        ],
+        [
+          -40.81,
+          -51.911
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766980",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -68.707,
+          -54.544
+        ],
+        [
+          -67.875,
+          -62.781
+        ],
+        [
+          -81.543,
+          -64.157
+        ],
+        [
+          -82.386,
+          -55.909
+        ],
+        [
+          -68.707,
+          -54.544
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766981",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -124.216,
+          -60.66
+        ],
+        [
+          -123.373,
+          -68.908
+        ],
+        [
+          -137.051,
+          -70.284
+        ],
+        [
+          -137.894,
+          -62.036
+        ],
+        [
+          -124.216,
+          -60.66
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766982",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -96.6,
+          -57.852
+        ],
+        [
+          -95.768,
+          -66.1
+        ],
+        [
+          -109.446,
+          -67.476
+        ],
+        [
+          -110.279,
+          -59.228
+        ],
+        [
+          -96.6,
+          -57.852
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766983",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -150.518,
+          36.226
+        ],
+        [
+          -152.417,
+          34.72
+        ],
+        [
+          -154.764,
+          34.051
+        ],
+        [
+          -157.182,
+          34.323
+        ],
+        [
+          -159.315,
+          35.492
+        ],
+        [
+          -160.827,
+          37.385
+        ],
+        [
+          -161.501,
+          39.704
+        ],
+        [
+          -161.236,
+          42.106
+        ],
+        [
+          -160.053,
+          44.228
+        ],
+        [
+          -158.154,
+          45.734
+        ],
+        [
+          -155.818,
+          46.403
+        ],
+        [
+          -153.39,
+          46.142
+        ],
+        [
+          -151.268,
+          44.973
+        ],
+        [
+          -149.745,
+          43.08
+        ],
+        [
+          -149.071,
+          40.75
+        ],
+        [
+          -149.335,
+          38.347
+        ],
+        [
+          -150.518,
+          36.226
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766984",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          155.937,
+          68.697
+        ],
+        [
+          154.027,
+          67.191
+        ],
+        [
+          151.691,
+          66.522
+        ],
+        [
+          149.273,
+          66.794
+        ],
+        [
+          147.14,
+          67.963
+        ],
+        [
+          145.618,
+          69.845
+        ],
+        [
+          144.944,
+          72.175
+        ],
+        [
+          145.219,
+          74.578
+        ],
+        [
+          146.391,
+          76.699
+        ],
+        [
+          148.301,
+          78.205
+        ],
+        [
+          150.637,
+          78.874
+        ],
+        [
+          153.055,
+          78.602
+        ],
+        [
+          155.188,
+          77.444
+        ],
+        [
+          156.7,
+          75.551
+        ],
+        [
+          157.384,
+          73.221
+        ],
+        [
+          157.109,
+          70.819
+        ],
+        [
+          155.937,
+          68.697
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766995",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -140.253,
+          -70.571
+        ],
+        [
+          -142.152,
+          -72.089
+        ],
+        [
+          -144.488,
+          -72.757
+        ],
+        [
+          -146.916,
+          -72.486
+        ],
+        [
+          -149.038,
+          -71.316
+        ],
+        [
+          -150.561,
+          -69.424
+        ],
+        [
+          -151.235,
+          -67.105
+        ],
+        [
+          -150.96,
+          -64.702
+        ],
+        [
+          -149.788,
+          -62.581
+        ],
+        [
+          -147.889,
+          -61.074
+        ],
+        [
+          -145.542,
+          -60.395
+        ],
+        [
+          -143.124,
+          -60.666
+        ],
+        [
+          -140.991,
+          -61.836
+        ],
+        [
+          -139.479,
+          -63.728
+        ],
+        [
+          -138.805,
+          -66.047
+        ],
+        [
+          -139.07,
+          -68.461
+        ],
+        [
+          -140.253,
+          -70.571
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799766996",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          165.559,
+          -40.052
+        ],
+        [
+          163.66,
+          -41.558
+        ],
+        [
+          161.324,
+          -42.227
+        ],
+        [
+          158.906,
+          -41.955
+        ],
+        [
+          156.773,
+          -40.786
+        ],
+        [
+          155.251,
+          -38.904
+        ],
+        [
+          154.577,
+          -36.574
+        ],
+        [
+          154.852,
+          -34.171
+        ],
+        [
+          156.024,
+          -32.05
+        ],
+        [
+          157.923,
+          -30.544
+        ],
+        [
+          160.27,
+          -29.875
+        ],
+        [
+          162.688,
+          -30.147
+        ],
+        [
+          164.821,
+          -31.316
+        ],
+        [
+          166.333,
+          -33.198
+        ],
+        [
+          167.006,
+          -35.528
+        ],
+        [
+          166.742,
+          -37.93
+        ],
+        [
+          165.559,
+          -40.052
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799767007",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -78.898,
+          -34.133
+        ],
+        [
+          52.839,
+          -20.377
+        ],
+        [
+          50.846,
+          -1.516
+        ],
+        [
+          56.322,
+          -1.047
+        ],
+        [
+          56.564,
+          -3.369
+        ],
+        [
+          58.88,
+          -25.238
+        ],
+        [
+          54.159,
+          -25.734
+        ],
+        [
+          6.183,
+          -30.749
+        ],
+        [
+          -83.787,
+          -40.141
+        ],
+        [
+          -86.597,
+          -13.639
+        ],
+        [
+          -81.121,
+          -13.116
+        ],
+        [
+          -78.898,
+          -34.133
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799767009",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -88.118,
+          0.811
+        ],
+        [
+          -90.802,
+          26.151
+        ],
+        [
+          48.393,
+          40.688
+        ],
+        [
+          51.875,
+          41.054
+        ],
+        [
+          54.26,
+          18.478
+        ],
+        [
+          54.594,
+          15.294
+        ],
+        [
+          49.118,
+          14.836
+        ],
+        [
+          46.975,
+          35.047
+        ],
+        [
+          -84.751,
+          21.28
+        ],
+        [
+          -82.643,
+          1.335
+        ],
+        [
+          -88.118,
+          0.811
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799767010",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          156.89,
+          25.023
+        ],
+        [
+          158.302,
+          10.727
+        ],
+        [
+          142.554,
+          9.183
+        ],
+        [
+          141.142,
+          23.479
+        ],
+        [
+          156.89,
+          25.023
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799767011",
+      "name": "The ordination hall (ubosot)",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          116.359,
+          -18.654
+        ],
+        [
+          115.64,
+          -11.202
+        ],
+        [
+          118.647,
+          -10.916
+        ],
+        [
+          118.369,
+          -8.019
+        ],
+        [
+          144.39,
+          -5.542
+        ],
+        [
+          144.668,
+          -8.439
+        ],
+        [
+          147.212,
+          -8.201
+        ],
+        [
+          147.921,
+          -15.653
+        ],
+        [
+          145.388,
+          -15.891
+        ],
+        [
+          145.667,
+          -18.899
+        ],
+        [
+          119.645,
+          -21.376
+        ],
+        [
+          119.366,
+          -18.368
+        ],
+        [
+          116.359,
+          -18.654
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799767012",
+      "name": "Phra Palelai Vihara",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          84.051,
+          -7.056
+        ],
+        [
+          84.283,
+          -11.048
+        ],
+        [
+          101.513,
+          -10.036
+        ],
+        [
+          102.316,
+          -23.661
+        ],
+        [
+          85.022,
+          -24.674
+        ],
+        [
+          85.278,
+          -28.976
+        ],
+        [
+          63.325,
+          -30.264
+        ],
+        [
+          62.023,
+          -8.344
+        ],
+        [
+          84.051,
+          -7.056
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799767013",
+      "name": "Phra lokanat vihara",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          77.968,
+          48.853
+        ],
+        [
+          78.329,
+          44.873
+        ],
+        [
+          95.512,
+          46.405
+        ],
+        [
+          96.747,
+          32.816
+        ],
+        [
+          79.489,
+          31.261
+        ],
+        [
+          79.884,
+          26.982
+        ],
+        [
+          57.98,
+          25.02
+        ],
+        [
+          55.988,
+          46.891
+        ],
+        [
+          77.968,
+          48.853
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799767014",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          42.725,
+          14.295
+        ],
+        [
+          44.108,
+          -2.081
+        ],
+        [
+          30.094,
+          -3.271
+        ],
+        [
+          28.689,
+          13.105
+        ],
+        [
+          42.725,
+          14.295
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799767015",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          9.634,
+          10.941
+        ],
+        [
+          11.114,
+          -5.435
+        ],
+        [
+          -4.635,
+          -6.836
+        ],
+        [
+          -6.115,
+          9.529
+        ],
+        [
+          9.634,
+          10.941
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799767016",
+      "name": "Main Chedi",
+      "buildingType": "temple",
+      "historic": "yes",
+      "footprint": [
+        [
+          28.178,
+          1.02
+        ],
+        [
+          26.534,
+          -1.591
+        ],
+        [
+          24.098,
+          -3.489
+        ],
+        [
+          21.16,
+          -4.438
+        ],
+        [
+          18.075,
+          -4.337
+        ],
+        [
+          15.209,
+          -3.183
+        ],
+        [
+          12.908,
+          -1.13
+        ],
+        [
+          11.455,
+          1.582
+        ],
+        [
+          11.014,
+          4.622
+        ],
+        [
+          11.662,
+          7.635
+        ],
+        [
+          13.295,
+          10.235
+        ],
+        [
+          15.731,
+          12.133
+        ],
+        [
+          18.669,
+          13.082
+        ],
+        [
+          21.755,
+          12.981
+        ],
+        [
+          24.632,
+          11.828
+        ],
+        [
+          26.921,
+          9.774
+        ],
+        [
+          28.385,
+          7.062
+        ],
+        [
+          28.815,
+          4.023
+        ],
+        [
+          28.178,
+          1.02
+        ]
+      ],
+      "heightMeters": 8.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799767017",
+      "name": "Main Chedi",
+      "buildingType": "temple",
+      "historic": "yes",
+      "footprint": [
+        [
+          -6.446,
+          -2.234
+        ],
+        [
+          -8.089,
+          -4.845
+        ],
+        [
+          -10.514,
+          -6.731
+        ],
+        [
+          -13.463,
+          -7.692
+        ],
+        [
+          -16.549,
+          -7.58
+        ],
+        [
+          -19.415,
+          -6.437
+        ],
+        [
+          -21.716,
+          -4.384
+        ],
+        [
+          -23.168,
+          -1.672
+        ],
+        [
+          -23.61,
+          1.368
+        ],
+        [
+          -22.961,
+          4.381
+        ],
+        [
+          -21.328,
+          6.981
+        ],
+        [
+          -18.893,
+          8.879
+        ],
+        [
+          -15.954,
+          9.828
+        ],
+        [
+          -12.869,
+          9.727
+        ],
+        [
+          -9.992,
+          8.585
+        ],
+        [
+          -7.692,
+          6.531
+        ],
+        [
+          -6.239,
+          3.819
+        ],
+        [
+          -5.808,
+          0.768
+        ],
+        [
+          -6.446,
+          -2.234
+        ]
+      ],
+      "heightMeters": 8.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799767018",
+      "name": "Main Chedi",
+      "buildingType": "temple",
+      "historic": "yes",
+      "footprint": [
+        [
+          -42.956,
+          -5.711
+        ],
+        [
+          -44.588,
+          -8.322
+        ],
+        [
+          -47.024,
+          -10.219
+        ],
+        [
+          -49.962,
+          -11.169
+        ],
+        [
+          -53.048,
+          -11.068
+        ],
+        [
+          -55.925,
+          -9.914
+        ],
+        [
+          -58.214,
+          -7.861
+        ],
+        [
+          -59.678,
+          -5.149
+        ],
+        [
+          -60.108,
+          -2.109
+        ],
+        [
+          -59.471,
+          0.893
+        ],
+        [
+          -57.827,
+          3.504
+        ],
+        [
+          -55.392,
+          5.402
+        ],
+        [
+          -52.453,
+          6.351
+        ],
+        [
+          -49.368,
+          6.25
+        ],
+        [
+          -46.502,
+          5.097
+        ],
+        [
+          -44.201,
+          3.043
+        ],
+        [
+          -42.748,
+          0.331
+        ],
+        [
+          -42.307,
+          -2.708
+        ],
+        [
+          -42.956,
+          -5.711
+        ]
+      ],
+      "heightMeters": 8.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799767021",
+      "name": "Cruciform vihara",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -89.405,
+          -33.928
+        ],
+        [
+          -100.497,
+          -34.987
+        ],
+        [
+          -101.03,
+          -29.481
+        ],
+        [
+          -102.884,
+          -29.659
+        ],
+        [
+          -104.265,
+          -15.33
+        ],
+        [
+          -119.388,
+          -16.77
+        ],
+        [
+          -119.562,
+          -15.023
+        ],
+        [
+          -124.315,
+          -15.476
+        ],
+        [
+          -125.312,
+          -5.193
+        ],
+        [
+          -120.558,
+          -4.741
+        ],
+        [
+          -120.791,
+          -2.297
+        ],
+        [
+          -105.667,
+          -0.856
+        ],
+        [
+          -107.001,
+          13.031
+        ],
+        [
+          -105.32,
+          13.186
+        ],
+        [
+          -105.91,
+          19.212
+        ],
+        [
+          -94.538,
+          20.295
+        ],
+        [
+          -93.958,
+          14.269
+        ],
+        [
+          -92.19,
+          14.436
+        ],
+        [
+          -90.846,
+          0.549
+        ],
+        [
+          -88.118,
+          0.811
+        ],
+        [
+          -82.643,
+          1.335
+        ],
+        [
+          -75.399,
+          2.025
+        ],
+        [
+          -75.097,
+          -1.115
+        ],
+        [
+          -71.54,
+          -0.77
+        ],
+        [
+          -70.845,
+          -7.935
+        ],
+        [
+          -74.402,
+          -8.269
+        ],
+        [
+          -73.996,
+          -12.437
+        ],
+        [
+          -81.121,
+          -13.116
+        ],
+        [
+          -86.597,
+          -13.639
+        ],
+        [
+          -89.454,
+          -13.913
+        ],
+        [
+          -88.063,
+          -28.243
+        ],
+        [
+          -89.938,
+          -28.421
+        ],
+        [
+          -89.405,
+          -33.928
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799767092",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -8.094,
+          -192.778
+        ],
+        [
+          -6.68,
+          -205.757
+        ],
+        [
+          -12.457,
+          -206.382
+        ],
+        [
+          -13.872,
+          -193.403
+        ],
+        [
+          -8.094,
+          -192.778
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799767093",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -27.993,
+          -204.308
+        ],
+        [
+          -25.191,
+          -204.012
+        ],
+        [
+          -23.877,
+          -216.406
+        ],
+        [
+          -31.433,
+          -217.198
+        ],
+        [
+          -32.746,
+          -204.815
+        ],
+        [
+          -27.993,
+          -204.308
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/799779067",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          223.146,
+          11.265
+        ],
+        [
+          221.426,
+          24.806
+        ],
+        [
+          223.894,
+          25.111
+        ],
+        [
+          223.575,
+          27.62
+        ],
+        [
+          237.747,
+          29.398
+        ],
+        [
+          238.065,
+          26.888
+        ],
+        [
+          240.62,
+          27.204
+        ],
+        [
+          242.329,
+          13.662
+        ],
+        [
+          239.775,
+          13.335
+        ],
+        [
+          240.344,
+          8.903
+        ],
+        [
+          226.172,
+          7.136
+        ],
+        [
+          225.614,
+          11.569
+        ],
+        [
+          223.146,
+          11.265
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777699",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -154.646,
+          2.088
+        ],
+        [
+          -153.275,
+          3.602
+        ],
+        [
+          -151.317,
+          4.235
+        ],
+        [
+          -149.308,
+          3.806
+        ],
+        [
+          -147.788,
+          2.444
+        ],
+        [
+          -147.15,
+          0.501
+        ],
+        [
+          -147.578,
+          -1.493
+        ],
+        [
+          -148.949,
+          -3.007
+        ],
+        [
+          -150.908,
+          -3.64
+        ],
+        [
+          -152.906,
+          -3.211
+        ],
+        [
+          -154.436,
+          -1.849
+        ],
+        [
+          -155.075,
+          0.094
+        ],
+        [
+          -154.646,
+          2.088
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777700",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -141.697,
+          2.895
+        ],
+        [
+          -140.327,
+          4.409
+        ],
+        [
+          -138.378,
+          5.03
+        ],
+        [
+          -136.369,
+          4.612
+        ],
+        [
+          -134.85,
+          3.251
+        ],
+        [
+          -134.211,
+          1.308
+        ],
+        [
+          -134.64,
+          -0.687
+        ],
+        [
+          -136.011,
+          -2.201
+        ],
+        [
+          -137.959,
+          -2.833
+        ],
+        [
+          -139.968,
+          -2.404
+        ],
+        [
+          -141.498,
+          -1.043
+        ],
+        [
+          -142.126,
+          0.9
+        ],
+        [
+          -141.697,
+          2.895
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777701",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -139.55,
+          -24.374
+        ],
+        [
+          -138.18,
+          -22.861
+        ],
+        [
+          -136.221,
+          -22.228
+        ],
+        [
+          -134.212,
+          -22.646
+        ],
+        [
+          -132.692,
+          -24.018
+        ],
+        [
+          -132.054,
+          -25.95
+        ],
+        [
+          -132.483,
+          -27.945
+        ],
+        [
+          -133.853,
+          -29.459
+        ],
+        [
+          -135.812,
+          -30.091
+        ],
+        [
+          -137.81,
+          -29.673
+        ],
+        [
+          -139.34,
+          -28.301
+        ],
+        [
+          -139.979,
+          -26.369
+        ],
+        [
+          -139.55,
+          -24.374
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777702",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -74.162,
+          -26.268
+        ],
+        [
+          -73.081,
+          -25.044
+        ],
+        [
+          -71.531,
+          -24.524
+        ],
+        [
+          -69.922,
+          -24.845
+        ],
+        [
+          -68.685,
+          -25.921
+        ],
+        [
+          -68.167,
+          -27.467
+        ],
+        [
+          -68.491,
+          -29.062
+        ],
+        [
+          -69.572,
+          -30.287
+        ],
+        [
+          -71.122,
+          -30.806
+        ],
+        [
+          -72.731,
+          -30.485
+        ],
+        [
+          -73.968,
+          -29.409
+        ],
+        [
+          -74.485,
+          -27.864
+        ],
+        [
+          -74.162,
+          -26.268
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777703",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -78.874,
+          18.376
+        ],
+        [
+          -77.793,
+          19.601
+        ],
+        [
+          -76.244,
+          20.12
+        ],
+        [
+          -74.634,
+          19.799
+        ],
+        [
+          -73.397,
+          18.723
+        ],
+        [
+          -72.88,
+          17.178
+        ],
+        [
+          -73.203,
+          15.571
+        ],
+        [
+          -74.285,
+          14.347
+        ],
+        [
+          -75.834,
+          13.827
+        ],
+        [
+          -77.444,
+          14.148
+        ],
+        [
+          -78.681,
+          15.224
+        ],
+        [
+          -79.198,
+          16.77
+        ],
+        [
+          -78.874,
+          18.376
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777704",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          37.743,
+          30.149
+        ],
+        [
+          38.824,
+          31.374
+        ],
+        [
+          40.384,
+          31.904
+        ],
+        [
+          41.983,
+          31.583
+        ],
+        [
+          43.22,
+          30.507
+        ],
+        [
+          43.748,
+          28.962
+        ],
+        [
+          43.424,
+          27.355
+        ],
+        [
+          42.343,
+          26.131
+        ],
+        [
+          40.783,
+          25.612
+        ],
+        [
+          39.173,
+          25.933
+        ],
+        [
+          37.947,
+          27.009
+        ],
+        [
+          37.419,
+          28.554
+        ],
+        [
+          37.743,
+          30.149
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777705",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          41.968,
+          -14.233
+        ],
+        [
+          43.049,
+          -13.008
+        ],
+        [
+          44.599,
+          -12.489
+        ],
+        [
+          46.209,
+          -12.81
+        ],
+        [
+          47.445,
+          -13.886
+        ],
+        [
+          47.963,
+          -15.431
+        ],
+        [
+          47.65,
+          -17.027
+        ],
+        [
+          46.558,
+          -18.251
+        ],
+        [
+          45.008,
+          -18.771
+        ],
+        [
+          43.399,
+          -18.45
+        ],
+        [
+          42.162,
+          -17.374
+        ],
+        [
+          41.645,
+          -15.828
+        ],
+        [
+          41.968,
+          -14.233
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777706",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          63.945,
+          64.89
+        ],
+        [
+          65.184,
+          66.724
+        ],
+        [
+          67.096,
+          67.854
+        ],
+        [
+          69.317,
+          68.046
+        ],
+        [
+          71.404,
+          67.264
+        ],
+        [
+          72.936,
+          65.659
+        ],
+        [
+          73.619,
+          63.55
+        ],
+        [
+          73.31,
+          61.357
+        ],
+        [
+          72.071,
+          59.512
+        ],
+        [
+          70.159,
+          58.382
+        ],
+        [
+          67.938,
+          58.19
+        ],
+        [
+          65.862,
+          58.984
+        ],
+        [
+          64.319,
+          60.589
+        ],
+        [
+          63.637,
+          62.697
+        ],
+        [
+          63.945,
+          64.89
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777707",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -74.901,
+          51.296
+        ],
+        [
+          -73.662,
+          53.141
+        ],
+        [
+          -71.749,
+          54.272
+        ],
+        [
+          -69.529,
+          54.464
+        ],
+        [
+          -67.453,
+          53.681
+        ],
+        [
+          -65.91,
+          52.076
+        ],
+        [
+          -65.227,
+          49.967
+        ],
+        [
+          -65.536,
+          47.775
+        ],
+        [
+          -66.775,
+          45.93
+        ],
+        [
+          -68.687,
+          44.799
+        ],
+        [
+          -70.908,
+          44.607
+        ],
+        [
+          -72.995,
+          45.39
+        ],
+        [
+          -74.526,
+          46.995
+        ],
+        [
+          -75.209,
+          49.103
+        ],
+        [
+          -74.901,
+          51.296
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777708",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          91.99,
+          68.022
+        ],
+        [
+          93.229,
+          69.867
+        ],
+        [
+          95.141,
+          70.998
+        ],
+        [
+          97.362,
+          71.19
+        ],
+        [
+          99.449,
+          70.396
+        ],
+        [
+          100.98,
+          68.791
+        ],
+        [
+          101.663,
+          66.683
+        ],
+        [
+          101.355,
+          64.49
+        ],
+        [
+          100.116,
+          62.656
+        ],
+        [
+          98.204,
+          61.525
+        ],
+        [
+          95.983,
+          61.333
+        ],
+        [
+          93.896,
+          62.116
+        ],
+        [
+          92.364,
+          63.721
+        ],
+        [
+          91.681,
+          65.83
+        ],
+        [
+          91.99,
+          68.022
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777709",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          118.945,
+          71.225
+        ],
+        [
+          120.183,
+          73.07
+        ],
+        [
+          122.096,
+          74.2
+        ],
+        [
+          124.317,
+          74.381
+        ],
+        [
+          126.404,
+          73.599
+        ],
+        [
+          127.935,
+          71.994
+        ],
+        [
+          128.618,
+          69.885
+        ],
+        [
+          128.309,
+          67.692
+        ],
+        [
+          127.071,
+          65.847
+        ],
+        [
+          125.158,
+          64.717
+        ],
+        [
+          122.938,
+          64.536
+        ],
+        [
+          120.851,
+          65.318
+        ],
+        [
+          119.319,
+          66.923
+        ],
+        [
+          118.636,
+          69.032
+        ],
+        [
+          118.945,
+          71.225
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777710",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -130.408,
+          45.18
+        ],
+        [
+          -129.17,
+          47.014
+        ],
+        [
+          -127.257,
+          48.144
+        ],
+        [
+          -125.037,
+          48.336
+        ],
+        [
+          -122.95,
+          47.554
+        ],
+        [
+          -121.418,
+          45.948
+        ],
+        [
+          -120.735,
+          43.84
+        ],
+        [
+          -121.044,
+          41.647
+        ],
+        [
+          -122.283,
+          39.802
+        ],
+        [
+          -124.195,
+          38.672
+        ],
+        [
+          -126.416,
+          38.48
+        ],
+        [
+          -128.503,
+          39.273
+        ],
+        [
+          -130.034,
+          40.878
+        ],
+        [
+          -130.717,
+          42.987
+        ],
+        [
+          -130.408,
+          45.18
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777711",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          8.002,
+          59.335
+        ],
+        [
+          9.241,
+          61.18
+        ],
+        [
+          11.153,
+          62.31
+        ],
+        [
+          13.374,
+          62.502
+        ],
+        [
+          15.461,
+          61.708
+        ],
+        [
+          16.993,
+          60.103
+        ],
+        [
+          17.676,
+          57.995
+        ],
+        [
+          17.367,
+          55.802
+        ],
+        [
+          16.128,
+          53.957
+        ],
+        [
+          14.216,
+          52.838
+        ],
+        [
+          11.995,
+          52.646
+        ],
+        [
+          9.908,
+          53.428
+        ],
+        [
+          8.376,
+          55.033
+        ],
+        [
+          7.693,
+          57.142
+        ],
+        [
+          8.002,
+          59.335
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777712",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -19.098,
+          56.928
+        ],
+        [
+          -17.87,
+          58.762
+        ],
+        [
+          -15.947,
+          59.892
+        ],
+        [
+          -13.726,
+          60.084
+        ],
+        [
+          -11.65,
+          59.302
+        ],
+        [
+          -10.118,
+          57.697
+        ],
+        [
+          -9.435,
+          55.588
+        ],
+        [
+          -9.744,
+          53.395
+        ],
+        [
+          -10.972,
+          51.55
+        ],
+        [
+          -12.895,
+          50.42
+        ],
+        [
+          -15.105,
+          50.228
+        ],
+        [
+          -17.192,
+          51.022
+        ],
+        [
+          -18.724,
+          52.627
+        ],
+        [
+          -19.407,
+          54.735
+        ],
+        [
+          -19.098,
+          56.928
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777713",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -47.294,
+          53.861
+        ],
+        [
+          -46.056,
+          55.706
+        ],
+        [
+          -44.143,
+          56.825
+        ],
+        [
+          -41.922,
+          57.017
+        ],
+        [
+          -39.835,
+          56.235
+        ],
+        [
+          -38.304,
+          54.63
+        ],
+        [
+          -37.621,
+          52.521
+        ],
+        [
+          -37.93,
+          50.329
+        ],
+        [
+          -39.158,
+          48.484
+        ],
+        [
+          -41.081,
+          47.353
+        ],
+        [
+          -43.301,
+          47.161
+        ],
+        [
+          -45.378,
+          47.955
+        ],
+        [
+          -46.92,
+          49.56
+        ],
+        [
+          -47.592,
+          51.668
+        ],
+        [
+          -47.294,
+          53.861
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777714",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          35.173,
+          62.538
+        ],
+        [
+          36.411,
+          64.383
+        ],
+        [
+          38.324,
+          65.503
+        ],
+        [
+          40.545,
+          65.695
+        ],
+        [
+          42.632,
+          64.912
+        ],
+        [
+          44.163,
+          63.307
+        ],
+        [
+          44.846,
+          61.199
+        ],
+        [
+          44.537,
+          59.006
+        ],
+        [
+          43.309,
+          57.161
+        ],
+        [
+          41.386,
+          56.03
+        ],
+        [
+          39.166,
+          55.85
+        ],
+        [
+          37.089,
+          56.632
+        ],
+        [
+          35.547,
+          58.237
+        ],
+        [
+          34.875,
+          60.346
+        ],
+        [
+          35.173,
+          62.538
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777715",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -102.794,
+          48.088
+        ],
+        [
+          -101.566,
+          49.933
+        ],
+        [
+          -99.643,
+          51.063
+        ],
+        [
+          -97.422,
+          51.255
+        ],
+        [
+          -95.346,
+          50.472
+        ],
+        [
+          -93.814,
+          48.867
+        ],
+        [
+          -93.131,
+          46.759
+        ],
+        [
+          -93.44,
+          44.566
+        ],
+        [
+          -94.668,
+          42.721
+        ],
+        [
+          -96.591,
+          41.591
+        ],
+        [
+          -98.801,
+          41.399
+        ],
+        [
+          -100.888,
+          42.181
+        ],
+        [
+          -102.42,
+          43.797
+        ],
+        [
+          -103.103,
+          45.895
+        ],
+        [
+          -102.794,
+          48.088
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777716",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -143.649,
+          14.078
+        ],
+        [
+          -142.421,
+          15.912
+        ],
+        [
+          -140.498,
+          17.043
+        ],
+        [
+          -138.277,
+          17.235
+        ],
+        [
+          -136.201,
+          16.452
+        ],
+        [
+          -134.659,
+          14.847
+        ],
+        [
+          -133.987,
+          12.738
+        ],
+        [
+          -134.285,
+          10.546
+        ],
+        [
+          -135.523,
+          8.701
+        ],
+        [
+          -137.436,
+          7.57
+        ],
+        [
+          -139.656,
+          7.378
+        ],
+        [
+          -141.743,
+          8.172
+        ],
+        [
+          -143.275,
+          9.777
+        ],
+        [
+          -143.958,
+          11.875
+        ],
+        [
+          -143.649,
+          14.078
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777717",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -156.989,
+          13.656
+        ],
+        [
+          -155.761,
+          15.501
+        ],
+        [
+          -153.838,
+          16.632
+        ],
+        [
+          -151.617,
+          16.824
+        ],
+        [
+          -149.541,
+          16.041
+        ],
+        [
+          -148.009,
+          14.436
+        ],
+        [
+          -147.326,
+          12.328
+        ],
+        [
+          -147.635,
+          10.135
+        ],
+        [
+          -148.863,
+          8.29
+        ],
+        [
+          -150.775,
+          7.16
+        ],
+        [
+          -152.996,
+          6.968
+        ],
+        [
+          -155.083,
+          7.75
+        ],
+        [
+          -156.615,
+          9.355
+        ],
+        [
+          -157.298,
+          11.464
+        ],
+        [
+          -156.989,
+          13.656
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777718",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -139.32,
+          -34.507
+        ],
+        [
+          -138.145,
+          -32.751
+        ],
+        [
+          -136.33,
+          -31.688
+        ],
+        [
+          -134.228,
+          -31.508
+        ],
+        [
+          -132.249,
+          -32.247
+        ],
+        [
+          -130.793,
+          -33.775
+        ],
+        [
+          -130.154,
+          -35.773
+        ],
+        [
+          -130.442,
+          -37.855
+        ],
+        [
+          -131.617,
+          -39.6
+        ],
+        [
+          -133.432,
+          -40.675
+        ],
+        [
+          -135.534,
+          -40.855
+        ],
+        [
+          -137.513,
+          -40.105
+        ],
+        [
+          -138.969,
+          -38.588
+        ],
+        [
+          -139.608,
+          -36.589
+        ],
+        [
+          -139.32,
+          -34.507
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777719",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -124.081,
+          -24.68
+        ],
+        [
+          -122.842,
+          -22.835
+        ],
+        [
+          -120.929,
+          -21.704
+        ],
+        [
+          -118.709,
+          -21.512
+        ],
+        [
+          -116.622,
+          -22.295
+        ],
+        [
+          -115.09,
+          -23.911
+        ],
+        [
+          -114.407,
+          -26.008
+        ],
+        [
+          -114.716,
+          -28.201
+        ],
+        [
+          -115.955,
+          -30.046
+        ],
+        [
+          -117.867,
+          -31.176
+        ],
+        [
+          -120.088,
+          -31.368
+        ],
+        [
+          -122.164,
+          -30.586
+        ],
+        [
+          -123.706,
+          -28.981
+        ],
+        [
+          -124.389,
+          -26.872
+        ],
+        [
+          -124.081,
+          -24.68
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777720",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -151.833,
+          -37.513
+        ],
+        [
+          -150.605,
+          -35.668
+        ],
+        [
+          -148.682,
+          -34.537
+        ],
+        [
+          -146.462,
+          -34.356
+        ],
+        [
+          -144.385,
+          -35.139
+        ],
+        [
+          -142.854,
+          -36.744
+        ],
+        [
+          -142.171,
+          -38.853
+        ],
+        [
+          -142.48,
+          -41.045
+        ],
+        [
+          -143.707,
+          -42.89
+        ],
+        [
+          -145.631,
+          -44.021
+        ],
+        [
+          -147.841,
+          -44.202
+        ],
+        [
+          -149.928,
+          -43.419
+        ],
+        [
+          -151.459,
+          -41.814
+        ],
+        [
+          -152.142,
+          -39.705
+        ],
+        [
+          -151.833,
+          -37.513
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777721",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          128.062,
+          -36.2
+        ],
+        [
+          129.3,
+          -34.355
+        ],
+        [
+          131.213,
+          -33.225
+        ],
+        [
+          133.433,
+          -33.044
+        ],
+        [
+          135.521,
+          -33.826
+        ],
+        [
+          137.052,
+          -35.431
+        ],
+        [
+          137.735,
+          -37.54
+        ],
+        [
+          137.426,
+          -39.733
+        ],
+        [
+          136.188,
+          -41.578
+        ],
+        [
+          134.275,
+          -42.708
+        ],
+        [
+          132.055,
+          -42.889
+        ],
+        [
+          129.968,
+          -42.106
+        ],
+        [
+          128.436,
+          -40.501
+        ],
+        [
+          127.753,
+          -38.393
+        ],
+        [
+          128.062,
+          -36.2
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777722",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          101.107,
+          -39.402
+        ],
+        [
+          102.335,
+          -37.558
+        ],
+        [
+          104.258,
+          -36.427
+        ],
+        [
+          106.479,
+          -36.235
+        ],
+        [
+          108.555,
+          -37.029
+        ],
+        [
+          110.097,
+          -38.634
+        ],
+        [
+          110.77,
+          -40.742
+        ],
+        [
+          110.472,
+          -42.935
+        ],
+        [
+          109.233,
+          -44.769
+        ],
+        [
+          107.32,
+          -45.899
+        ],
+        [
+          105.1,
+          -46.091
+        ],
+        [
+          103.013,
+          -45.309
+        ],
+        [
+          101.481,
+          -43.704
+        ],
+        [
+          100.798,
+          -41.595
+        ],
+        [
+          101.107,
+          -39.402
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777723",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          73.062,
+          -42.535
+        ],
+        [
+          74.301,
+          -40.69
+        ],
+        [
+          76.213,
+          -39.57
+        ],
+        [
+          78.434,
+          -39.378
+        ],
+        [
+          80.521,
+          -40.161
+        ],
+        [
+          82.053,
+          -41.766
+        ],
+        [
+          82.736,
+          -43.875
+        ],
+        [
+          82.427,
+          -46.067
+        ],
+        [
+          81.188,
+          -47.912
+        ],
+        [
+          79.276,
+          -49.043
+        ],
+        [
+          77.055,
+          -49.235
+        ],
+        [
+          74.968,
+          -48.441
+        ],
+        [
+          73.436,
+          -46.836
+        ],
+        [
+          72.753,
+          -44.727
+        ],
+        [
+          73.062,
+          -42.535
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777724",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          44.508,
+          -45.316
+        ],
+        [
+          45.747,
+          -43.471
+        ],
+        [
+          47.659,
+          -42.341
+        ],
+        [
+          49.88,
+          -42.16
+        ],
+        [
+          51.967,
+          -42.943
+        ],
+        [
+          53.498,
+          -44.548
+        ],
+        [
+          54.181,
+          -46.656
+        ],
+        [
+          53.873,
+          -48.849
+        ],
+        [
+          52.645,
+          -50.694
+        ],
+        [
+          50.722,
+          -51.824
+        ],
+        [
+          48.501,
+          -52.005
+        ],
+        [
+          46.425,
+          -51.223
+        ],
+        [
+          44.882,
+          -49.618
+        ],
+        [
+          44.21,
+          -47.509
+        ],
+        [
+          44.508,
+          -45.316
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777725",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          17.119,
+          -48.09
+        ],
+        [
+          18.357,
+          -46.245
+        ],
+        [
+          20.27,
+          -45.115
+        ],
+        [
+          22.49,
+          -44.923
+        ],
+        [
+          24.578,
+          -45.716
+        ],
+        [
+          26.109,
+          -47.321
+        ],
+        [
+          26.792,
+          -49.43
+        ],
+        [
+          26.483,
+          -51.623
+        ],
+        [
+          25.245,
+          -53.468
+        ],
+        [
+          23.332,
+          -54.587
+        ],
+        [
+          21.112,
+          -54.779
+        ],
+        [
+          19.025,
+          -53.996
+        ],
+        [
+          17.493,
+          -52.391
+        ],
+        [
+          16.81,
+          -50.283
+        ],
+        [
+          17.119,
+          -48.09
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777726",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -9.982,
+          -50.497
+        ],
+        [
+          -8.754,
+          -48.663
+        ],
+        [
+          -6.841,
+          -47.533
+        ],
+        [
+          -4.621,
+          -47.341
+        ],
+        [
+          -2.534,
+          -48.123
+        ],
+        [
+          -1.002,
+          -49.728
+        ],
+        [
+          -0.319,
+          -51.837
+        ],
+        [
+          -0.628,
+          -54.029
+        ],
+        [
+          -1.856,
+          -55.874
+        ],
+        [
+          -3.779,
+          -57.005
+        ],
+        [
+          -6.0,
+          -57.197
+        ],
+        [
+          -8.076,
+          -56.403
+        ],
+        [
+          -9.608,
+          -54.798
+        ],
+        [
+          -10.291,
+          -52.69
+        ],
+        [
+          -9.982,
+          -50.497
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777727",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -38.178,
+          -53.564
+        ],
+        [
+          -36.939,
+          -51.719
+        ],
+        [
+          -35.027,
+          -50.599
+        ],
+        [
+          -32.806,
+          -50.407
+        ],
+        [
+          -30.719,
+          -51.19
+        ],
+        [
+          -29.187,
+          -52.795
+        ],
+        [
+          -28.505,
+          -54.903
+        ],
+        [
+          -28.813,
+          -57.096
+        ],
+        [
+          -30.041,
+          -58.941
+        ],
+        [
+          -31.964,
+          -60.072
+        ],
+        [
+          -34.185,
+          -60.264
+        ],
+        [
+          -36.261,
+          -59.47
+        ],
+        [
+          -37.804,
+          -57.865
+        ],
+        [
+          -38.476,
+          -55.756
+        ],
+        [
+          -38.178,
+          -53.564
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777728",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -65.784,
+          -56.129
+        ],
+        [
+          -64.556,
+          -54.284
+        ],
+        [
+          -62.633,
+          -53.153
+        ],
+        [
+          -60.413,
+          -52.961
+        ],
+        [
+          -58.336,
+          -53.744
+        ],
+        [
+          -56.794,
+          -55.349
+        ],
+        [
+          -56.122,
+          -57.457
+        ],
+        [
+          -56.42,
+          -59.65
+        ],
+        [
+          -57.659,
+          -61.495
+        ],
+        [
+          -59.571,
+          -62.625
+        ],
+        [
+          -61.792,
+          -62.817
+        ],
+        [
+          -63.879,
+          -62.035
+        ],
+        [
+          -65.41,
+          -60.43
+        ],
+        [
+          -66.093,
+          -58.321
+        ],
+        [
+          -65.784,
+          -56.129
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777729",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -93.678,
+          -59.337
+        ],
+        [
+          -92.45,
+          -57.492
+        ],
+        [
+          -90.537,
+          -56.362
+        ],
+        [
+          -88.317,
+          -56.17
+        ],
+        [
+          -86.23,
+          -56.952
+        ],
+        [
+          -84.698,
+          -58.557
+        ],
+        [
+          -84.015,
+          -60.666
+        ],
+        [
+          -84.324,
+          -62.859
+        ],
+        [
+          -85.552,
+          -64.704
+        ],
+        [
+          -87.475,
+          -65.834
+        ],
+        [
+          -89.696,
+          -66.026
+        ],
+        [
+          -91.772,
+          -65.243
+        ],
+        [
+          -93.304,
+          -63.627
+        ],
+        [
+          -93.987,
+          -61.53
+        ],
+        [
+          -93.678,
+          -59.337
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777730",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "ruins",
+      "footprint": [
+        [
+          -121.293,
+          -62.245
+        ],
+        [
+          -120.054,
+          -60.411
+        ],
+        [
+          -118.141,
+          -59.281
+        ],
+        [
+          -115.921,
+          -59.089
+        ],
+        [
+          -113.834,
+          -59.871
+        ],
+        [
+          -112.302,
+          -61.476
+        ],
+        [
+          -111.619,
+          -63.585
+        ],
+        [
+          -111.928,
+          -65.778
+        ],
+        [
+          -113.167,
+          -67.623
+        ],
+        [
+          -115.079,
+          -68.753
+        ],
+        [
+          -117.3,
+          -68.945
+        ],
+        [
+          -119.387,
+          -68.151
+        ],
+        [
+          -120.918,
+          -66.546
+        ],
+        [
+          -121.601,
+          -64.438
+        ],
+        [
+          -121.293,
+          -62.245
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777744",
+      "name": "",
+      "buildingType": "roof",
+      "historic": "",
+      "footprint": [
+        [
+          -112.699,
+          -220.18
+        ],
+        [
+          -107.308,
+          -216.692
+        ],
+        [
+          -105.938,
+          -229.45
+        ],
+        [
+          -106.475,
+          -229.797
+        ],
+        [
+          -107.088,
+          -230.177
+        ],
+        [
+          -113.902,
+          -220.952
+        ],
+        [
+          -112.699,
+          -220.18
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777755",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -111.888,
+          -178.906
+        ],
+        [
+          -111.393,
+          -185.076
+        ],
+        [
+          -115.813,
+          -185.438
+        ],
+        [
+          -116.308,
+          -179.257
+        ],
+        [
+          -111.888,
+          -178.906
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777756",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -142.497,
+          -209.66
+        ],
+        [
+          -142.156,
+          -212.335
+        ],
+        [
+          -145.734,
+          -212.791
+        ],
+        [
+          -146.075,
+          -210.116
+        ],
+        [
+          -142.497,
+          -209.66
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777757",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -122.327,
+          -198.493
+        ],
+        [
+          -121.815,
+          -202.329
+        ],
+        [
+          -127.592,
+          -203.087
+        ],
+        [
+          -128.103,
+          -199.251
+        ],
+        [
+          -122.327,
+          -198.493
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777758",
+      "name": "",
+      "buildingType": "roof",
+      "historic": "",
+      "footprint": [
+        [
+          -69.059,
+          -208.733
+        ],
+        [
+          -67.276,
+          -225.218
+        ],
+        [
+          -69.625,
+          -225.588
+        ],
+        [
+          -71.386,
+          -209.181
+        ],
+        [
+          -69.059,
+          -208.733
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777759",
+      "name": "",
+      "buildingType": "roof",
+      "historic": "",
+      "footprint": [
+        [
+          -107.849,
+          -211.617
+        ],
+        [
+          -108.171,
+          -208.632
+        ],
+        [
+          -28.322,
+          -200.26
+        ],
+        [
+          -28.157,
+          -202.395
+        ],
+        [
+          -27.993,
+          -204.308
+        ],
+        [
+          -32.746,
+          -204.815
+        ],
+        [
+          -69.059,
+          -208.733
+        ],
+        [
+          -71.386,
+          -209.181
+        ],
+        [
+          -107.699,
+          -213.032
+        ],
+        [
+          -107.849,
+          -211.617
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777762",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -112.544,
+          -212.788
+        ],
+        [
+          -110.76,
+          -215.056
+        ],
+        [
+          -112.96,
+          -216.752
+        ],
+        [
+          -114.733,
+          -214.485
+        ],
+        [
+          -112.544,
+          -212.788
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777763",
+      "name": "",
+      "buildingType": "roof",
+      "historic": "",
+      "footprint": [
+        [
+          -143.166,
+          -235.233
+        ],
+        [
+          -144.718,
+          -237.058
+        ],
+        [
+          -156.194,
+          -230.774
+        ],
+        [
+          -152.072,
+          -226.21
+        ],
+        [
+          -150.841,
+          -224.841
+        ],
+        [
+          -143.166,
+          -235.233
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777764",
+      "name": "",
+      "buildingType": "roof",
+      "historic": "",
+      "footprint": [
+        [
+          -132.867,
+          -250.0
+        ],
+        [
+          -136.444,
+          -250.0
+        ],
+        [
+          -142.913,
+          -242.335
+        ],
+        [
+          -141.114,
+          -238.826
+        ],
+        [
+          -132.867,
+          -250.0
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777765",
+      "name": "",
+      "buildingType": "roof",
+      "historic": "",
+      "footprint": [
+        [
+          -144.718,
+          -237.058
+        ],
+        [
+          -143.166,
+          -235.233
+        ],
+        [
+          -116.89,
+          -216.082
+        ],
+        [
+          -115.995,
+          -217.658
+        ],
+        [
+          -114.838,
+          -219.675
+        ],
+        [
+          -141.114,
+          -238.826
+        ],
+        [
+          -142.913,
+          -242.335
+        ],
+        [
+          -146.861,
+          -250.0
+        ],
+        [
+          -151.895,
+          -250.0
+        ],
+        [
+          -144.718,
+          -237.058
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777767",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -29.301,
+          -191.062
+        ],
+        [
+          -28.322,
+          -200.26
+        ],
+        [
+          -108.171,
+          -208.632
+        ],
+        [
+          -117.096,
+          -209.577
+        ],
+        [
+          -118.075,
+          -200.368
+        ],
+        [
+          -29.301,
+          -191.062
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777768",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -150.841,
+          -224.841
+        ],
+        [
+          -150.24,
+          -224.405
+        ],
+        [
+          -124.565,
+          -205.689
+        ],
+        [
+          -116.89,
+          -216.082
+        ],
+        [
+          -143.166,
+          -235.233
+        ],
+        [
+          -150.841,
+          -224.841
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777769",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -114.838,
+          -219.675
+        ],
+        [
+          -113.902,
+          -220.952
+        ],
+        [
+          -107.088,
+          -230.177
+        ],
+        [
+          -105.574,
+          -232.225
+        ],
+        [
+          -129.962,
+          -250.0
+        ],
+        [
+          -132.867,
+          -250.0
+        ],
+        [
+          -141.114,
+          -238.826
+        ],
+        [
+          -114.838,
+          -219.675
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/800777770",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -71.386,
+          -209.181
+        ],
+        [
+          -69.625,
+          -225.588
+        ],
+        [
+          -105.938,
+          -229.45
+        ],
+        [
+          -107.308,
+          -216.692
+        ],
+        [
+          -107.504,
+          -214.801
+        ],
+        [
+          -107.699,
+          -213.032
+        ],
+        [
+          -71.386,
+          -209.181
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/801965872",
+      "name": "",
+      "buildingType": "roof",
+      "historic": "",
+      "footprint": [
+        [
+          11.892,
+          -133.506
+        ],
+        [
+          16.216,
+          -168.483
+        ],
+        [
+          5.061,
+          -169.842
+        ],
+        [
+          0.737,
+          -134.865
+        ],
+        [
+          11.892,
+          -133.506
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/801965873",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -5.326,
+          -161.913
+        ],
+        [
+          -9.971,
+          -162.442
+        ],
+        [
+          -11.071,
+          -152.89
+        ],
+        [
+          -6.426,
+          -152.361
+        ],
+        [
+          -5.326,
+          -161.913
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/801965874",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -7.027,
+          -146.39
+        ],
+        [
+          -6.821,
+          -148.093
+        ],
+        [
+          -6.408,
+          -151.719
+        ],
+        [
+          -17.38,
+          -152.966
+        ],
+        [
+          -17.782,
+          -149.461
+        ],
+        [
+          -17.988,
+          -147.637
+        ],
+        [
+          -7.027,
+          -146.39
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/803027163",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -226.614,
+          -212.185
+        ],
+        [
+          -226.133,
+          -217.858
+        ],
+        [
+          -230.65,
+          -218.231
+        ],
+        [
+          -231.12,
+          -212.558
+        ],
+        [
+          -226.614,
+          -212.185
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/844790364",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -186.296,
+          -88.617
+        ],
+        [
+          -185.887,
+          -93.338
+        ],
+        [
+          -193.778,
+          -94.022
+        ],
+        [
+          -194.198,
+          -89.301
+        ],
+        [
+          -186.296,
+          -88.617
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/844790365",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -195.427,
+          -89.486
+        ],
+        [
+          -194.936,
+          -95.004
+        ],
+        [
+          -223.859,
+          -97.5
+        ],
+        [
+          -224.339,
+          -91.982
+        ],
+        [
+          -195.427,
+          -89.486
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    },
+    {
+      "id": "way/844790372",
+      "name": "",
+      "buildingType": "yes",
+      "historic": "",
+      "footprint": [
+        [
+          -133.166,
+          -128.266
+        ],
+        [
+          -132.724,
+          -133.021
+        ],
+        [
+          -131.462,
+          -132.901
+        ],
+        [
+          -130.975,
+          -137.999
+        ],
+        [
+          -132.247,
+          -138.118
+        ],
+        [
+          -131.793,
+          -142.994
+        ],
+        [
+          -138.035,
+          -143.567
+        ],
+        [
+          -139.418,
+          -128.839
+        ],
+        [
+          -133.166,
+          -128.266
+        ]
+      ],
+      "heightMeters": 6.0,
+      "heightSource": "estimated_default_for_building_type",
+      "levels": null,
+      "confidence": "footprint_from_osm_height_estimated"
+    }
+  ],
+  "roads": [
+    {
+      "id": "way/37447499",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          204.138,
+          -81.082
+        ],
+        [
+          186.765,
+          -83.124
+        ],
+        [
+          183.187,
+          -83.569
+        ],
+        [
+          171.935,
+          -84.917
+        ],
+        [
+          125.677,
+          -90.441
+        ],
+        [
+          62.704,
+          -97.969
+        ],
+        [
+          14.413,
+          -104.313
+        ],
+        [
+          -7.973,
+          -106.832
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/37447573",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          7.383,
+          -43.896
+        ],
+        [
+          -36.751,
+          -47.679
+        ],
+        [
+          -37.197,
+          -42.272
+        ],
+        [
+          -80.563,
+          -46.304
+        ],
+        [
+          -80.251,
+          -51.048
+        ],
+        [
+          -126.821,
+          -54.914
+        ],
+        [
+          -132.642,
+          34.034
+        ],
+        [
+          47.47,
+          49.61
+        ],
+        [
+          102.574,
+          54.883
+        ],
+        [
+          102.289,
+          58.71
+        ],
+        [
+          143.333,
+          61.487
+        ],
+        [
+          146.116,
+          27.938
+        ],
+        [
+          137.321,
+          27.049
+        ],
+        [
+          139.842,
+          -1.358
+        ],
+        [
+          110.35,
+          -4.135
+        ],
+        [
+          112.432,
+          -33.02
+        ],
+        [
+          55.219,
+          -38.938
+        ],
+        [
+          7.383,
+          -43.896
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/37447656",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -51.203,
+          -147.02
+        ],
+        [
+          -81.15,
+          -151.183
+        ],
+        [
+          -83.467,
+          -151.508
+        ],
+        [
+          -121.691,
+          -156.822
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/79265215",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -119.307,
+          -203.131
+        ],
+        [
+          -124.48,
+          -203.874
+        ],
+        [
+          -125.36,
+          -204.488
+        ],
+        [
+          -153.541,
+          -224.317
+        ],
+        [
+          -152.072,
+          -226.21
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/95437075",
+      "name": "",
+      "highway": "footway",
+      "surface": "paving_stones",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -112.699,
+          -220.18
+        ],
+        [
+          -113.331,
+          -219.2
+        ],
+        [
+          -114.804,
+          -216.787
+        ],
+        [
+          -117.324,
+          -212.577
+        ],
+        [
+          -118.513,
+          -210.572
+        ],
+        [
+          -119.307,
+          -203.131
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/95437077",
+      "name": "",
+      "highway": "footway",
+      "surface": "wood",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          77.135,
+          -250.0
+        ],
+        [
+          74.299,
+          -216.186
+        ]
+      ],
+      "bridge": true,
+      "layer": "1"
+    },
+    {
+      "id": "way/121980648",
+      "name": "",
+      "highway": "path",
+      "surface": "unpaved",
+      "widthMeters": 1.2,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          199.978,
+          116.437
+        ],
+        [
+          216.352,
+          130.721
+        ],
+        [
+          235.275,
+          131.723
+        ],
+        [
+          250.0,
+          127.292
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/160661004",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          206.561,
+          -206.531
+        ],
+        [
+          223.581,
+          -204.845
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/197526943",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          41.811,
+          -144.412
+        ],
+        [
+          40.853,
+          -136.685
+        ],
+        [
+          61.406,
+          -119.784
+        ],
+        [
+          87.185,
+          -130.984
+        ],
+        [
+          90.051,
+          -157.651
+        ],
+        [
+          69.129,
+          -174.145
+        ],
+        [
+          44.103,
+          -162.763
+        ],
+        [
+          43.898,
+          -161.127
+        ],
+        [
+          41.811,
+          -144.412
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/197526943#1",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          41.811,
+          -144.412
+        ],
+        [
+          19.933,
+          -147.149
+        ],
+        [
+          -0.783,
+          -149.424
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/197526945",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          59.988,
+          -74.376
+        ],
+        [
+          62.704,
+          -97.969
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/197526948",
+      "name": "",
+      "highway": "service",
+      "surface": "concrete",
+      "widthMeters": 3.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -250.0,
+          -43.348
+        ],
+        [
+          -175.6,
+          -38.414
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/197526950",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          69.129,
+          -174.145
+        ],
+        [
+          72.53,
+          -201.826
+        ],
+        [
+          73.408,
+          -208.912
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/197526955",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          61.406,
+          -119.784
+        ],
+        [
+          65.215,
+          -116.904
+        ],
+        [
+          64.795,
+          -113.754
+        ],
+        [
+          62.704,
+          -97.969
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/197526969",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          43.156,
+          -67.188
+        ],
+        [
+          10.227,
+          -70.608
+        ],
+        [
+          -12.213,
+          -73.104
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/197526970",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          43.898,
+          -161.127
+        ],
+        [
+          31.02,
+          -162.918
+        ],
+        [
+          26.996,
+          -186.81
+        ],
+        [
+          25.132,
+          -186.999
+        ],
+        [
+          21.122,
+          -187.402
+        ],
+        [
+          -0.759,
+          -189.63
+        ],
+        [
+          -18.62,
+          -191.421
+        ],
+        [
+          -17.53,
+          -201.161
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/197526977",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          10.227,
+          -70.608
+        ],
+        [
+          13.139,
+          -94.575
+        ],
+        [
+          14.413,
+          -104.313
+        ],
+        [
+          16.417,
+          -119.9
+        ],
+        [
+          19.933,
+          -147.149
+        ],
+        [
+          25.132,
+          -186.999
+        ],
+        [
+          27.837,
+          -204.274
+        ],
+        [
+          33.03,
+          -209.727
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/197526978",
+      "name": "",
+      "highway": "footway",
+      "surface": "paving_stones",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -17.53,
+          -201.161
+        ],
+        [
+          -28.157,
+          -202.395
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/197526980",
+      "name": "",
+      "highway": "service",
+      "surface": "",
+      "widthMeters": 3.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -172.306,
+          -83.931
+        ],
+        [
+          -175.6,
+          -38.414
+        ],
+        [
+          -180.87,
+          34.495
+        ],
+        [
+          -181.666,
+          45.454
+        ],
+        [
+          -179.915,
+          51.197
+        ],
+        [
+          -173.99,
+          53.892
+        ],
+        [
+          27.163,
+          76.204
+        ],
+        [
+          112.968,
+          85.722
+        ],
+        [
+          160.091,
+          90.942
+        ],
+        [
+          183.22,
+          93.51
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/320442219",
+      "name": "",
+      "highway": "footway",
+      "surface": "unpaved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -82.321,
+          -159.976
+        ],
+        [
+          -80.971,
+          -172.944
+        ],
+        [
+          -121.78,
+          -177.18
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/320442221",
+      "name": "",
+      "highway": "footway",
+      "surface": "grass_paver",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -122.426,
+          -250.0
+        ],
+        [
+          -103.162,
+          -234.919
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/320442223",
+      "name": "",
+      "highway": "service",
+      "surface": "asphalt",
+      "widthMeters": 3.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -188.331,
+          -250.0
+        ],
+        [
+          -187.163,
+          -246.572
+        ],
+        [
+          -186.176,
+          -237.758
+        ],
+        [
+          -190.586,
+          -193.2
+        ],
+        [
+          -192.332,
+          -177.39
+        ],
+        [
+          -196.919,
+          -167.408
+        ],
+        [
+          -205.765,
+          -159.17
+        ],
+        [
+          -216.833,
+          -154.166
+        ],
+        [
+          -227.96,
+          -154.861
+        ],
+        [
+          -241.615,
+          -161.348
+        ],
+        [
+          -250.0,
+          -171.614
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/380376238",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -121.691,
+          -156.822
+        ],
+        [
+          -125.618,
+          -121.488
+        ],
+        [
+          -129.396,
+          -87.415
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/380376239",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -125.618,
+          -121.488
+        ],
+        [
+          -114.14,
+          -120.061
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/380376910",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          189.695,
+          41.929
+        ],
+        [
+          166.477,
+          39.704
+        ],
+        [
+          159.569,
+          38.827
+        ],
+        [
+          160.495,
+          29.495
+        ],
+        [
+          146.116,
+          27.938
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/380376912",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          194.78,
+          1.37
+        ],
+        [
+          171.338,
+          -1.278
+        ],
+        [
+          163.428,
+          -2.349
+        ],
+        [
+          163.007,
+          0.901
+        ],
+        [
+          139.842,
+          -1.358
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/392335432",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          72.53,
+          -201.826
+        ],
+        [
+          78.356,
+          -203.612
+        ],
+        [
+          82.696,
+          -204.302
+        ],
+        [
+          86.453,
+          -203.126
+        ],
+        [
+          92.238,
+          -203.662
+        ],
+        [
+          100.626,
+          -203.03
+        ],
+        [
+          109.587,
+          -202.682
+        ],
+        [
+          115.684,
+          -204.655
+        ],
+        [
+          118.287,
+          -205.213
+        ],
+        [
+          126.393,
+          -206.021
+        ],
+        [
+          134.769,
+          -203.663
+        ],
+        [
+          142.697,
+          -198.863
+        ],
+        [
+          154.265,
+          -199.648
+        ],
+        [
+          166.449,
+          -203.737
+        ],
+        [
+          174.702,
+          -205.551
+        ],
+        [
+          185.14,
+          -208.357
+        ],
+        [
+          194.98,
+          -208.722
+        ],
+        [
+          196.791,
+          -208.5
+        ],
+        [
+          206.561,
+          -206.531
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/392336199",
+      "name": "",
+      "highway": "steps",
+      "surface": "paving_stones",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -47.785,
+          -226.823
+        ],
+        [
+          -46.592,
+          -237.392
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/392336200",
+      "name": "",
+      "highway": "footway",
+      "surface": "paving_stones",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -46.592,
+          -237.392
+        ],
+        [
+          -45.499,
+          -250.0
+        ]
+      ],
+      "bridge": true,
+      "layer": "1"
+    },
+    {
+      "id": "way/446019908",
+      "name": "",
+      "highway": "path",
+      "surface": "unpaved",
+      "widthMeters": 1.2,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -250.0,
+          221.767
+        ],
+        [
+          -137.904,
+          230.594
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/446019909",
+      "name": "",
+      "highway": "path",
+      "surface": "unpaved",
+      "widthMeters": 1.2,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -180.87,
+          34.495
+        ],
+        [
+          -250.0,
+          37.14
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/446019909#1",
+      "name": "",
+      "highway": "path",
+      "surface": "unpaved",
+      "widthMeters": 1.2,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -250.0,
+          150.741
+        ],
+        [
+          -240.344,
+          159.183
+        ],
+        [
+          -230.545,
+          163.276
+        ],
+        [
+          -159.434,
+          173.237
+        ],
+        [
+          -150.516,
+          179.914
+        ],
+        [
+          -147.526,
+          208.39
+        ],
+        [
+          -137.484,
+          221.104
+        ],
+        [
+          -137.904,
+          230.594
+        ],
+        [
+          -140.537,
+          250.0
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/570367934",
+      "name": "Si Sanphet Road",
+      "highway": "tertiary",
+      "surface": "asphalt",
+      "widthMeters": 6.4,
+      "widthSource": "estimated_from_lanes",
+      "points": [
+        [
+          196.283,
+          -96.602
+        ],
+        [
+          196.591,
+          -89.574
+        ],
+        [
+          200.484,
+          -83.009
+        ],
+        [
+          204.138,
+          -81.082
+        ],
+        [
+          204.676,
+          -80.801
+        ],
+        [
+          205.794,
+          -80.208
+        ],
+        [
+          250.0,
+          -74.735
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/724700774",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 2.0,
+      "widthSource": "osm_width_tag",
+      "points": [
+        [
+          204.676,
+          -80.801
+        ],
+        [
+          203.118,
+          -67.358
+        ],
+        [
+          200.323,
+          -43.136
+        ],
+        [
+          194.78,
+          1.37
+        ],
+        [
+          193.127,
+          14.503
+        ],
+        [
+          189.695,
+          41.929
+        ],
+        [
+          183.22,
+          93.51
+        ],
+        [
+          202.497,
+          96.473
+        ],
+        [
+          199.978,
+          116.437
+        ],
+        [
+          193.095,
+          171.013
+        ],
+        [
+          102.473,
+          160.92
+        ],
+        [
+          97.008,
+          217.84
+        ],
+        [
+          93.51,
+          250.0
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/724700774#1",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 2.0,
+      "widthSource": "osm_width_tag",
+      "points": [
+        [
+          5.401,
+          250.0
+        ],
+        [
+          10.804,
+          206.847
+        ],
+        [
+          14.908,
+          174.114
+        ],
+        [
+          20.973,
+          125.662
+        ],
+        [
+          23.515,
+          105.321
+        ],
+        [
+          27.163,
+          76.204
+        ],
+        [
+          27.902,
+          70.688
+        ],
+        [
+          28.458,
+          66.587
+        ],
+        [
+          45.52,
+          68.494
+        ],
+        [
+          47.47,
+          49.61
+        ],
+        [
+          48.393,
+          40.688
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/724700776",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          43.156,
+          -67.188
+        ],
+        [
+          44.037,
+          -76.221
+        ],
+        [
+          59.988,
+          -74.376
+        ],
+        [
+          76.996,
+          -72.414
+        ],
+        [
+          75.945,
+          -63.703
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/724700777",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -89.724,
+          -82.556
+        ],
+        [
+          -89.159,
+          -88.006
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/724700778",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -81.15,
+          -151.183
+        ],
+        [
+          -81.816,
+          -145.324
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/724700781",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          74.299,
+          -216.186
+        ],
+        [
+          73.408,
+          -208.912
+        ],
+        [
+          33.03,
+          -209.727
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/724700783",
+      "name": "",
+      "highway": "service",
+      "surface": "concrete",
+      "widthMeters": 3.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -250.0,
+          -146.132
+        ],
+        [
+          -215.608,
+          -142.209
+        ],
+        [
+          -164.876,
+          -136.424
+        ],
+        [
+          -162.146,
+          -133.396
+        ],
+        [
+          -160.869,
+          -129.216
+        ],
+        [
+          -164.208,
+          -105.949
+        ],
+        [
+          -164.56,
+          -96.89
+        ],
+        [
+          -164.771,
+          -91.282
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/724700784",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -11.066,
+          -142.434
+        ],
+        [
+          -3.141,
+          -145.236
+        ],
+        [
+          -1.271,
+          -145.71
+        ],
+        [
+          -0.783,
+          -149.424
+        ],
+        [
+          0.689,
+          -162.912
+        ],
+        [
+          -3.676,
+          -163.484
+        ],
+        [
+          -2.045,
+          -178.099
+        ],
+        [
+          -0.759,
+          -189.63
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/724700785",
+      "name": "",
+      "highway": "footway",
+      "surface": "paving_stones",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -17.53,
+          -201.161
+        ],
+        [
+          -15.164,
+          -222.543
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/726902077",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          75.945,
+          -63.703
+        ],
+        [
+          169.396,
+          -53.9
+        ],
+        [
+          170.389,
+          -65.311
+        ],
+        [
+          181.103,
+          -64.166
+        ],
+        [
+          184.865,
+          -63.764
+        ],
+        [
+          185.409,
+          -69.281
+        ],
+        [
+          186.765,
+          -83.124
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/727530585",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          193.127,
+          14.503
+        ],
+        [
+          209.767,
+          16.574
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/727530586",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -23.784,
+          -108.775
+        ],
+        [
+          -56.643,
+          -112.88
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/734477453",
+      "name": "",
+      "highway": "service",
+      "surface": "concrete",
+      "widthMeters": 3.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -250.0,
+          -207.472
+        ],
+        [
+          -245.478,
+          -250.0
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/752933718",
+      "name": "",
+      "highway": "path",
+      "surface": "unpaved",
+      "widthMeters": 1.2,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          20.973,
+          125.662
+        ],
+        [
+          6.867,
+          138.135
+        ],
+        [
+          -11.396,
+          143.19
+        ],
+        [
+          -86.849,
+          134.051
+        ],
+        [
+          -130.572,
+          139.798
+        ],
+        [
+          -146.265,
+          150.9
+        ],
+        [
+          -150.516,
+          179.914
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/755449933",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          112.968,
+          85.722
+        ],
+        [
+          109.875,
+          114.103
+        ],
+        [
+          103.171,
+          113.427
+        ],
+        [
+          23.515,
+          105.321
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/784242210",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          223.581,
+          -204.845
+        ],
+        [
+          250.0,
+          -202.229
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/796236200",
+      "name": "Si Sanphet Road",
+      "highway": "tertiary",
+      "surface": "",
+      "widthMeters": 6.4,
+      "widthSource": "estimated_from_lanes",
+      "points": [
+        [
+          210.621,
+          -250.0
+        ],
+        [
+          206.561,
+          -206.531
+        ],
+        [
+          196.283,
+          -96.602
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/799766939",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          102.574,
+          54.883
+        ],
+        [
+          104.098,
+          27.245
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/799767019",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          54.159,
+          -25.734
+        ],
+        [
+          55.219,
+          -38.938
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/799767020",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          6.183,
+          -30.749
+        ],
+        [
+          7.383,
+          -43.896
+        ],
+        [
+          9.412,
+          -63.267
+        ],
+        [
+          10.227,
+          -70.608
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/799767176",
+      "name": "",
+      "highway": "service",
+      "surface": "asphalt",
+      "widthMeters": 3.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -206.182,
+          -250.0
+        ],
+        [
+          -199.241,
+          -248.611
+        ],
+        [
+          -187.163,
+          -246.572
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/799767177",
+      "name": "",
+      "highway": "service",
+      "surface": "asphalt",
+      "widthMeters": 3.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -216.293,
+          -250.0
+        ],
+        [
+          -224.478,
+          -178.514
+        ],
+        [
+          -222.062,
+          -172.169
+        ],
+        [
+          -216.291,
+          -168.977
+        ],
+        [
+          -210.204,
+          -171.083
+        ],
+        [
+          -206.841,
+          -177.101
+        ],
+        [
+          -199.241,
+          -248.611
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/800426708",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -59.774,
+          -78.891
+        ],
+        [
+          -89.724,
+          -82.556
+        ],
+        [
+          -129.396,
+          -87.415
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/800777742",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -106.475,
+          -229.797
+        ],
+        [
+          -112.699,
+          -220.18
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/800777743",
+      "name": "",
+      "highway": "footway",
+      "surface": "grass_paver",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -15.164,
+          -222.543
+        ],
+        [
+          -47.785,
+          -226.823
+        ],
+        [
+          -98.918,
+          -232.435
+        ],
+        [
+          -103.162,
+          -234.919
+        ],
+        [
+          -106.475,
+          -229.797
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/800777745",
+      "name": "",
+      "highway": "footway",
+      "surface": "paving_stones",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -28.157,
+          -202.395
+        ],
+        [
+          -107.849,
+          -211.617
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/800777746",
+      "name": "",
+      "highway": "footway",
+      "surface": "paving_stones",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -114.804,
+          -216.787
+        ],
+        [
+          -115.995,
+          -217.658
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/800777749",
+      "name": "",
+      "highway": "footway",
+      "surface": "paving_stones",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -152.072,
+          -226.21
+        ],
+        [
+          -143.259,
+          -237.469
+        ],
+        [
+          -133.896,
+          -250.0
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/800777750",
+      "name": "",
+      "highway": "footway",
+      "surface": "paving_stones",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -107.849,
+          -211.617
+        ],
+        [
+          -109.541,
+          -211.806
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/800777751",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -119.307,
+          -203.131
+        ],
+        [
+          -120.16,
+          -195.016
+        ],
+        [
+          -120.906,
+          -186.778
+        ],
+        [
+          -121.093,
+          -184.721
+        ],
+        [
+          -121.78,
+          -177.18
+        ],
+        [
+          -122.887,
+          -165.018
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/800777752",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -83.467,
+          -151.508
+        ],
+        [
+          -82.321,
+          -159.976
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/800777753",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -122.887,
+          -165.018
+        ],
+        [
+          -121.691,
+          -156.822
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/800777760",
+      "name": "",
+      "highway": "footway",
+      "surface": "paving_stones",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -117.324,
+          -212.577
+        ],
+        [
+          -112.806,
+          -210.754
+        ],
+        [
+          -109.541,
+          -211.806
+        ],
+        [
+          -109.005,
+          -216.084
+        ],
+        [
+          -113.331,
+          -219.2
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/800777761",
+      "name": "",
+      "highway": "footway",
+      "surface": "paving_stones",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -115.995,
+          -217.658
+        ],
+        [
+          -143.259,
+          -237.469
+        ],
+        [
+          -149.685,
+          -250.0
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/801965875",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -59.774,
+          -78.891
+        ],
+        [
+          -45.839,
+          -77.193
+        ],
+        [
+          -17.239,
+          -93.95
+        ],
+        [
+          -16.761,
+          -97.697
+        ],
+        [
+          -15.474,
+          -107.757
+        ],
+        [
+          -13.447,
+          -123.708
+        ],
+        [
+          -11.066,
+          -142.434
+        ],
+        [
+          -51.203,
+          -147.02
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/801965876",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -7.973,
+          -106.832
+        ],
+        [
+          -15.474,
+          -107.757
+        ],
+        [
+          -23.784,
+          -108.775
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/801965877",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          234.091,
+          2.122
+        ],
+        [
+          238.152,
+          -30.644
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/801965878",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          209.767,
+          16.574
+        ],
+        [
+          218.077,
+          17.603
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/801965879",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          245.925,
+          21.055
+        ],
+        [
+          250.0,
+          21.558
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/801965880",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          234.091,
+          2.122
+        ],
+        [
+          220.318,
+          0.359
+        ],
+        [
+          218.077,
+          17.603
+        ],
+        [
+          216.324,
+          31.167
+        ],
+        [
+          244.15,
+          34.729
+        ],
+        [
+          245.925,
+          21.055
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/803322728",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -56.643,
+          -112.88
+        ],
+        [
+          -59.833,
+          -113.355
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/844790368",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          185.409,
+          -69.281
+        ],
+        [
+          203.118,
+          -67.358
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/844790369",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          125.677,
+          -90.441
+        ],
+        [
+          127.293,
+          -106.063
+        ],
+        [
+          173.668,
+          -100.362
+        ],
+        [
+          171.935,
+          -84.917
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/844790370",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -16.761,
+          -97.697
+        ],
+        [
+          -9.216,
+          -96.905
+        ],
+        [
+          13.139,
+          -94.575
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/844790371",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -13.447,
+          -123.708
+        ],
+        [
+          -5.967,
+          -122.75
+        ],
+        [
+          16.417,
+          -119.9
+        ],
+        [
+          64.795,
+          -113.754
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/950611821",
+      "name": "",
+      "highway": "footway",
+      "surface": "paved",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          245.925,
+          21.055
+        ],
+        [
+          248.144,
+          3.921
+        ],
+        [
+          234.091,
+          2.122
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/1351989143",
+      "name": "",
+      "highway": "service",
+      "surface": "unpaved",
+      "widthMeters": 3.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -129.396,
+          -87.415
+        ],
+        [
+          -164.771,
+          -91.282
+        ],
+        [
+          -171.496,
+          -92.013
+        ],
+        [
+          -172.306,
+          -83.931
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    },
+    {
+      "id": "way/1382672643",
+      "name": "",
+      "highway": "footway",
+      "surface": "",
+      "widthMeters": 1.5,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -121.691,
+          -156.822
+        ],
+        [
+          -136.511,
+          -155.24
+        ],
+        [
+          -143.936,
+          -151.352
+        ],
+        [
+          -146.327,
+          -145.537
+        ],
+        [
+          -146.623,
+          -144.809
+        ],
+        [
+          -152.731,
+          -141.166
+        ],
+        [
+          -156.172,
+          -139.618
+        ],
+        [
+          -164.876,
+          -136.424
+        ]
+      ],
+      "bridge": false,
+      "layer": "0"
+    }
+  ],
+  "water": [
+    {
+      "id": "way/197526940",
+      "name": "",
+      "kind": "water",
+      "shape": "polygon",
+      "widthMeters": 5.0,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          80.654,
+          -135.0
+        ],
+        [
+          82.91,
+          -154.48
+        ],
+        [
+          67.321,
+          -166.766
+        ],
+        [
+          49.11,
+          -158.337
+        ],
+        [
+          46.888,
+          -139.1
+        ],
+        [
+          62.412,
+          -126.737
+        ],
+        [
+          80.654,
+          -135.0
+        ]
+      ]
+    },
+    {
+      "id": "way/380371754",
+      "name": "",
+      "kind": "water",
+      "shape": "polygon",
+      "widthMeters": 5.0,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          222.678,
+          -218.072
+        ],
+        [
+          225.213,
+          -214.869
+        ],
+        [
+          246.91,
+          -214.224
+        ],
+        [
+          250.0,
+          -217.018
+        ],
+        [
+          250.0,
+          -250.0
+        ],
+        [
+          225.113,
+          -250.0
+        ],
+        [
+          222.678,
+          -218.072
+        ]
+      ]
+    },
+    {
+      "id": "way/380375181",
+      "name": "Sa Rakhang",
+      "kind": "water",
+      "shape": "polygon",
+      "widthMeters": 5.0,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -208.172,
+          17.14
+        ],
+        [
+          -200.052,
+          14.318
+        ],
+        [
+          -196.986,
+          -6.982
+        ],
+        [
+          -200.749,
+          -11.986
+        ],
+        [
+          -250.0,
+          -18.696
+        ],
+        [
+          -250.0,
+          11.856
+        ],
+        [
+          -208.172,
+          17.14
+        ]
+      ]
+    },
+    {
+      "id": "way/380375182",
+      "name": "",
+      "kind": "water",
+      "shape": "polygon",
+      "widthMeters": 5.0,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -201.634,
+          76.265
+        ],
+        [
+          -209.939,
+          63.275
+        ],
+        [
+          -250.0,
+          59.816
+        ],
+        [
+          -250.0,
+          85.968
+        ],
+        [
+          -249.431,
+          86.299
+        ],
+        [
+          -231.537,
+          92.737
+        ],
+        [
+          -225.979,
+          125.834
+        ],
+        [
+          -216.999,
+          128.284
+        ],
+        [
+          -189.763,
+          123.301
+        ],
+        [
+          -186.578,
+          118.056
+        ],
+        [
+          -190.522,
+          103.082
+        ],
+        [
+          -191.604,
+          90.705
+        ],
+        [
+          -167.0,
+          89.145
+        ],
+        [
+          -149.372,
+          91.852
+        ],
+        [
+          -124.813,
+          95.182
+        ],
+        [
+          -121.96,
+          102.393
+        ],
+        [
+          -88.971,
+          106.444
+        ],
+        [
+          -84.797,
+          103.363
+        ],
+        [
+          -79.009,
+          103.878
+        ],
+        [
+          -77.605,
+          89.183
+        ],
+        [
+          -201.634,
+          76.265
+        ]
+      ]
+    },
+    {
+      "id": "way/380375400",
+      "name": "",
+      "kind": "water",
+      "shape": "polygon",
+      "widthMeters": 5.0,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -245.622,
+          -110.813
+        ],
+        [
+          -212.268,
+          -104.923
+        ],
+        [
+          -207.735,
+          -108.544
+        ],
+        [
+          -206.306,
+          -126.933
+        ],
+        [
+          -208.777,
+          -129.915
+        ],
+        [
+          -243.319,
+          -134.175
+        ],
+        [
+          -247.216,
+          -132.099
+        ],
+        [
+          -248.943,
+          -114.232
+        ],
+        [
+          -245.622,
+          -110.813
+        ]
+      ]
+    },
+    {
+      "id": "way/380376240",
+      "name": "",
+      "kind": "water",
+      "shape": "polygon",
+      "widthMeters": 5.0,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -41.7,
+          -155.022
+        ],
+        [
+          -40.988,
+          -161.434
+        ],
+        [
+          -39.576,
+          -174.17
+        ],
+        [
+          -63.213,
+          -176.764
+        ],
+        [
+          -65.337,
+          -157.615
+        ],
+        [
+          -41.7,
+          -155.022
+        ]
+      ]
+    },
+    {
+      "id": "way/380377245",
+      "name": "Sa O",
+      "kind": "water",
+      "shape": "polygon",
+      "widthMeters": 5.0,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -125.793,
+          178.111
+        ],
+        [
+          -105.545,
+          179.398
+        ],
+        [
+          -96.718,
+          177.167
+        ],
+        [
+          -94.51,
+          172.867
+        ],
+        [
+          -94.446,
+          163.375
+        ],
+        [
+          -98.466,
+          158.17
+        ],
+        [
+          -106.559,
+          156.976
+        ],
+        [
+          -121.582,
+          155.149
+        ],
+        [
+          -129.119,
+          156.248
+        ],
+        [
+          -133.186,
+          159.662
+        ],
+        [
+          -135.412,
+          166.551
+        ],
+        [
+          -133.151,
+          175.196
+        ],
+        [
+          -125.793,
+          178.111
+        ]
+      ]
+    },
+    {
+      "id": "way/752933714",
+      "name": "Sa Kaeo",
+      "kind": "water",
+      "shape": "polygon",
+      "widthMeters": 5.0,
+      "widthSource": "estimated_default_for_highway_type",
+      "points": [
+        [
+          -80.53,
+          119.866
+        ],
+        [
+          -77.99,
+          123.966
+        ],
+        [
+          -10.906,
+          129.729
+        ],
+        [
+          -5.386,
+          126.889
+        ],
+        [
+          -2.192,
+          86.76
+        ],
+        [
+          -5.811,
+          81.181
+        ],
+        [
+          -73.314,
+          75.117
+        ],
+        [
+          -76.641,
+          79.066
+        ],
+        [
+          -77.605,
+          89.183
+        ],
+        [
+          -79.009,
+          103.878
+        ],
+        [
+          -80.53,
+          119.866
+        ]
+      ]
+    }
+  ]
+}

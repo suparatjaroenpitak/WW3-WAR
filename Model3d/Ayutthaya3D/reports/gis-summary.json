@@ -1,0 +1,40 @@
+{
+  "origin": {
+    "crsSource": "EPSG:4326",
+    "crsProjected": "EPSG:32647",
+    "utmZone": 47,
+    "latitude": 14.3559133,
+    "longitude": 100.5585079,
+    "utmEasting": 668060.5275291081,
+    "utmNorthing": 1587655.9645487722,
+    "selection": "nominatim_osm",
+    "name": "วัดพระศรีสรรเพชญ์",
+    "osmId": 37447698,
+    "confidence": "geocoder_result"
+  },
+  "counts": {
+    "buildings": 132,
+    "roads": 81,
+    "water": 8,
+    "skipped": {
+      "invalid_building": 12,
+      "invalid_road": 19,
+      "invalid_water": 2
+    },
+    "rawElements": 296
+  },
+  "license": {
+    "source": "OpenStreetMap",
+    "sourceUrl": "https://www.openstreetmap.org",
+    "api": "https://api.openstreetmap.org/api/0.6/map",
+    "license": "Open Database License (ODbL) 1.0",
+    "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "attribution": "© OpenStreetMap contributors",
+    "downloadedAt": "2026-10-13T00:24:47+00:00",
+    "copyrightNote": "Contains information from OpenStreetMap, which is made available under the Open Database License (ODbL)."
+  },
+  "dem": {
+    "status": "not_downloaded",
+    "reason": "No Copernicus/OpenTopography API key was available in this environment. Elevation was not invented."
+  }
+}
