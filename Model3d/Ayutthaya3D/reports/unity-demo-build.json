@@ -1,0 +1,14 @@
+{
+    "GisLoaded": true,
+    "GisError": "",
+    "TerrainStatus": "PLACEHOLDER_FLAT_NO_DEM",
+    "Buildings": 132,
+    "Roads": 81,
+    "Water": 8,
+    "Doors": 40,
+    "EstimatedHeights": 132,
+    "MeasuredHeights": 0,
+    "EstimatedRoadWidths": 79,
+    "OriginName": "วัดพระศรีสรรเพชญ์",
+    "Attribution": "© OpenStreetMap contributors"
+}

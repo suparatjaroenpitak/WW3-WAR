@@ -1,0 +1,43 @@
+{
+  "project": "AYUTTHAYA SIMULATOR",
+  "unityVersion": "6000.6.5f1",
+  "reportedAt": "2026-10-13",
+  "phases": {
+    "1_inspect": "Completed",
+    "2_core_and_input_scripts": "Completed",
+    "3_first_person_scripts": "Completed",
+    "4_interaction_scripts": "Completed",
+    "5_model_binding_editor": "Completed",
+    "6_demo_scene_generation": "Completed",
+    "7_vehicle_scripts": "Completed",
+    "8_npc_scripts": "Completed",
+    "9_gis_tile_and_streaming_policy": "Completed",
+    "10_day_night_weather_scripts": "Completed",
+    "11_missions_ui_save_scripts": "Completed",
+    "play_mode": "Not Tested",
+    "windows_build": "Not Tested",
+    "blender_export": "Blocked",
+    "province_scale_world": "Not Started"
+  },
+  "verified": {
+    "coreChecks": "passed",
+    "unityBatchCompile": "passed after moving duplicate template scripts out of Assets",
+    "demoScene": {
+      "gisLoaded": true,
+      "buildings": 132,
+      "roads": 81,
+      "water": 8,
+      "doors": 40,
+      "estimatedHeights": 132,
+      "measuredHeights": 0,
+      "estimatedRoadWidths": 79,
+      "terrain": "PLACEHOLDER_FLAT_NO_DEM"
+    }
+  },
+  "notVerified": [
+    "Play Mode walking, interaction, driving, NPC navigation",
+    "Frame rate",
+    "Windows player build",
+    "Blender MCP export"
+  ]
+}

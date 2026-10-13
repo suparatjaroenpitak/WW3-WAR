@@ -28,7 +28,6 @@ STREAMING_DIR = (
     / "ayutthaya simulator"
     / "My project"
     / "Assets"
-    / "_AyutthayaSimulator"
     / "StreamingAssets"
     / "gis"
 )

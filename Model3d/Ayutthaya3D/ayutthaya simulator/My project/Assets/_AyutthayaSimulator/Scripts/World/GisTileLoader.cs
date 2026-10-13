@@ -65,11 +65,25 @@ namespace AyutthayaSimulator
 
         public static string StreamingPath => Path.Combine(Application.streamingAssetsPath, "gis", FileName);
 
+        public static string ResolvePath()
+        {
+            var candidates = new[]
+            {
+                Path.Combine(Application.streamingAssetsPath, "gis", FileName),
+                Path.Combine(Application.dataPath, "_AyutthayaSimulator", "StreamingAssets", "gis", FileName)
+            };
+            for (var i = 0; i < candidates.Length; i++)
+            {
+                if (File.Exists(candidates[i])) return candidates[i];
+            }
+            return candidates[0];
+        }
+
         public static bool TryLoad(out UnityGisTile tile, out string error)
         {
             tile = null;
             error = "";
-            var path = StreamingPath;
+            var path = ResolvePath();
             if (!File.Exists(path))
             {
                 error = "Missing GIS tile: " + path;
