@@ -8,9 +8,9 @@ namespace AyutthayaSimulator
 
         void Awake()
         {
-            if (!BuildOnPlay) return;
-            if (GameObject.Find("WorldRoot") != null) return;
-            DemoWorldBuilder.Build();
+            var world = GameObject.Find("WorldRoot");
+            if (world == null && BuildOnPlay) world = DemoWorldBuilder.Build();
+            EnvironmentSetup.Install(world);
         }
     }
 }

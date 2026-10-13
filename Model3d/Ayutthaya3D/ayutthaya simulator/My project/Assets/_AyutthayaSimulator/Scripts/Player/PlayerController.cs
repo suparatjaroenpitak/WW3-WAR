@@ -54,6 +54,8 @@ namespace AyutthayaSimulator
             if (frame.ToggleWeather && Weather != null) Weather.Toggle();
             if (frame.Screenshot) CaptureShot();
             if (State.Paused) return;
+            if (frame.AdvanceTime && Cycle != null) Cycle.SetHour(Cycle.Hour + 3f);
+            if (frame.FreezeTime && Cycle != null) Cycle.Paused = !Cycle.Paused;
 
             if (State.Mode == PlayerMode.OnFoot)
             {

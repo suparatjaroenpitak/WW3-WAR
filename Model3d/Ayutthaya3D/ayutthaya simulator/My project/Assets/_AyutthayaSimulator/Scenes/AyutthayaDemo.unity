@@ -82104,7 +82104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AyutthayaSimulator.DayNightCycle
   Sun: {fileID: 1288250284}
   Hour: 10.5
-  MinutesPerSecond: 0.35
+  MinutesPerSecond: 0.5
   Paused: 0
 --- !u!21 &1289722969
 Material:

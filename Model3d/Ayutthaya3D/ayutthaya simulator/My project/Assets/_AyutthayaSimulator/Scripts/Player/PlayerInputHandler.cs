@@ -19,6 +19,8 @@ namespace AyutthayaSimulator
         public bool ToggleLanguage;
         public bool ToggleWeather;
         public bool Screenshot;
+        public bool AdvanceTime;
+        public bool FreezeTime;
     }
 
     /// <summary>
@@ -42,6 +44,8 @@ namespace AyutthayaSimulator
             frame.ToggleWeather = keyboard.rKey.wasPressedThisFrame;
             frame.Screenshot = keyboard.pKey.wasPressedThisFrame;
             if (paused) return frame;
+            frame.AdvanceTime = keyboard.tKey.wasPressedThisFrame;
+            frame.FreezeTime = keyboard.yKey.wasPressedThisFrame;
 
             var x = (keyboard.dKey.isPressed ? 1f : 0f) - (keyboard.aKey.isPressed ? 1f : 0f);
             var z = (keyboard.wKey.isPressed ? 1f : 0f) - (keyboard.sKey.isPressed ? 1f : 0f);

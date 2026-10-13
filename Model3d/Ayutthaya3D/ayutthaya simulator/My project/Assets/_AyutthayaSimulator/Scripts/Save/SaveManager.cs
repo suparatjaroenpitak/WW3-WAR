@@ -65,9 +65,10 @@ namespace AyutthayaSimulator
                     }
                     player.Movement.Teleport(new Vector3(data.PlayerX, data.PlayerY, data.PlayerZ), data.PlayerYaw);
                 }
-                if (cycle != null) cycle.Hour = data.GameHour;
+                if (cycle != null) cycle.SetHour(data.GameHour);
                 if (weather != null)
-                    weather.Set(data.Weather == "Rain" ? WeatherKind.Rain : WeatherKind.Clear);
+                    weather.Set(Enum.TryParse(data.Weather, out WeatherKind restoredWeather) ? restoredWeather : WeatherKind.Clear, true);
+                if (cycle != null) cycle.ApplyLighting();
                 if (missions != null) missions.Restore(data.CompletedMissionIds);
                 if (LastStatus != "loaded_position_vehicle_flag_not_reentered") LastStatus = "loaded";
                 return true;

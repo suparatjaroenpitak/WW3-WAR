@@ -28,6 +28,9 @@ namespace AyutthayaSimulator.Core
             { "sensitivity", "ความไวเมาส์" },
             { "weather_clear", "อากาศแจ่มใส" },
             { "weather_rain", "ฝน" },
+            { "weather_overcast", "เมฆครึ้ม" },
+            { "weather_storm", "ฝนหนัก" },
+            { "environment_controls", "T: เวลา +3 ชม.  Y: หยุดเวลา  R: อากาศ" },
             { "photo", "กด P เพื่อบันทึกภาพหน้าจอในโหมดเล่น" }
         };
 
@@ -55,6 +58,9 @@ namespace AyutthayaSimulator.Core
             { "sensitivity", "Mouse sensitivity" },
             { "weather_clear", "Clear" },
             { "weather_rain", "Rain" },
+            { "weather_overcast", "Overcast" },
+            { "weather_storm", "Heavy rain" },
+            { "environment_controls", "T: +3 hours  Y: freeze clock  R: weather" },
             { "photo", "Press P to capture a screenshot in Play Mode" }
         };
 

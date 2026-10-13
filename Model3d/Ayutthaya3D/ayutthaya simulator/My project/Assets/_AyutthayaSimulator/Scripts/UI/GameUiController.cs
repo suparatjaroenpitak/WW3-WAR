@@ -98,8 +98,12 @@ namespace AyutthayaSimulator
                     ? Mathf.RoundToInt(Vehicle.Engine.CurrentSpeedKph) + " km/h\n" + LocalizationCatalog.Get(language, "exit_vehicle")
                     : "";
             }
-            if (Status != null && Player != null && Player.Saves != null)
-                Status.text = Player.Saves.LastStatus;
+            if (Status != null && Player != null)
+            {
+                var clock = Player.Cycle != null ? Player.Cycle.ClockText + (Player.Cycle.Paused ? "  ||" : "") : "";
+                var weather = Player.Weather != null ? LocalizationCatalog.Get(language, "weather_" + Player.Weather.Current.ToString().ToLowerInvariant()) : "";
+                Status.text = clock + "  |  " + weather + "\n" + LocalizationCatalog.Get(language, "environment_controls") + "\n" + (Player.Saves != null ? Player.Saves.LastStatus : "");
+            }
             if (PlayerDot != null && Player != null)
             {
                 var normalized = new Vector2(Mathf.Clamp01(Player.transform.position.x / 500f), Mathf.Clamp01(Player.transform.position.z / 500f));

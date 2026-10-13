@@ -18,10 +18,12 @@ namespace AyutthayaSimulator
         NavMeshAgent agent;
         Vector3 target;
         bool useAgent;
+        DayNightCycle cycle;
 
         void Start()
         {
             agent = GetComponent<NavMeshAgent>();
+            cycle = FindFirstObjectByType<DayNightCycle>();
             target = PointB;
             useAgent = agent != null && NavMesh.SamplePosition(transform.position, out _, 2f, NavMesh.AllAreas);
             NavigationStatus = useAgent ? "navmesh" : "fallback_straight_walk_no_navmesh";
@@ -31,18 +33,12 @@ namespace AyutthayaSimulator
         void Update()
         {
             var talking = Dialogue != null && Dialogue.Talking;
-            brain.Tick(Time.deltaTime, true, talking);
+            var resting = Schedule != null && cycle != null && !Schedule.ShouldBeOutside(cycle.Hour);
+            if (useAgent && agent != null) agent.isStopped = talking || resting;
+            brain.Tick(Time.deltaTime, !resting, talking);
+            if (resting && !talking) brain.Mode = NpcMode.Idle;
             if (AnimationDriver != null) AnimationDriver.Tick(brain.Mode);
-            if (talking) return;
-            if (Schedule != null)
-            {
-                var cycle = FindFirstObjectByType<DayNightCycle>();
-                if (cycle != null && !Schedule.ShouldBeOutside(cycle.Hour))
-                {
-                    brain.Mode = NpcMode.Idle;
-                    return;
-                }
-            }
+            if (talking || resting) return;
             if (useAgent && agent != null)
             {
                 if (!agent.pathPending && agent.remainingDistance < 0.4f) target = target == PointA ? PointB : PointA;
